@@ -20,7 +20,7 @@ export default class MainActivity extends React.Component {
                             <h1 style={{fontSize: "60px"}}>Karen Lee</h1>
                             <hr style={{color: "white"}}/>
                             <div>
-                                <h3>android. web.</h3>
+                                <h3>web. android.</h3>
                                 <h3>photography.</h3>
                             </div>
                         </div>

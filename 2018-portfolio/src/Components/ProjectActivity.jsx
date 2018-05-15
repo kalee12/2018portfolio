@@ -5,6 +5,7 @@ import ProjectList from "./ProjectList";
 
 import firebase from 'firebase/app';
 import 'firebase/database';
+import {Link} from "react-router-dom";
 
 export default class Projects extends React.Component {
     constructor(props) {
@@ -44,8 +45,20 @@ export default class Projects extends React.Component {
 
         let curr = firebase.database().ref("current");
         let past = firebase.database().ref("past");
+
+        let style2 = {
+            boxSizing: "border-box",
+            color: "black",
+            padding: "10px",
+            textDecoration: "none",
+            display: "block",
+            fontSize: "1.5em",
+            marginTop: "0.83em",
+            marginBottom: "0.83em",
+            marginLeft: "0",
+            marginRight: "0"
+        }
         
-        console.log(this.props.ref)
         return(
             <div>
                 <Navigation/>
@@ -56,9 +69,10 @@ export default class Projects extends React.Component {
                         <div class="row">
                             <div class="col-2" style={{textAlign: "right"}}>
                                 <h2 style={{marginBottom: "20px"}}>project</h2>
+                                <Link to='/projects' style={style2}>back</Link>
                                 </div>
                             <div class="col-8">
-                                <div>{this.props.ref}</div>
+                                <div>{this.props.location.state.title}</div>
                             </div>
                         </div>
                     </div>

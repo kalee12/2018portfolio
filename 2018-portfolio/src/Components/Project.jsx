@@ -15,6 +15,11 @@ export default class Project extends React.Component {
                     <div class="middle">
                         <div class="text">
                             {project.title}
+                            <Link to={{
+                                pathname: project.title,
+                                state: {title: project.title}
+
+                            }}>{project.title}</Link>
                             <div>
                             {project.link ?
                                 <a href={project.link[0]}>{project.link[1]}</a>

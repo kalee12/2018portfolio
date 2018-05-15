@@ -53,25 +53,21 @@ export default class ProjectList extends React.Component {
                 }});
         }
 
-        let sizing = {
-            width: "50%"
-        }
-
         let extend = {
-            width: "130%"
+            width: "100%"
         }
 
         return(
             <div class="row" style={{paddingLeft: "50px"}}>
                 {this.props.type == "current" ?
-                    <div class="row" style={sizing}>
+                    <div class="row">
                         {projects}
                     </div>
                 :
-                    <div>
-                        <h2 class="logo">development</h2>
+                    <div style={extend}>
+                        <h3 class="logo">development</h3>
                         <div class="row">{dev}</div>
-                        <h2>design</h2>
+                        <h3>design</h3>
                         <div class="row">{design}</div>
                     </div>
                 }

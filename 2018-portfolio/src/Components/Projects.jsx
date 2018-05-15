@@ -7,30 +7,6 @@ import firebase from 'firebase/app';
 import 'firebase/database';
 
 export default class Projects extends React.Component {
-    constructor(props) {
-        super(props);
-        this.state = {
-            current: 2,
-            selected: true
-        }
-    }
-
-    current() {
-        if (!this.state.selected) {
-            this.setState({
-                selected: true
-            });
-        }
-    }
-
-    past() {
-        if (this.state.selected) {
-            this.setState({
-                selected: false
-            });
-        }
-    }
-
     render() {
         let style = {
             height: "100%",
@@ -55,17 +31,12 @@ export default class Projects extends React.Component {
                         <div class="row">
                             <div class="col-2" style={{textAlign: "right"}}>
                                 <h2 style={{marginBottom: "20px"}}>projects</h2>
-                                <h2 style={{color: this.state.selected ? "black" : "gray"}} onClick={() => this.current()}>current</h2>
-                                <h2 style={{color: this.state.selected ? "gray" : "black"}} onClick={() => this.past()}>past</h2>
                             </div>
-                            <div class="col-8">
-                                {this.state.selected ? 
-                                    <div>
-                                        <ProjectList projRef={curr} type={"current"}/>
-                                    </div> 
-                                    :
-                                        <ProjectList projRef={past} type={"past"}/>
-                                    }
+                            <div class="col-9">
+                                <h2 class="logo">current</h2>
+                                <ProjectList projRef={curr} type={"current"}/>
+                                <h2>past</h2>
+                                <ProjectList projRef={past} type={"past"}/>
                             </div>
                         </div>
                     </div>
