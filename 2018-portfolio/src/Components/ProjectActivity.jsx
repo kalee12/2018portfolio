@@ -8,30 +8,6 @@ import 'firebase/database';
 import {Link} from "react-router-dom";
 
 export default class Projects extends React.Component {
-    constructor(props) {
-        super(props);
-        this.state = {
-            current: 2,
-            selected: true
-        }
-    }
-
-    current() {
-        if (!this.state.selected) {
-            this.setState({
-                selected: true
-            });
-        }
-    }
-
-    past() {
-        if (this.state.selected) {
-            this.setState({
-                selected: false
-            });
-        }
-    }
-
     render() {
         let style = {
             height: "100%",
@@ -59,6 +35,13 @@ export default class Projects extends React.Component {
             marginRight: "0"
         }
         
+        let data = this.props.location.state.project;
+        let technology = "";
+        data.dialog.technology.forEach(element => {
+            technology += element + ", "
+        });
+        console.log(technology.substring(0, technology.length - 1))
+
         return(
             <div>
                 <Navigation/>
@@ -68,11 +51,22 @@ export default class Projects extends React.Component {
                     <div style={{marginTop: "100px"}}>
                         <div class="row">
                             <div class="col-2" style={{textAlign: "right"}}>
-                                <h2 style={{marginBottom: "20px"}}>project</h2>
+                                <h2 style={{marginBottom: "20px"}}>projects</h2>
                                 <Link to='/projects' style={style2}>back</Link>
                                 </div>
                             <div class="col-8">
-                                <div>{this.props.location.state.title}</div>
+                                <div>{data.title}</div>
+                                {data.status ?
+                                    <div>{data.dialog.start} - {data.dialog.end} | Status: {data.dialog.status}</div>
+                                :
+                                    <div>{data.dialog.start} - {data.dialog.end}</div>
+                                }                 
+                                <div>
+                                    {data.type} | {technology.substring(0, technology.length - 2)}
+                                </div>
+                                <div>
+                                    {data.dialog.desc_long}
+                                </div>
                             </div>
                         </div>
                     </div>
