@@ -1,3 +1,8 @@
+.about {
+  margin-bottom: 20px;
+  width: 60%;
+}
+
 .card {
   border: none;
 }
@@ -54,7 +59,7 @@ img {
 }
 
 .text {
-  background-color: rgba(255, 255, 230, .5);
+  background-color: rgba(255, 255, 230, .8);
   font-size: 16px;
   padding: 16px 32px;
 }
@@ -66,9 +71,14 @@ img {
 }
 
 @media (min-width: 768px) {
+  .about {
+    width: 60%;
+  }
+
   .fix2 {
     text-align: right;
   }
+
   .padding {
     padding: 40px 400px 20px 350px;
   }
