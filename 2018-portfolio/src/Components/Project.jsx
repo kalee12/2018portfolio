@@ -5,7 +5,7 @@ export default class Project extends React.Component {
     render() {     
         let project = this.props.projSnapshot.val();
         return(
-            <div class="col-4">
+            <div class="col-sm-12 col-md-4">
                 <div class="col container">
                     {project.img != "tbd" ? 
                         <img class="logo image" src={project.img} alt={project.title}/>

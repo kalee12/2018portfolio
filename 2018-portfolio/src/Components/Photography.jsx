@@ -224,12 +224,12 @@ export default class Photography extends React.Component {
                     </div>
                     <div style={{marginTop: "100px", height: "90%", marginBottom: "50px"}}>
                         <div class="row">
-                            <div class="col-2" style={{textAlign: "right"}}>
+                            <div class="col-12 col-md-2 fix2">
                                 <h2 style={{marginBottom: "50px"}}>photography</h2>
                                 <h2 style={{color: this.state.selected ? "black" : "gray"}} onClick={() => this.current()}>canon t5i</h2>
                                 <h2 style={{color: this.state.selected ? "gray" : "black"}} onClick={() => this.past()}>canon g12</h2>
                             </div>
-                            <div class="col-8">
+                            <div class="col-12 col-md-8">
                                 {this.state.selected ? 
                                     <Gallery images={t5i} enableImageSelection={false} backdropClosesModal={true}
                                     showLightboxThumbnails={true}/>

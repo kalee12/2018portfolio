@@ -96,7 +96,7 @@ export default class Projects extends React.Component {
                                 :
                                 <div></div>}
                                 </div>
-                                {data.status ?
+                                {data.dialog.status ?
                                     <div>{data.dialog.start} - {data.dialog.end} | Status: {data.dialog.status}</div>
                                 :
                                     <div style={{display: "inline"}}>{data.dialog.start} - {data.dialog.end}</div>

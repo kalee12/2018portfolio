@@ -29,10 +29,10 @@ export default class Projects extends React.Component {
                     </div>
                     <div style={{marginTop: "100px"}}>
                         <div class="row">
-                            <div class="col-2" style={{textAlign: "right"}}>
+                            <div class="col-12 col-sm-2 fix">
                                 <h2 style={{marginBottom: "20px"}}>projects</h2>
                             </div>
-                            <div class="col-9">
+                            <div class="col-12 col-sm-9">
                                 <h2 class="logo">current</h2>
                                 <ProjectList projRef={curr} type={"current"}/>
                                 <h2>past</h2>
