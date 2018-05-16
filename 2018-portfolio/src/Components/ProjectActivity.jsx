@@ -7,6 +7,8 @@ import firebase from 'firebase/app';
 import 'firebase/database';
 import {Link} from "react-router-dom";
 
+import Gallery from 'react-grid-gallery';
+
 export default class Projects extends React.Component {
     render() {
         let style = {
@@ -42,6 +44,34 @@ export default class Projects extends React.Component {
         });
         console.log(technology.substring(0, technology.length - 1))
 
+        let photos = data.dialog.img;
+        let photo = [];
+
+        if (photos != "tbd") {
+            if (data.dialog.orientation == "vertical") {
+                photos.forEach(element => {
+                    photo.push({
+                        src: element[0],
+                        thumbnail: element[0],
+                        thumbnailWidth: 400,
+                        thumbnailHeight: 600,
+                        alt: element[1]
+
+                    })
+                });    
+            } else {
+                photos.forEach(element => {
+                    photo.push({
+                        src: element[0],
+                        thumbnail: element[0],
+                        thumbnailWidth: 600,
+                        thumbnailHeight: 400,
+                        alt: element[1]
+                    })
+                });    
+            }
+        }
+
         return(
             <div>
                 <Navigation/>
@@ -56,17 +86,41 @@ export default class Projects extends React.Component {
                                 </div>
                             <div class="col-8">
                                 <div>{data.title}</div>
+                                <div>
+                                {data.link ?
+                                    <a href={data.link[0]} target="_blank">{data.link[1]}</a>
+                                :
+                                <div></div>}
+                                {data.seclink ?
+                                    <a href={data.seclink[0]} target="_blank"> | {data.seclink[1]}</a>
+                                :
+                                <div></div>}
+                                </div>
                                 {data.status ?
                                     <div>{data.dialog.start} - {data.dialog.end} | Status: {data.dialog.status}</div>
                                 :
-                                    <div>{data.dialog.start} - {data.dialog.end}</div>
-                                }                 
+                                    <div style={{display: "inline"}}>{data.dialog.start} - {data.dialog.end}</div>
+
+                                } 
+                                {data.dialog.role ?
+                                    <div style={{display: "inline"}}> | {data.dialog.role}</div>
+                                    :
+                                    <div></div>                                 
+                                }                
                                 <div>
                                     {data.type} | {technology.substring(0, technology.length - 2)}
                                 </div>
                                 <div>
                                     {data.dialog.desc_long}
                                 </div>
+                                {data.dialog.orientation == "vertical" ?
+                                    <Gallery images={photo} enableImageSelection={false} backdropClosesModal={true} 
+                                    lightboxWidth={400} showLightboxThumbnails={true}/>
+                                    :
+                                    <Gallery images={photo} enableImageSelection={false} backdropClosesModal={true}
+                                    showLightboxThumbnails={true}/>
+                                }
+
                             </div>
                         </div>
                     </div>

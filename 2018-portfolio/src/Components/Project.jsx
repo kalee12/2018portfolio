@@ -20,11 +20,11 @@ export default class Project extends React.Component {
                             }}>{project.title}</Link>
                             <div>
                             {project.link ?
-                                <a href={project.link[0]}>{project.link[1]}</a>
+                                <a href={project.link[0]} target="_blank">{project.link[1]}</a>
                             :
                             <div></div>}
                             {project.seclink ?
-                                <a href={project.seclink[0]}> | {project.seclink[1]}</a>
+                                <a href={project.seclink[0]} target="_blank"> | {project.seclink[1]}</a>
                             :
                             <div></div>}
                             </div>
