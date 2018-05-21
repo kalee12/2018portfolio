@@ -1,8 +1,6 @@
 import React from "react";
 import Navigation from "./Navigation";
 
-import backgroundimg from "../IMG_4315_v2.jpg";
-
 
 export default class MainActivity extends React.Component {
     render() {
@@ -13,8 +11,9 @@ export default class MainActivity extends React.Component {
             textAlign: "center"
         }
         
+        let image = "https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/about%2FIMG_4315_v2.jpg?alt=media&token=a78a32ca-def0-4bfd-bff6-1f434b326cab";
         let fix = {
-            backgroundImage: "url('"+backgroundimg+"')", 
+            backgroundImage: "url('"+image+"')", 
             backgroundSize: "cover",
             position: "absolute", 
             margin: "auto", 
