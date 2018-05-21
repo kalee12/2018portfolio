@@ -1,9 +1,6 @@
 import React from 'react';
 import Project from "./Project";
 
-import firebase from "firebase/app";
-import "firebase/database";
-
 export default class ProjectList extends React.Component {
     constructor(props) {
         super(props);
@@ -15,7 +12,7 @@ export default class ProjectList extends React.Component {
     }
 
     componentDidMount() {
-        if (this.props.type == "current") {
+        if (this.props.type === "current") {
             this.props.projRef.on("value",
             snapshot => {
                 this.setState({projSnapshot: snapshot});
@@ -40,7 +37,7 @@ export default class ProjectList extends React.Component {
         let projects = [];
         let dev = [];
         let design = [];
-        if (this.props.type == "current") {
+        if (this.props.type === "current") {
             this.state.projSnapshot.forEach(project => {
                 projects.push(<Project projSnapshot={project} />)
             });
@@ -59,7 +56,7 @@ export default class ProjectList extends React.Component {
 
         return(
             <div class="row" style={{paddingLeft: "50px"}}>
-                {this.props.type == "current" ?
+                {this.props.type === "current" ?
                     <div class="row">
                         {projects}
                     </div>

@@ -9,7 +9,7 @@ export default class About extends React.Component {
                 <Navigation/>
                 <div class="hello" style={{textAlign: "center", width: "60%", margin: "auto"}}>
                     <img src="https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/about%2FIMG_0218.jpg?alt=media&amp;token=01af5231-97a3-4061-8b1a-bac03da7895d"
-                        class="about"/>
+                        alt="Karen Lee" class="about"/>
                     
                     <div>My name is Karen Lee. I am an aspiring Android developer, a hobbyist photographer, and a bird lover.</div>
                     <br/>

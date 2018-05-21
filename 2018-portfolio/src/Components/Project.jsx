@@ -6,8 +6,8 @@ export default class Project extends React.Component {
         let project = this.props.projSnapshot.val();
         return(
             <div class="col-sm-12 col-md-4">
-                <div class="col container">
-                    {project.img != "tbd" ? 
+                <div class="col container" style={{height: "fit-content"}}>
+                    {project.img !== "tbd" ? 
                         <img class="logo image" src={project.img} alt={project.title}/>
                         :
                         <h3>{project.title}</h3>

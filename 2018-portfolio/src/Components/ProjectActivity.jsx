@@ -1,10 +1,7 @@
 import React from "react";
 import Navigation from "./Navigation";
-import Project from "./Project";
-import ProjectList from "./ProjectList";
 
-import firebase from 'firebase/app';
-import 'firebase/database';
+
 import {Link} from "react-router-dom";
 
 import Gallery from 'react-grid-gallery';
@@ -20,9 +17,6 @@ export default class Projects extends React.Component {
             bottom: "0",
             left: "0"
         }
-
-        let curr = firebase.database().ref("current");
-        let past = firebase.database().ref("past");
 
         let style2 = {
             boxSizing: "border-box",
@@ -47,8 +41,8 @@ export default class Projects extends React.Component {
         let photos = data.dialog.img;
         let photo = [];
 
-        if (photos != "tbd") {
-            if (data.dialog.orientation == "vertical") {
+        if (photos !== "tbd") {
+            if (data.dialog.orientation === "vertical") {
                 photos.forEach(element => {
                     photo.push({
                         src: element[0],
@@ -113,7 +107,7 @@ export default class Projects extends React.Component {
                                 <div>
                                     {data.dialog.desc_long}
                                 </div>
-                                {data.dialog.orientation == "vertical" ?
+                                {data.dialog.orientation === "vertical" ?
                                     <Gallery images={photo} enableImageSelection={false} backdropClosesModal={true} 
                                     lightboxWidth={400} showLightboxThumbnails={true}/>
                                     :

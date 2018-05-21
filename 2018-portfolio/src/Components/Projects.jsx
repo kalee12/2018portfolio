@@ -1,6 +1,5 @@
 import React from "react";
 import Navigation from "./Navigation";
-import Project from "./Project";
 import ProjectList from "./ProjectList";
 
 import firebase from 'firebase/app';
