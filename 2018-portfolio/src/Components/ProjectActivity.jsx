@@ -74,11 +74,11 @@ export default class Projects extends React.Component {
                     </div>
                     <div style={{marginTop: "100px"}}>
                         <div class="row">
-                            <div class="col-2" style={{textAlign: "right"}}>
+                            <div class="col-12 col-sm-2 fix">
                                 <h2 style={{marginBottom: "20px"}}>projects</h2>
                                 <Link to='/projects' style={style2}>back</Link>
                                 </div>
-                            <div class="col-8">
+                            <div class="col-12 col-sm-9">
                                 <div>{data.title}</div>
                                 <div>
                                 {data.link ?
@@ -109,7 +109,7 @@ export default class Projects extends React.Component {
                                 </div>
                                 {data.dialog.orientation === "vertical" ?
                                     <Gallery images={photo} enableImageSelection={false} backdropClosesModal={true} 
-                                    lightboxWidth={400} showLightboxThumbnails={true}/>
+                                    lightboxWidth={300} showLightboxThumbnails={true}/>
                                     :
                                     <Gallery images={photo} enableImageSelection={false} backdropClosesModal={true}
                                     showLightboxThumbnails={true}/>

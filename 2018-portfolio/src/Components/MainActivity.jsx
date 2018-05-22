@@ -35,6 +35,10 @@ export default class MainActivity extends React.Component {
                             <div style={{fontFamily: "proxima-nova"}}>
                                 <h3>developer.</h3>
                                 <h3>photographer.</h3>
+                                <a href="https://drive.google.com/open?id=1ttol-LOzvigXNB9KQr-uF52d_ydRm6CK" target="_blank">
+                                <img 
+                                class="resume"
+                                src="https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/about%2Fif_resume_2795761.svg?alt=media&amp;token=0a6add43-f896-48a8-9620-d838e9de8d210"/></a>
                             </div>
                         </div>
                     </div>
