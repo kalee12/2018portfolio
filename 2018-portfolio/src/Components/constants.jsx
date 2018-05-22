@@ -4,6 +4,8 @@ export default {
         projects: "/projects",
         photography: "/photography",
         about: "/about",
-        project: "/:project"
+        project: "/p:project",
+        blog: "/blog",
+        genesis: "/genesis"
     }
 }

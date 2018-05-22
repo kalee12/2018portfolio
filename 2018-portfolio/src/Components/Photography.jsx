@@ -29,16 +29,6 @@ export default class Photography extends React.Component {
     }
 
     render() {
-        let style = {
-            height: "100%",
-            position: "absolute",
-            margin: "auto",
-            top: "0",
-            right: "0",
-            bottom: "0",
-            left: "0"
-        }
-
         let t5i = [
             {
                 src: "https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/t5i%2FIMG_0379.jpg?alt=media&token=1714dd90-9fb1-4b48-8648-79bc278f31c8",
@@ -219,9 +209,7 @@ export default class Photography extends React.Component {
         return(
             <div>
                 <Navigation/>
-                <div style={style}>
-                    <div>
-                    </div>
+                <div>
                     <div style={{marginTop: "100px", height: "90%", marginBottom: "50px"}}>
                         <div class="row">
                             <div class="col-12 col-md-2 fix2">

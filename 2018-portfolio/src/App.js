@@ -9,6 +9,8 @@ import Projects from "./Components/Projects";
 import Photography from "./Components/Photography";
 import About from "./Components/About";
 import Project from "./Components/ProjectActivity";
+import Blog from "./Components/BlogActivity";
+import Genesis from "./Components/Blog/Genesis"
 
 class App extends Component {
   render() {
@@ -21,6 +23,8 @@ class App extends Component {
             <Route path={constants.routes.photography} component={Photography}/>
             <Route path={constants.routes.about} component={About}/>
             <Route path={constants.routes.project} component={Project}/>
+            <Route path={constants.routes.blog} component={Blog}/>
+            <Route path={constants.routes.genesis} component={Genesis}/>
           </Switch>
         </Router>
       </div>

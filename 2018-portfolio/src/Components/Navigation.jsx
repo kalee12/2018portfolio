@@ -13,6 +13,7 @@ export default class Navigation extends React.Component{
                 <NavButton value="home" push={constants.routes.main}/>
                 <NavButton value="projects" push={constants.routes.projects}/>
                 <NavButton value="photography" push={constants.routes.photography}/>
+                <NavButton value="blog" push={constants.routes.blog}/>
                 <NavButton value="about" push={constants.routes.about}/>
             </div>
         );

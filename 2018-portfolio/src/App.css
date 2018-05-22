@@ -3,6 +3,10 @@
   width: 100%;
 }
 
+.blog {
+  font-size: 1.5em;
+}
+
 .card {
   border: none;
 }
