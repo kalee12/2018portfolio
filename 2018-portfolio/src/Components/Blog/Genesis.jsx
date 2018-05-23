@@ -48,7 +48,7 @@ export default class BlogActivity extends React.Component {
                                 <hr/>
                                 <div>I've came across JJ Lin's music in 2016. His sound is a blend of traditional and modern elements, one of which I
                                     really enjoy. JJ is versatile and very skilled, from his vocals, melodies, lyrics, and him playing instruments. I've come to respect
-                                    his drive, in the way that he is experimental and most of all, authentic. It felt suiting to start this series with an album of his.</div>
+                                    his drive in the way that he is experimental yet authentic most of all. It felt suiting to start this series with an album of his.</div>
                                 <div style={{marginTop: "20px"}}>Preview of current progress:</div>
                                 <Gallery images={images} enableImageSelection={false} backdropClosesModal={true}
                                     showLightboxThumbnails={true}/>
