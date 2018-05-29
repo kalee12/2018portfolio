@@ -25,7 +25,7 @@ export default class BlogActivity extends React.Component {
                 thumbnailWidth: 648,
                 thumbnailHeight: 432
             }
-        ]
+        ];
 
         let flashback = [
             {
@@ -34,7 +34,16 @@ export default class BlogActivity extends React.Component {
                 thumbnailWidth: 648,
                 thumbnailHeight: 432
             }
-        ]
+        ];
+
+        let brave = [
+            {
+                src: "https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/blog%2F2018.05.22.genesis%2Fgenesis_02.png?alt=media&token=35e1c076-034d-434e-bf29-c1d7a4ed69bb",
+                thumbnail: "https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/blog%2F2018.05.22.genesis%2Fgenesis_02.png?alt=media&token=35e1c076-034d-434e-bf29-c1d7a4ed69bb",
+                thumbnailWidth: 648,
+                thumbnailHeight: 432
+            }
+        ];        
 
         return(    
             <div>
@@ -61,13 +70,15 @@ export default class BlogActivity extends React.Component {
                                 <br/>
                                 <div style={{marginTop: "20px", overflow: "auto"}}>
                                     <div>Tracklist</div>
-                                    <Gallery images={tracklist} enableImageSelection={false} backdropClosesModal={true}
-                                    showLightboxThumbnails={true}/>
+                                    <Gallery images={tracklist} enableImageSelection={false} backdropClosesModal={true}/>
                                 </div>
                                 <div style={{marginTop: "20px", overflow: "auto"}}>
                                     <div>1. 迴 Flashback</div>
-                                    <Gallery images={flashback} enableImageSelection={false} backdropClosesModal={true}
-                                    showLightboxThumbnails={true}/>
+                                    <Gallery images={flashback} enableImageSelection={false} backdropClosesModal={true}/>
+                                </div>
+                                <div style={{marginTop: "20px", overflow: "auto"}}>
+                                    <div>2. 新地球 Brave New World</div>
+                                    <Gallery images={brave} enableImageSelection={false} backdropClosesModal={true}/>
                                 </div>
                             </div>
                         </div>
