@@ -6,6 +6,7 @@ export default {
         about: "/about",
         project: "/p:project",
         blog: "/blog",
-        genesis: "/genesis"
+        genesis: "/genesis",
+        backbone: "/backbone"
     }
 }

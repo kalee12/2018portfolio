@@ -10,7 +10,8 @@ import Photography from "./Components/Photography";
 import About from "./Components/About";
 import Project from "./Components/ProjectActivity";
 import Blog from "./Components/BlogActivity";
-import Genesis from "./Components/Blog/Genesis"
+import Genesis from "./Components/Blog/Genesis";
+import Backbone from "./Components/Blog/Backbone";
 
 class App extends Component {
   render() {
@@ -25,6 +26,7 @@ class App extends Component {
             <Route path={constants.routes.project} component={Project}/>
             <Route path={constants.routes.blog} component={Blog}/>
             <Route path={constants.routes.genesis} component={Genesis}/>
+            <Route path={constants.routes.backbone} component={Backbone}/>
           </Switch>
         </Router>
       </div>

@@ -38,8 +38,8 @@ export default class BlogActivity extends React.Component {
 
         let brave = [
             {
-                src: "https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/blog%2F2018.05.22.genesis%2Fgenesis_02.png?alt=media&token=35e1c076-034d-434e-bf29-c1d7a4ed69bb",
-                thumbnail: "https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/blog%2F2018.05.22.genesis%2Fgenesis_02.png?alt=media&token=35e1c076-034d-434e-bf29-c1d7a4ed69bb",
+                src: "https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/blog%2F2018.05.22.genesis%2Fgenesis_02.png?alt=media&token=9072f3d2-0057-4564-8f63-02c85d6ce87c",
+                thumbnail: "https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/blog%2F2018.05.22.genesis%2Fgenesis_02.png?alt=media&token=9072f3d2-0057-4564-8f63-02c85d6ce87c",
                 thumbnailWidth: 648,
                 thumbnailHeight: 432
             }
@@ -59,9 +59,9 @@ export default class BlogActivity extends React.Component {
                             </div>
                             <div class="col-12 col-sm-9" style={{marginBottom: "40px"}}>
                                 <h2>2018.05.22</h2>
-                                <h2>JJ LIN 林俊杰 GENESIS 新地球</h2>
-                                <div>This will be the first in a series I've yet to name. Using Adobe InDesign, the goal is to have typography
-                                    interact with emotion.
+                                <h2>｢ emotion ｣ JJ LIN 林俊杰 - GENESIS 新地球</h2>
+                                <div>This will be the first in a series I've decided to do in my spare time. Using Adobe InDesign, the goal is to draw out emotions
+                                    and see what becomes of it.
                                 </div>
                                 <hr/>
                                 <div>I've came across JJ Lin's music in 2016. His sound is a blend of traditional and modern elements, one of which I
@@ -72,13 +72,23 @@ export default class BlogActivity extends React.Component {
                                     <div>Tracklist</div>
                                     <Gallery images={tracklist} enableImageSelection={false} backdropClosesModal={true}/>
                                 </div>
+                                <div style={{marginTop: "20px"}}>I anticipate the tracklist design will change as I go through these tracks. I'm not yet satisfied with this one.</div>
+                                <hr/>
                                 <div style={{marginTop: "20px", overflow: "auto"}}>
                                     <div>1. 迴 Flashback</div>
                                     <Gallery images={flashback} enableImageSelection={false} backdropClosesModal={true}/>
                                 </div>
+                                <div style={{marginTop: "20px"}}>This one was interesting because there are no lyrics.
+                                    Listening to it, there are a lot of little things I wanted to draw as inspiration. Softness, a quiet sense of calm, hope,
+                                    and a bit of sadness and darkness. I really like how this one turned out.
+                                </div>
+                                <hr/>
                                 <div style={{marginTop: "20px", overflow: "auto"}}>
                                     <div>2. 新地球 Brave New World</div>
                                     <Gallery images={brave} enableImageSelection={false} backdropClosesModal={true}/>
+                                </div>
+                                <div style={{marginTop: "20px"}}>There's something a bit painful about this song. It's not an outright kind of pain. It's dull and because it sits,
+                                    it eats away at you, not letting you fully get it out. It feels like agony.                                    
                                 </div>
                             </div>
                         </div>
