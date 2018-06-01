@@ -7,6 +7,7 @@ export default {
         project: "/p:project",
         blog: "/blog",
         genesis: "/genesis",
-        backbone: "/backbone"
+        backbone: "/backbone",
+        dirtyneon: "/dirtyneon"
     }
 }

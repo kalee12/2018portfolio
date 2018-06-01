@@ -3,7 +3,7 @@ import Navigation from "../Navigation";
 import {Link} from "react-router-dom";
 import Gallery from 'react-grid-gallery';
 
-export default class Backbone extends React.Component {
+export default class Dirtyneon extends React.Component {
     render() {
         let style2 = {
             boxSizing: "border-box",
@@ -19,10 +19,10 @@ export default class Backbone extends React.Component {
         }
 
         
-        let backbone = [
+        let dirtyneon = [
             {
-                src: "https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/blog%2F2018.05.29.backbone%2Fbackbone.png?alt=media&token=9e73d75d-0fa6-45be-a8f2-3bef73b5f0e3",
-                thumbnail: "https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/blog%2F2018.05.29.backbone%2Fbackbone.png?alt=media&token=9e73d75d-0fa6-45be-a8f2-3bef73b5f0e3",
+                src: "https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/blog%2F2018.05.31.dirtyneon%2Fdirtyneon.png?alt=media&token=923b5f76-eeec-438a-9792-501b1153415b",
+                thumbnail: "https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/blog%2F2018.05.31.dirtyneon%2Fdirtyneon.png?alt=media&token=923b5f76-eeec-438a-9792-501b1153415b",
                 thumbnailWidth: 648,
                 thumbnailHeight: 432
             }
@@ -41,18 +41,18 @@ export default class Backbone extends React.Component {
                                 <Link style={style2} to="/blog">back</Link>
                             </div>
                             <div class="col-12 col-sm-9" style={{marginBottom: "40px"}}>
-                                <h2>2018.05.29</h2>
-                                <h2>｢ emotion ｣ DAUGHTRY - BACKBONE</h2>
-                                <div>A little break from working on JJ's Genesis. I'm really into Daughtry's "It's Not Over" back from 2006. It doesn't feel that long ago aha.
+                                <h2>2018.05.31</h2>
+                                <h2>｢ emotion ｣ 3LAU - Dirty Neon</h2>
+                                <div>I go through musical phases on rotation. EDM seems to be making a little comeback.
                                 </div>
                                 <hr/>
-                                <div>Working on this one really makes me think about my expectations of this series. I'll get an idea of what I want to do, but I'm not
-                                    at the point where I can break down the images in my head as components of the program I am using. The point is though, I'm not trying
-                                    to force myself to one expectation while doing this. This is really meant as just seeing where creation goes. I'm trying not to block
-                                    creativity. There's a little magic in having the end product go nowhere towards the initial reaction I had to go with.
+                                <div>I really like the process of geometric designs. As I'm playing with forms, sometimes I can just see where the design
+                                    is taking itself. Feel was a bit harder for me to go off of because with EDM or techno sounds, I don't seem to get a certain
+                                    pull as I do with other genres. I tried to focus on perspectives instead. The idea was using distance, creating a far kind of 
+                                    feel would give a dreamy type effect.
                                 </div>
                                 <br/>
-                                <Gallery images={backbone} enableImageSelection={false} backdropClosesModal={true}/>
+                                <Gallery images={dirtyneon} enableImageSelection={false} backdropClosesModal={true}/>
                             </div>
                         </div>
                     </div>
