@@ -13,6 +13,7 @@ import Blog from "./Components/BlogActivity";
 import Genesis from "./Components/Blog/Genesis";
 import Backbone from "./Components/Blog/Backbone";
 import Dirtyneon from "./Components/Blog/Dirtyneon";
+import Iflid from "./Components/Blog/Ifeellikeimdrowning";
 
 class App extends Component {
   render() {
@@ -29,6 +30,7 @@ class App extends Component {
             <Route path={constants.routes.genesis} component={Genesis}/>
             <Route path={constants.routes.backbone} component={Backbone}/>
             <Route path={constants.routes.dirtyneon} component={Dirtyneon}/>
+            <Route path={constants.routes.iflid} component={Iflid}/>
           </Switch>
         </Router>
       </div>

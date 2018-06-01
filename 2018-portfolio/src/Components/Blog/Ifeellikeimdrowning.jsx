@@ -3,7 +3,7 @@ import Navigation from "../Navigation";
 import {Link} from "react-router-dom";
 import Gallery from 'react-grid-gallery';
 
-export default class Dirtyneon extends React.Component {
+export default class Ifeellikeimdrowning extends React.Component {
     render() {
         let style2 = {
             boxSizing: "border-box",
@@ -19,10 +19,10 @@ export default class Dirtyneon extends React.Component {
         }
 
         
-        let dirtyneon = [
+        let iflim = [
             {
-                src: "https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/blog%2F2018.05.31.dirtyneon%2Fdirtyneon.png?alt=media&token=9157899b-a046-4af5-8a1e-394a4bf93a0b",
-                thumbnail: "https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/blog%2F2018.05.31.dirtyneon%2Fdirtyneon.png?alt=media&token=9157899b-a046-4af5-8a1e-394a4bf93a0b",
+                src: "https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/blog%2F2018.05.31.iflid%2Fifeellikeimdrowning.png?alt=media&token=863773cd-6df3-4d4a-9bfd-9b60b2afa42b",
+                thumbnail: "https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/blog%2F2018.05.31.iflid%2Fifeellikeimdrowning.png?alt=media&token=863773cd-6df3-4d4a-9bfd-9b60b2afa42b",
                 thumbnailWidth: 648,
                 thumbnailHeight: 432
             }
@@ -42,17 +42,17 @@ export default class Dirtyneon extends React.Component {
                             </div>
                             <div class="col-12 col-sm-9" style={{marginBottom: "40px"}}>
                                 <h2>2018.05.31</h2>
-                                <h2>｢ emotion ｣ 3LAU - DIRTY NEON</h2>
-                                <div>I go through musical phases on rotation. EDM seems to be making a little comeback.
+                                <h2>｢ emotion ｣ TWO FEET - I FEEL LIKE I'M DROWNING</h2>
+                                <div>The mood in this song is so distinct I really felt like I had to make something.
                                 </div>
                                 <hr/>
-                                <div>I really like the process of geometric designs. As I'm playing with forms, sometimes I can just see where the design
-                                    is taking itself. Feel was a bit harder for me to go off of because with EDM or techno sounds, I don't seem to get a certain
-                                    pull as I do with other genres. I tried to focus on perspectives instead. The idea was using distance, creating a far kind of 
-                                    feel would give a dreamy type effect.
+                                <div>A song like this is very personal. It's about needing to cut off someone. I wanted the feeling of having such an open world,
+                                    but feeling trapped anyways. I also wanted to depict light at the bottom
+                                    because even if things are feeling so bad, it may be a blessing in disguise. Even if there is a sense of drowning,
+                                    sometimes you might need that pull down to bring you over the edge and take action. 
                                 </div>
                                 <br/>
-                                <Gallery images={dirtyneon} enableImageSelection={false} backdropClosesModal={true}/>
+                                <Gallery images={iflim} enableImageSelection={false} backdropClosesModal={true}/>
                             </div>
                         </div>
                     </div>

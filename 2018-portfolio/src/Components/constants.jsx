@@ -8,6 +8,7 @@ export default {
         blog: "/blog",
         genesis: "/genesis",
         backbone: "/backbone",
-        dirtyneon: "/dirtyneon"
+        dirtyneon: "/dirtyneon",
+        iflid: "/iflid"
     }
 }
