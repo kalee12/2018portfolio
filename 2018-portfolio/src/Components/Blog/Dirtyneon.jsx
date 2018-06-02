@@ -21,8 +21,8 @@ export default class Dirtyneon extends React.Component {
         
         let dirtyneon = [
             {
-                src: "https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/blog%2F2018.05.31.dirtyneon%2Fdirtyneon.png?alt=media&token=9157899b-a046-4af5-8a1e-394a4bf93a0b",
-                thumbnail: "https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/blog%2F2018.05.31.dirtyneon%2Fdirtyneon.png?alt=media&token=9157899b-a046-4af5-8a1e-394a4bf93a0b",
+                src: "https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/blog%2F2018.05.31.dirtyneon%2Fdirtyneon.png?alt=media&token=1a234886-4092-4aed-8e31-a43b133a45bf",
+                thumbnail: "https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/blog%2F2018.05.31.dirtyneon%2Fdirtyneon.png?alt=media&token=1a234886-4092-4aed-8e31-a43b133a45bf",
                 thumbnailWidth: 648,
                 thumbnailHeight: 432
             }

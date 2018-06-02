@@ -21,8 +21,8 @@ export default class Ifeellikeimdrowning extends React.Component {
         
         let iflim = [
             {
-                src: "https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/blog%2F2018.05.31.iflid%2Fifeellikeimdrowning.png?alt=media&token=863773cd-6df3-4d4a-9bfd-9b60b2afa42b",
-                thumbnail: "https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/blog%2F2018.05.31.iflid%2Fifeellikeimdrowning.png?alt=media&token=863773cd-6df3-4d4a-9bfd-9b60b2afa42b",
+                src: "https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/blog%2F2018.05.31.iflid%2Fifeellikeimdrowning.png?alt=media&token=6a1addf5-e1dd-4ae7-a1d7-98585fef28af",
+                thumbnail: "https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/blog%2F2018.05.31.iflid%2Fifeellikeimdrowning.png?alt=media&token=6a1addf5-e1dd-4ae7-a1d7-98585fef28af",
                 thumbnailWidth: 648,
                 thumbnailHeight: 432
             }
