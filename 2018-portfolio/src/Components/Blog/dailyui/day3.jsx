@@ -26,8 +26,7 @@ export default class Day3 extends React.Component {
             display: "block",
             fontSize: "1.5em",
             marginLeft: "0",
-            marginRight: "0",
-            textAlign: "right"
+            marginRight: "0"
         }
 
         

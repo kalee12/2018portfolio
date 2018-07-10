@@ -30,12 +30,42 @@ export default class Sunmoon extends React.Component {
         }
 
         
-        let signup = [
+        let images = [
             {
-                src: "https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/blog%2Fdailyui%2Fday1_sign_up.jpg?alt=media&token=25be41e9-d963-4f52-848c-98d66c96b178",
-                thumbnail: "https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/blog%2Fdailyui%2Fday1_sign_up.jpg?alt=media&token=25be41e9-d963-4f52-848c-98d66c96b178",
-                thumbnailWidth: 648,
-                thumbnailHeight: 432
+                src: "https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/blog%2Flogo%2Fsunmoon%2Fsun_moon-01.png?alt=media&token=7c917949-096c-407f-b939-89797af66cd9",
+                thumbnail: "https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/blog%2Flogo%2Fsunmoon%2Fsun_moon-01.png?alt=media&token=7c917949-096c-407f-b939-89797af66cd9",
+                thumbnailWidth: 300,
+                thumbnailHeight: 95
+            },
+            {
+                src: "https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/blog%2Flogo%2Fsunmoon%2Fsun_moon-02.png?alt=media&token=a712160c-8863-4632-ac99-da24df284883",
+                thumbnail: "https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/blog%2Flogo%2Fsunmoon%2Fsun_moon-02.png?alt=media&token=a712160c-8863-4632-ac99-da24df284883",
+                thumbnailWidth: 300,
+                thumbnailHeight: 95
+            },
+            {
+                src: "https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/blog%2Flogo%2Fsunmoon%2Fsun_moon-03.png?alt=media&token=5b4056cd-6a0a-4305-9b14-55f7deadc6cc",
+                thumbnail: "https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/blog%2Flogo%2Fsunmoon%2Fsun_moon-03.png?alt=media&token=5b4056cd-6a0a-4305-9b14-55f7deadc6cc",
+                thumbnailWidth: 300,
+                thumbnailHeight: 95
+            },
+            {
+                src: "https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/blog%2Flogo%2Fsunmoon%2Fsun_moon-04.png?alt=media&token=08c5671d-3a50-474f-abe8-f1e1060f8c2c",
+                thumbnail: "https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/blog%2Flogo%2Fsunmoon%2Fsun_moon-04.png?alt=media&token=08c5671d-3a50-474f-abe8-f1e1060f8c2c",
+                thumbnailWidth: 300,
+                thumbnailHeight: 95
+            },
+            {
+                src: "https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/blog%2Flogo%2Fsunmoon%2Fsun_moon-05.png?alt=media&token=f8ff665b-86c5-46eb-8776-43ca7bddfccd",
+                thumbnail: "https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/blog%2Flogo%2Fsunmoon%2Fsun_moon-05.png?alt=media&token=f8ff665b-86c5-46eb-8776-43ca7bddfccd",
+                thumbnailWidth: 300,
+                thumbnailHeight: 95
+            },
+            {
+                src: "https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/blog%2Flogo%2Fsunmoon%2Fsun_moon-06.png?alt=media&token=9d1e8f85-be0f-48d7-a743-f5f4ba56faf6",
+                thumbnail: "https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/blog%2Flogo%2Fsunmoon%2Fsun_moon-06.png?alt=media&token=9d1e8f85-be0f-48d7-a743-f5f4ba56faf6",
+                thumbnailWidth: 300,
+                thumbnailHeight: 95
             }
         ];    
 
@@ -67,27 +97,18 @@ export default class Sunmoon extends React.Component {
                                 </div>        */}
                             </div>
                             <div class="col-12 col-sm-9" style={{marginBottom: "40px"}}>
-                                <h2>2018.07.03</h2>
-                                <h2>｢ daily ui ｣ DAY 1 - SIGN UP</h2>
-                                <div>"Luscinia" is the genus consisting of nightingales. 
+                                <h2>2018.07.09</h2>
+                                <h2>｢ logo ｣ SUN AND MOON</h2>
+                                <div><Link style={{}} 
+                                            to={{
+                                                pathname: "/day5",
+                                                }}>Created for Daily UI - Day5: App Icon</Link>
                                 </div>
                                 <hr/>
                                 
                                 <div> 
-                                    <h3>User Needs</h3>
-                                    <ul>
-                                        <li>As a disorganized person, I want a fun way to track my days.</li>
-                                        <li>As an unmotivated person, I want to find long term things to do.</li>
-                                        <li>As a lost person, I want to see what others are up to.</li>
-                                        <li>As a competitive person, I want to track my progress and achieve milestones.</li>
-                                    </ul>
-                                    <Gallery images={signup} enableImageSelection={false} backdropClosesModal={true}/>
-                                    <div style={{float: "left", marginTop: "2%"}}>This may be a daily tasks / goal tracker with a social component. I wouldn't require actual names
-                                    because I want people to be open about their goals. Being able to write out a goal and
-                                    possibly having other people see it creates the idea of accountability. The social aspects would
-                                    be a tagboard where there would be categories of tasks / goals people want to do, and people could
-                                    give support through a liking system or somehow indicate "I'm going to do that with you!" The app would
-                                    also give small, daily challenges to get the user started. 
+                                    <Gallery images={images} enableImageSelection={false} backdropClosesModal={true} showLightboxThumbnails={true}/>
+                                    <div style={{float: "left", marginTop: "2%"}}>
                                     </div>
                                 </div>
                                 <br/>

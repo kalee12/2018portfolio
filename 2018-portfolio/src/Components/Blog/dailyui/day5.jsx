@@ -3,7 +3,7 @@ import Navigation from "../../Navigation";
 import {Link} from "react-router-dom";
 import Gallery from 'react-grid-gallery';
 
-export default class Day4 extends React.Component {
+export default class Day5 extends React.Component {
     render() {
         let style2 = {
             boxSizing: "border-box",
@@ -29,10 +29,10 @@ export default class Day4 extends React.Component {
             marginRight: "0"
         }
         
-        let calculator = [
+        let appicon = [
             {
-                src: "https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/blog%2Fdailyui%2Fday4_calculator.jpg?alt=media&token=bdbaf0ee-6aea-4ea2-ae65-dad9b1d19539",
-                thumbnail: "https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/blog%2Fdailyui%2Fday4_calculator.jpg?alt=media&token=bdbaf0ee-6aea-4ea2-ae65-dad9b1d19539",
+                src: "https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/blog%2Fdailyui%2Fday5_app_icon.png?alt=media&token=bbe75299-6539-4ecb-9331-e98dcb5b5d58",
+                thumbnail: "https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/blog%2Fdailyui%2Fday5_app_icon.png?alt=media&token=bbe75299-6539-4ecb-9331-e98dcb5b5d58",
                 thumbnailWidth: 648,
                 thumbnailHeight: 432
             }
@@ -57,30 +57,29 @@ export default class Day4 extends React.Component {
                                     <div class="col-4">
                                         <Link style={style3} 
                                             to={{
-                                                pathname: "/day3",
-                                                }}>day 3</Link>
+                                                pathname: "/day4",
+                                                }}>day 4</Link>
                                     </div>
                                     <div class="col-4">
-                                        <Link style={style3} 
-                                            to={{
-                                                pathname: "/day5",
-                                                }}>day 5</Link>
+
                                     </div>
-                                </div>         
+                                </div>        
                             </div>
                             <div class="col-12 col-sm-9" style={{marginBottom: "40px"}}>
-                                <h2>2018.07.08</h2>
-                                <h2>｢ daily ui ｣ DAY 4 - CALCULATOR</h2>
-                                <div>
+                                <h2>2018.07.09</h2>
+                                <h2>｢ daily ui ｣ DAY 5 - APP ICON</h2>
+                                <div><Link style={{}} 
+                                            to={{
+                                                pathname: "/sunmoon",
+                                                }}>Logo Iterations</Link>
                                 </div>
                                 <hr/>
                                 
                                 <div> 
-                                    <Gallery images={calculator} enableImageSelection={false} backdropClosesModal={true}/>
-                                    <div style={{float: "left", marginTop: "2%"}}>I based this design off of my Sony Xperia X Compact but tweaked the UI
-                                    so that it has the top row. On Sony's UI, they had no button to make a number negative. 
-                                    They force people to use their parentheses, but I guess if you are doing calculations that require negatives, using parentheses wouldn't 
-                                    be outside of one's knowledge.
+                                    <Gallery images={appicon} enableImageSelection={false} backdropClosesModal={true}/>
+
+                                    <div style={{float: "left", marginTop: "2%"}}>I thought this one would be harder for me because of needing to create a logo, but it was
+                                    really fun to experiment with Illustrator. I even found out that you can drag Illustrator files directly into InDesign. Mind blown.
                                     </div>
                                 </div>
                                 <br/>

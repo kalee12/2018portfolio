@@ -57,13 +57,14 @@ export default class Day1 extends React.Component {
                                 <div class="row justify-content-sm-end">
 
                                     <div class="col-4">
-                                        <div class="col-4">
+
+                                    </div>
+                                    <div class="col-4">
                                             <Link style={style3} 
                                                 to={{
                                                     pathname: "/day2",
                                                     }}>day 2</Link>
                                         </div>
-                                    </div>
                                 </div>       
                             </div>
                             <div class="col-12 col-sm-9" style={{marginBottom: "40px"}}>

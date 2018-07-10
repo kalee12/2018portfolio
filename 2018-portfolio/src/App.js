@@ -23,6 +23,7 @@ import Day2 from "./Components/Blog/dailyui/day2";
 import Day3 from "./Components/Blog/dailyui/day3";
 import Day4 from "./Components/Blog/dailyui/day4";
 import Sunmoon from "./Components/Blog/logo/sunmoon";
+import Day5 from "./Components/Blog/dailyui/day5";
 
 class App extends Component {
   render() {
@@ -49,6 +50,7 @@ class App extends Component {
             <Route path={constants.routes.day3} component={Day3}/>
             <Route path={constants.routes.day4} component={Day4}/>
             <Route path={constants.routes.sunmoon} component={Sunmoon}/>
+            <Route path={constants.routes.day5} component={Day5}/>
           </Switch>
         </Router>
       </div>
