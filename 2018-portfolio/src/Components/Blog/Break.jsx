@@ -3,7 +3,7 @@ import Navigation from "../Navigation";
 import {Link} from "react-router-dom";
 import Gallery from 'react-grid-gallery';
 
-export default class Dirtyneon extends React.Component {
+export default class Break extends React.Component {
     render() {
         let style2 = {
             boxSizing: "border-box",
@@ -30,10 +30,10 @@ export default class Dirtyneon extends React.Component {
             textAlign: "right"
         }
         
-        let dirtyneon = [
+        let tdgbreak = [
             {
-                src: "https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/blog%2F2018.05.31.dirtyneon%2Fdirtyneon.png?alt=media&token=1a234886-4092-4aed-8e31-a43b133a45bf",
-                thumbnail: "https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/blog%2F2018.05.31.dirtyneon%2Fdirtyneon.png?alt=media&token=1a234886-4092-4aed-8e31-a43b133a45bf",
+                src: "https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/blog%2F2018.07.04.break%2Fbreak.jpg?alt=media&token=acdbc680-93fc-4f4e-8c68-5308da50ab2e",
+                thumbnail: "https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/blog%2F2018.07.04.break%2Fbreak.jpg?alt=media&token=acdbc680-93fc-4f4e-8c68-5308da50ab2e",
                 thumbnailWidth: 648,
                 thumbnailHeight: 432
             }
@@ -54,30 +54,26 @@ export default class Dirtyneon extends React.Component {
                                     <div class="col-4">
                                         <Link style={style3} 
                                             to={{
-                                                pathname: "/backbone",
+                                                pathname: "/demons",
                                                 }}>prev</Link>
                                     </div>
                                     <div class="col-4">
-                                        <Link style={style3} 
-                                            to={{
-                                                pathname: "/iflid",
-                                                }}>next</Link>
+
                                     </div>
-                                </div>
+                                </div> 
                             </div>
                             <div class="col-12 col-sm-9" style={{marginBottom: "40px"}}>
-                                <h2>2018.05.31</h2>
-                                <h2>｢ emotion ｣ 3LAU - DIRTY NEON</h2>
-                                <div>I go through musical phases on rotation. EDM seems to be making a little comeback.
+                                <h2>2018.07.04</h2>
+                                <h2>｢ emotion ｣ THREE DAYS GRACE - BREAK</h2>
+                                <div>
                                 </div>
                                 <hr/>
-                                <div>I really like the process of geometric designs. As I'm playing with forms, sometimes I can just see where the design
-                                    is taking itself. Feel was a bit harder for me to go off of because with EDM or techno sounds, I don't seem to get a certain
-                                    pull as I do with other genres. I tried to focus on perspectives instead. The idea was using distance, creating a far kind of 
-                                    feel would give a dreamy type effect.
+                                <div>This is one of the cases where the creation just takes itself. I did take the album cover as inspiration for the colors,
+                                    and the natural theme of this song is a sense of breaking away. Everything else was the product of "yes, and..." I would create
+                                    the design towards a certain idea, but then while I was creating, the design would become something else, and I went along with it.
                                 </div>
                                 <br/>
-                                <Gallery images={dirtyneon} enableImageSelection={false} backdropClosesModal={true}/>
+                                <Gallery images={tdgbreak} enableImageSelection={false} backdropClosesModal={true}/>
                             </div>
                         </div>
                     </div>

@@ -8,7 +8,8 @@ export default class MainActivity extends React.Component {
             background: "rgba(255, 255, 255, .5)",
             boxSizing: "border-box",
             width: "100%",
-            textAlign: "center"
+            textAlign: "center",
+            border: "1px solid rgba(0, 0, 0, .3)"
         }
         
         let image = "https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/about%2FIMG_4315_v2.jpg?alt=media&token=a78a32ca-def0-4bfd-bff6-1f434b326cab";
@@ -20,8 +21,7 @@ export default class MainActivity extends React.Component {
             top: "0px", 
             right: "0px", 
             bottom: "0px", 
-            left: "0px",
-
+            left: "0px"
         }
 
         return(
@@ -31,10 +31,8 @@ export default class MainActivity extends React.Component {
                     <div class="align-self-center">
                         <div id="hello" class="padding" style={border}>
                             <h1 style={{fontSize: "60px", fontFamily: "rift"}}>Karen Lee</h1>
-                            <hr style={{color: "white"}}/>
                             <div style={{fontFamily: "proxima-nova"}}>
-                                <h3>developer.</h3>
-                                <h3>photographer.</h3>
+                                <h3>developer. photographer.</h3>
                                 <a href="https://drive.google.com/open?id=1ttol-LOzvigXNB9KQr-uF52d_ydRm6CK" target="_blank">
                                 <img 
                                 class="resume"

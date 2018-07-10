@@ -18,6 +18,18 @@ export default class Backbone extends React.Component {
             marginRight: "0"
         }
 
+        let style3 = {
+            boxSizing: "border-box",
+            color: "black",
+            padding: "10px",
+            textDecoration: "none",
+            display: "block",
+            fontSize: "1.5em",
+            marginLeft: "0",
+            marginRight: "0",
+            textAlign: "right"
+        }
+
         
         let backbone = [
             {
@@ -39,6 +51,20 @@ export default class Backbone extends React.Component {
                                 <h3>daan<sup>1</sup> seon<sup>4</sup></h3>
                                 <div>simply; purely; merely</div>
                                 <Link style={style2} to="/blog">back</Link>
+                                <div class="row justify-content-sm-end">
+                                    <div class="col-4">
+                                        <Link style={style3} 
+                                            to={{
+                                                pathname: "/genesis",
+                                                }}>prev</Link>
+                                    </div>
+                                    <div class="col-4">
+                                        <Link style={style3} 
+                                            to={{
+                                                pathname: "/dirtyneon",
+                                                }}>next</Link>
+                                    </div>
+                                </div>
                             </div>
                             <div class="col-12 col-sm-9" style={{marginBottom: "40px"}}>
                                 <h2>2018.05.29</h2>

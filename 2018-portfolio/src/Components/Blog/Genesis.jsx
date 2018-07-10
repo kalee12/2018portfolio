@@ -18,6 +18,18 @@ export default class BlogActivity extends React.Component {
             marginRight: "0"
         }
 
+        let style3 = {
+            boxSizing: "border-box",
+            color: "black",
+            padding: "10px",
+            textDecoration: "none",
+            display: "block",
+            fontSize: "1.5em",
+            marginLeft: "0",
+            marginRight: "0",
+            textAlign: "right"
+        }
+
         let tracklist = [
             {
                 src: "https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/blog%2F2018.05.22.genesis%2Fgenesis_00.png?alt=media&token=66b099d9-4f9e-48be-8bfd-93ec04f82993",
@@ -56,6 +68,16 @@ export default class BlogActivity extends React.Component {
                                 <h3>daan<sup>1</sup> seon<sup>4</sup></h3>
                                 <div>simply; purely; merely</div>
                                 <Link style={style2} to="/blog">back</Link>
+                                <div class="row justify-content-sm-end">
+                                    <div class="col-4">
+                                    </div>
+                                    <div class="col-4">
+                                        <Link style={style3} 
+                                            to={{
+                                                pathname: "/backbone",
+                                                }}>next</Link>
+                                    </div>
+                                </div>
                             </div>
                             <div class="col-12 col-sm-9" style={{marginBottom: "40px"}}>
                                 <h2>2018.05.22</h2>

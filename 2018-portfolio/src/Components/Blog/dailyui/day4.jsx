@@ -1,9 +1,9 @@
 import React from "react";
-import Navigation from "../Navigation";
+import Navigation from "../../Navigation";
 import {Link} from "react-router-dom";
 import Gallery from 'react-grid-gallery';
 
-export default class Dirtyneon extends React.Component {
+export default class Day4 extends React.Component {
     render() {
         let style2 = {
             boxSizing: "border-box",
@@ -30,10 +30,10 @@ export default class Dirtyneon extends React.Component {
             textAlign: "right"
         }
         
-        let dirtyneon = [
+        let calculator = [
             {
-                src: "https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/blog%2F2018.05.31.dirtyneon%2Fdirtyneon.png?alt=media&token=1a234886-4092-4aed-8e31-a43b133a45bf",
-                thumbnail: "https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/blog%2F2018.05.31.dirtyneon%2Fdirtyneon.png?alt=media&token=1a234886-4092-4aed-8e31-a43b133a45bf",
+                src: "https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/blog%2Fdailyui%2Fday4_calculator.jpg?alt=media&token=bdbaf0ee-6aea-4ea2-ae65-dad9b1d19539",
+                thumbnail: "https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/blog%2Fdailyui%2Fday4_calculator.jpg?alt=media&token=bdbaf0ee-6aea-4ea2-ae65-dad9b1d19539",
                 thumbnailWidth: 648,
                 thumbnailHeight: 432
             }
@@ -49,35 +49,39 @@ export default class Dirtyneon extends React.Component {
                                 <h2 style={{marginBottom: "20px"}}>單純</h2>
                                 <h3>daan<sup>1</sup> seon<sup>4</sup></h3>
                                 <div>simply; purely; merely</div>
-                                <Link style={style2} to="/blog">back</Link>
+                                <Link style={style2} 
+                                    to={{
+                                        pathname: "/blog",
+                                        state: {selected: 2}
+                                        }}>back</Link>
                                 <div class="row justify-content-sm-end">
                                     <div class="col-4">
                                         <Link style={style3} 
                                             to={{
-                                                pathname: "/backbone",
-                                                }}>prev</Link>
+                                                pathname: "/day3",
+                                                }}>day 3</Link>
                                     </div>
                                     <div class="col-4">
-                                        <Link style={style3} 
-                                            to={{
-                                                pathname: "/iflid",
-                                                }}>next</Link>
+
                                     </div>
-                                </div>
+                                </div>         
                             </div>
                             <div class="col-12 col-sm-9" style={{marginBottom: "40px"}}>
-                                <h2>2018.05.31</h2>
-                                <h2>｢ emotion ｣ 3LAU - DIRTY NEON</h2>
-                                <div>I go through musical phases on rotation. EDM seems to be making a little comeback.
+                                <h2>2018.07.08</h2>
+                                <h2>｢ daily ui ｣ DAY 4 - CALCULATOR</h2>
+                                <div>
                                 </div>
                                 <hr/>
-                                <div>I really like the process of geometric designs. As I'm playing with forms, sometimes I can just see where the design
-                                    is taking itself. Feel was a bit harder for me to go off of because with EDM or techno sounds, I don't seem to get a certain
-                                    pull as I do with other genres. I tried to focus on perspectives instead. The idea was using distance, creating a far kind of 
-                                    feel would give a dreamy type effect.
+                                
+                                <div> 
+                                    <Gallery images={calculator} enableImageSelection={false} backdropClosesModal={true}/>
+                                    <div style={{float: "left", marginTop: "2%"}}>I based this design off of my Sony Xperia X Compact but tweaked the UI
+                                    so that it has the top row. On Sony's UI, they had no button to make a number negative. 
+                                    They force people to use their parentheses, but I guess if you are doing calculations that require negatives, using parentheses wouldn't 
+                                    be outside of one's knowledge.
+                                    </div>
                                 </div>
                                 <br/>
-                                <Gallery images={dirtyneon} enableImageSelection={false} backdropClosesModal={true}/>
                             </div>
                         </div>
                     </div>

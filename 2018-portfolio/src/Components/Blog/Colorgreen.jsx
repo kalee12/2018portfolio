@@ -3,7 +3,7 @@ import Navigation from "../Navigation";
 import {Link} from "react-router-dom";
 import Gallery from 'react-grid-gallery';
 
-export default class Dirtyneon extends React.Component {
+export default class Colorgreen extends React.Component {
     render() {
         let style2 = {
             boxSizing: "border-box",
@@ -30,10 +30,10 @@ export default class Dirtyneon extends React.Component {
             textAlign: "right"
         }
         
-        let dirtyneon = [
+        let color = [
             {
-                src: "https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/blog%2F2018.05.31.dirtyneon%2Fdirtyneon.png?alt=media&token=1a234886-4092-4aed-8e31-a43b133a45bf",
-                thumbnail: "https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/blog%2F2018.05.31.dirtyneon%2Fdirtyneon.png?alt=media&token=1a234886-4092-4aed-8e31-a43b133a45bf",
+                src: "https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/blog%2F2018.06.02.colorgreen%2Fcolorgreen.png?alt=media&token=d284f4e2-149e-4b93-a9ff-3d5ed1c33d1d",
+                thumbnail: "https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/blog%2F2018.06.02.colorgreen%2Fcolorgreen.png?alt=media&token=d284f4e2-149e-4b93-a9ff-3d5ed1c33d1d",
                 thumbnailWidth: 648,
                 thumbnailHeight: 432
             }
@@ -54,30 +54,28 @@ export default class Dirtyneon extends React.Component {
                                     <div class="col-4">
                                         <Link style={style3} 
                                             to={{
-                                                pathname: "/backbone",
+                                                pathname: "/awas",
                                                 }}>prev</Link>
                                     </div>
                                     <div class="col-4">
                                         <Link style={style3} 
                                             to={{
-                                                pathname: "/iflid",
+                                                pathname: "/demons",
                                                 }}>next</Link>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-12 col-sm-9" style={{marginBottom: "40px"}}>
-                                <h2>2018.05.31</h2>
-                                <h2>｢ emotion ｣ 3LAU - DIRTY NEON</h2>
-                                <div>I go through musical phases on rotation. EDM seems to be making a little comeback.
+                                <h2>2018.06.02</h2>
+                                <h2>｢ emotion ｣ NEW POLITICS - COLOR GREEN</h2>
+                                <div>The chorus is pretty fun - it makes me think of fields and life blooming.
                                 </div>
                                 <hr/>
-                                <div>I really like the process of geometric designs. As I'm playing with forms, sometimes I can just see where the design
-                                    is taking itself. Feel was a bit harder for me to go off of because with EDM or techno sounds, I don't seem to get a certain
-                                    pull as I do with other genres. I tried to focus on perspectives instead. The idea was using distance, creating a far kind of 
-                                    feel would give a dreamy type effect.
+                                <div>I think my style has always been about simplicity and minimalism. It feels peaceful yet full of impact. Flower arrangement though,
+                                    it's definitely harder than it looks.
                                 </div>
                                 <br/>
-                                <Gallery images={dirtyneon} enableImageSelection={false} backdropClosesModal={true}/>
+                                <Gallery images={color} enableImageSelection={false} backdropClosesModal={true}/>
                             </div>
                         </div>
                     </div>
