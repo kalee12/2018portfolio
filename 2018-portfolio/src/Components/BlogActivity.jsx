@@ -76,8 +76,16 @@ export default class BlogActivity extends React.Component {
                                         <div>
                                             <div class="row">
                                                 <div class="col-9 col-sm-4">                       
+                                                    <div class="card" onClick={() => this.props.history.push("/clouds")}>
+                                                        <img class="card-img-top" src="https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/blog%2F2018.07.15%2Fclouds.png?alt=media&amp;token=dfb47117-a8cc-49e5-8924-4dc5df48b74e" alt="Card image cap"/>
+                                                        <div class="card-body">
+                                                        2018.07.15 ｣｢ new politics - clouds
+                                                        </div>
+                                                    </div>         
+                                                </div>
+                                                <div class="col-9 col-sm-4">                       
                                                     <div class="card" onClick={() => this.props.history.push("/break")}>
-                                                        <img class="card-img-top" src="https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/blog%2F2018.07.04.break%2Fbreak.jpg?alt=media&amp;token=acdbc680-93fc-4f4e-8c68-5308da50ab2e" alt="Card image cap"/>
+                                                        <img class="card-img-top" src="https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/blog%2F2018.07.04.break%2Fbreak.png?alt=media&amp;token=606ef938-a335-4533-bd1f-ef9202bf0de7" alt="Card image cap"/>
                                                         <div class="card-body">
                                                         2018.07.04 ｣｢ three days grace - break
                                                         </div>
@@ -91,6 +99,9 @@ export default class BlogActivity extends React.Component {
                                                         </div>
                                                     </div>         
                                                 </div>
+                                            </div>
+
+                                            <div class="row">
                                                 <div class="col-9 col-sm-4">                                    
                                                     <div class="card" onClick={() => this.props.history.push("/colorgreen")}>
                                                         <img class="card-img-top" src="https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/blog%2F2018.06.02.colorgreen%2Fcolorgreen.png?alt=media&amp;token=d284f4e2-149e-4b93-a9ff-3d5ed1c33d1d" alt="Card image cap"/>
@@ -99,9 +110,6 @@ export default class BlogActivity extends React.Component {
                                                         </div>
                                                     </div>         
                                                 </div>
-
-                                            </div>
-                                            <div class="row">
                                                 <div class="col-9 col-sm-4">                                    
                                                     <div class="card" onClick={() => this.props.history.push("/awas")}>
                                                         <img class="card-img-top" src="https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/blog%2F2018.06.01.awas%2Fangelwithashotgun.png?alt=media&amp;token=3e472fc8-91fc-45d1-b346-9474652c71ac" alt="Card image cap"/>
@@ -118,6 +126,9 @@ export default class BlogActivity extends React.Component {
                                                         </div>
                                                     </div>         
                                                 </div>
+
+                                            </div>
+                                            <div class="row">
                                                 <div class="col-9 col-sm-4">                                    
                                                     <div class="card" onClick={() => this.props.history.push("/dirtyneon")}>
                                                         <img class="card-img-top" src="https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/blog%2F2018.05.31.dirtyneon%2Fdirtyneon.png?alt=media&amp;token=1a234886-4092-4aed-8e31-a43b133a45bf" alt="Card image cap"/>
@@ -126,8 +137,6 @@ export default class BlogActivity extends React.Component {
                                                         </div>
                                                     </div>         
                                                 </div>
-                                            </div>
-                                            <div class="row">
                                                 <div class="col-9 col-sm-4">                                    
                                                     <div class="card" onClick={() => this.props.history.push("/backbone")}>
                                                         <img class="card-img-top" src="https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/blog%2F2018.05.29.backbone%2Fbackbone.png?alt=media&amp;token=9e73d75d-0fa6-45be-a8f2-3bef73b5f0e3" alt="Card image cap"/>
@@ -154,10 +163,10 @@ export default class BlogActivity extends React.Component {
                                             <div class="row">
                                                 <div class="col-9 col-sm-4">                                    
                                                     <div class="card" onClick={() => this.props.history.push("/sunmoon")}>
-                                                    <img class="card-img-top" src="https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/blog%2Flogo%2Fsunmoon%2Flogo_sun_moon.png?alt=media&amp;token=8fcc2b4a-5291-43ff-8bb7-45bfa78fe9dc" alt="Card image cap"/>
-                                                    <div class="card-body">
-                                                        2018.07.09 ｣｢ sun and moon
-                                                    </div>
+                                                        <img class="card-img-top" src="https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/blog%2Flogo%2Fsunmoon%2Flogo_sun_moon.png?alt=media&amp;token=8fcc2b4a-5291-43ff-8bb7-45bfa78fe9dc" alt="Card image cap"/>
+                                                        <div class="card-body">
+                                                            2018.07.09 ｣｢ sun and moon
+                                                        </div>
                                                     </div>         
                                                 </div>
                                             </div>
@@ -167,45 +176,81 @@ export default class BlogActivity extends React.Component {
                                         <div> 
                                             <div class="row">
                                                 <div class="col-9 col-sm-4">                                    
+                                                    <div class="card" onClick={() => this.props.history.push("/day9")}>
+                                                        <img class="card-img-top" src="https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/blog%2Fdailyui%2Fday9_music_player.png?alt=media&amp;token=6d0b4ebf-b089-4c0b-8d80-a3e53ffe4698" alt="Card image cap"/>
+                                                        <div class="card-body">
+                                                            2018.07.16 ｣｢ day 9 - music player
+                                                        </div>
+                                                    </div>         
+                                                </div>
+                                                <div class="col-9 col-sm-4">                                    
+                                                    <div class="card" onClick={() => this.props.history.push("/day8")}>
+                                                        <img class="card-img-top" src="https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/blog%2Fdailyui%2Fday8_404_page.png?alt=media&amp;token=c8089794-b723-4ef0-bc27-877ea4be307c" alt="Card image cap"/>
+                                                        <div class="card-body">
+                                                            2018.07.15 ｣｢ day 8 - 404 page
+                                                        </div>
+                                                    </div>         
+                                                </div>
+                                                <div class="col-9 col-sm-4">                                    
+                                                    <div class="card" onClick={() => this.props.history.push("/day7")}>
+                                                        <img class="card-img-top" src="https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/blog%2Fdailyui%2Fday7_settings.png?alt=media&amp;token=c0f6c44c-40b5-4b4b-92be-0de5c796c39e" alt="Card image cap"/>
+                                                        <div class="card-body">
+                                                            2018.07.12 ｣｢ day 7 - settings
+                                                        </div>
+                                                    </div>         
+                                                </div>
+                                            </div>
+
+                                            <div class="row">
+                                                <div class="col-9 col-sm-4">                                    
+                                                    <div class="card" onClick={() => this.props.history.push("/day6")}>
+                                                        <img class="card-img-top" src="https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/blog%2Fdailyui%2Fday6_user_profile.png?alt=media&amp;token=91ae91df-ea78-4842-ada9-5fed6d59e349" alt="Card image cap"/>
+                                                        <div class="card-body">
+                                                            2018.07.12 ｣｢ day 6 - user profile
+                                                        </div>
+                                                    </div>         
+                                                </div>
+                                                <div class="col-9 col-sm-4">                                    
                                                     <div class="card" onClick={() => this.props.history.push("/day5")}>
-                                                    <img class="card-img-top" src="https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/blog%2Fdailyui%2Fday5_app_icon.png?alt=media&amp;token=bbe75299-6539-4ecb-9331-e98dcb5b5d58" alt="Card image cap"/>
-                                                    <div class="card-body">
-                                                        2018.07.09 ｣｢ day 5 - app icon
-                                                    </div>
+                                                        <img class="card-img-top" src="https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/blog%2Fdailyui%2Fday5_app_icon.png?alt=media&amp;token=bbe75299-6539-4ecb-9331-e98dcb5b5d58" alt="Card image cap"/>
+                                                        <div class="card-body">
+                                                            2018.07.09 ｣｢ day 5 - app icon
+                                                        </div>
                                                     </div>         
                                                 </div>
                                                 <div class="col-9 col-sm-4">                                    
                                                     <div class="card" onClick={() => this.props.history.push("/day4")}>
-                                                    <img class="card-img-top" src="https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/blog%2Fdailyui%2Fday4_calculator.jpg?alt=media&amp;token=bdbaf0ee-6aea-4ea2-ae65-dad9b1d19539" alt="Card image cap"/>
-                                                    <div class="card-body">
-                                                        2018.07.08 ｣｢ day 4 - calculator
-                                                    </div>
-                                                    </div>         
-                                                </div>
-                                                <div class="col-9 col-sm-4">                                    
-                                                    <div class="card" onClick={() => this.props.history.push("/day3")}>
-                                                    <img class="card-img-top" src="https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/blog%2Fdailyui%2Fday3_landing_page.jpg?alt=media&amp;token=47165e7a-0703-40ec-bd46-9c8fca225ce2" alt="Card image cap"/>
-                                                    <div class="card-body">
-                                                        2018.07.06 ｣｢ day 3 - landing page
-                                                    </div>
+                                                        <img class="card-img-top" src="https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/blog%2Fdailyui%2Fday4_calculator.jpg?alt=media&amp;token=bdbaf0ee-6aea-4ea2-ae65-dad9b1d19539" alt="Card image cap"/>
+                                                        <div class="card-body">
+                                                            2018.07.08 ｣｢ day 4 - calculator
+                                                        </div>
                                                     </div>         
                                                 </div>
                                             </div>
+
                                             <div class="row">
                                                 <div class="col-9 col-sm-4">                                    
+                                                    <div class="card" onClick={() => this.props.history.push("/day3")}>
+                                                        <img class="card-img-top" src="https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/blog%2Fdailyui%2Fday3_landing_page.jpg?alt=media&amp;token=47165e7a-0703-40ec-bd46-9c8fca225ce2" alt="Card image cap"/>
+                                                        <div class="card-body">
+                                                            2018.07.06 ｣｢ day 3 - landing page
+                                                        </div>
+                                                    </div>         
+                                                </div>
+                                                <div class="col-9 col-sm-4">                                    
                                                     <div class="card" onClick={() => this.props.history.push("/day2")}>
-                                                    <img class="card-img-top" src="https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/blog%2Fdailyui%2Fday2_credit_checkout.jpg?alt=media&amp;token=b0d8264d-778d-4a58-9a51-3ffba912ca21" alt="Card image cap"/>
-                                                    <div class="card-body">
-                                                        2018.07.05 ｣｢ day 2 - credit card checkout
-                                                    </div>
+                                                        <img class="card-img-top" src="https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/blog%2Fdailyui%2Fday2_credit_checkout.jpg?alt=media&amp;token=b0d8264d-778d-4a58-9a51-3ffba912ca21" alt="Card image cap"/>
+                                                        <div class="card-body">
+                                                            2018.07.05 ｣｢ day 2 - credit card checkout
+                                                        </div>
                                                     </div>         
                                                 </div>
                                                 <div class="col-9 col-sm-4">                                    
                                                     <div class="card" onClick={() => this.props.history.push("/day1")}>
-                                                    <img class="card-img-top" src="https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/blog%2Fdailyui%2Fday1_sign_up.jpg?alt=media&amp;token=25be41e9-d963-4f52-848c-98d66c96b178" alt="Card image cap"/>
-                                                    <div class="card-body">
-                                                        2018.07.03 ｣｢ day 1 - sign up
-                                                    </div>
+                                                        <img class="card-img-top" src="https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/blog%2Fdailyui%2Fday1_sign_up.jpg?alt=media&amp;token=25be41e9-d963-4f52-848c-98d66c96b178" alt="Card image cap"/>
+                                                        <div class="card-body">
+                                                            2018.07.03 ｣｢ day 1 - sign up
+                                                        </div>
                                                     </div>         
                                                 </div>
                                             </div>

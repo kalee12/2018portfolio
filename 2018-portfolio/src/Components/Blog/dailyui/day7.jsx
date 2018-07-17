@@ -3,7 +3,7 @@ import Navigation from "../../Navigation";
 import {Link} from "react-router-dom";
 import Gallery from 'react-grid-gallery';
 
-export default class Day5 extends React.Component {
+export default class Day7 extends React.Component {
     render() {
         let style2 = {
             boxSizing: "border-box",
@@ -29,10 +29,10 @@ export default class Day5 extends React.Component {
             marginRight: "0"
         }
         
-        let appicon = [
+        let settings = [
             {
-                src: "https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/blog%2Fdailyui%2Fday5_app_icon.png?alt=media&token=bbe75299-6539-4ecb-9331-e98dcb5b5d58",
-                thumbnail: "https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/blog%2Fdailyui%2Fday5_app_icon.png?alt=media&token=bbe75299-6539-4ecb-9331-e98dcb5b5d58",
+                src: "https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/blog%2Fdailyui%2Fday7_settings.png?alt=media&token=c0f6c44c-40b5-4b4b-92be-0de5c796c39e",
+                thumbnail: "https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/blog%2Fdailyui%2Fday7_settings.png?alt=media&token=c0f6c44c-40b5-4b4b-92be-0de5c796c39e",
                 thumbnailWidth: 648,
                 thumbnailHeight: 432
             }
@@ -57,32 +57,32 @@ export default class Day5 extends React.Component {
                                     <div class="col-4">
                                         <Link style={style3} 
                                             to={{
-                                                pathname: "/day4",
-                                                }}>day 4</Link>
+                                                pathname: "/day6",
+                                                }}>day 6</Link>
                                     </div>
                                     <div class="col-4">
                                         <Link style={style3} 
                                             to={{
-                                                pathname: "/day6",
-                                                }}>day 6</Link>
+                                                pathname: "/day8",
+                                                }}>day 8</Link>
                                     </div>
                                 </div>        
                             </div>
                             <div class="col-12 col-sm-9" style={{marginBottom: "40px"}}>
-                                <h2>2018.07.09</h2>
-                                <h2>｢ daily ui ｣ DAY 5 - APP ICON</h2>
-                                <div><Link style={{}} 
-                                            to={{
-                                                pathname: "/sunmoon",
-                                                }}>Logo Iterations</Link>
+                                <h2>2018.07.12</h2>
+                                <h2>｢ daily ui ｣ DAY 7 - SETTINGS</h2>
+                                <div>
                                 </div>
                                 <hr/>
                                 
                                 <div> 
-                                    <Gallery images={appicon} enableImageSelection={false} backdropClosesModal={true}/>
+                                    <Gallery images={settings} enableImageSelection={false} backdropClosesModal={true}/>
 
-                                    <div style={{float: "left", marginTop: "2%"}}>I thought this one would be harder for me because of needing to create a logo, but it was
-                                    really fun to experiment with Illustrator. I even found out that you can drag Illustrator files directly into InDesign. Mind blown.
+                                    <div style={{float: "left", marginTop: "2%"}}>
+                                    This would be an interface for a DSLR camera. I never really liked how cluttered their
+                                    settings felt. Although I would understand how it's normally done because you would want to look at all your settings at once. Even
+                                    if you wouldn't touch them that much, you would want them to be there so you have the chance to notice a setting is abnormal. With this one 
+                                    though, this UI may be more suited with touch capabilities because it's not showing a lot of the information you'd normally get.
                                     </div>
                                 </div>
                                 <br/>

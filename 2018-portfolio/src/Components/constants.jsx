@@ -19,6 +19,11 @@ export default {
         day3: "/day3",
         day4: "/day4",
         sunmoon: "/sunmoon",
-        day5: "/day5"
+        day5: "/day5",
+        day6: "/day6",
+        day7: "/day7",
+        day8: "/day8",
+        day9: "/day9",
+        clouds: "/clouds"
     }
 }

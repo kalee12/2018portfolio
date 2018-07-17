@@ -3,7 +3,7 @@ import Navigation from "../Navigation";
 import {Link} from "react-router-dom";
 import Gallery from 'react-grid-gallery';
 
-export default class Break extends React.Component {
+export default class Clouds extends React.Component {
     render() {
         let style2 = {
             boxSizing: "border-box",
@@ -30,10 +30,10 @@ export default class Break extends React.Component {
             textAlign: "right"
         }
         
-        let tdgbreak = [
+        let clouds = [
             {
-                src: "https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/blog%2F2018.07.04.break%2Fbreak.png?alt=media&token=606ef938-a335-4533-bd1f-ef9202bf0de7",
-                thumbnail: "https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/blog%2F2018.07.04.break%2Fbreak.png?alt=media&token=606ef938-a335-4533-bd1f-ef9202bf0de7",
+                src: "https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/blog%2F2018.07.15%2Fclouds.png?alt=media&token=dfb47117-a8cc-49e5-8924-4dc5df48b74e",
+                thumbnail: "https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/blog%2F2018.07.15%2Fclouds.png?alt=media&token=dfb47117-a8cc-49e5-8924-4dc5df48b74e",
                 thumbnailWidth: 648,
                 thumbnailHeight: 432
             }
@@ -54,29 +54,25 @@ export default class Break extends React.Component {
                                     <div class="col-4">
                                         <Link style={style3} 
                                             to={{
-                                                pathname: "/demons",
+                                                pathname: "/break",
                                                 }}>prev</Link>
                                     </div>
                                     <div class="col-4">
-                                        <Link style={style3} 
-                                            to={{
-                                                pathname: "/clouds",
-                                                }}>next</Link>
+
                                     </div>
                                 </div> 
                             </div>
                             <div class="col-12 col-sm-9" style={{marginBottom: "40px"}}>
-                                <h2>2018.07.04</h2>
-                                <h2>｢ emotion ｣ THREE DAYS GRACE - BREAK</h2>
+                                <h2>2018.07.15</h2>
+                                <h2>｢ emotion ｣ NEW POLITICS - CLOUDS</h2>
                                 <div>
                                 </div>
                                 <hr/>
-                                <div>This is one of the cases where the creation just takes itself. I did take the album cover as inspiration for the colors,
-                                    and the natural theme of this song is a sense of breaking away. Everything else was the product of "yes, and..." I would create
-                                    the design towards a certain idea, but then while I was creating, the design would become something else, and I went along with it.
+                                <div>There's a mixture of elements. I wanted to express how things may not look as they seem. A little bit of "silver lining,"
+                                    water reflections, galaxies, and lotus flowers disguised as a cloud.
                                 </div>
                                 <br/>
-                                <Gallery images={tdgbreak} enableImageSelection={false} backdropClosesModal={true}/>
+                                <Gallery images={clouds} enableImageSelection={false} backdropClosesModal={true}/>
                             </div>
                         </div>
                     </div>
