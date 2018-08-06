@@ -20,7 +20,7 @@ export default class Projects extends React.Component {
                                 <h2 style={{marginBottom: "20px"}}>projects</h2>
                             </div>
                             <div class="col-12 col-sm-9">
-                                <h2 class="logo">current</h2>
+                                <h2>current</h2>
                                 <ProjectList projRef={curr} type={"current"}/>
                                 <h2>past</h2>
                                 <ProjectList projRef={past} type={"past"}/>

@@ -31,8 +31,8 @@ export default class Day14 extends React.Component {
         
         let countdown = [
             {
-                src: "https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/blog%2Fdailyui%2Fday13_direct_messaging.png?alt=media&token=bca1e056-2a71-43f9-81d6-bceae04cb307",
-                thumbnail: "https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/blog%2Fdailyui%2Fday13_direct_messaging.png?alt=media&token=bca1e056-2a71-43f9-81d6-bceae04cb307",
+                src: "https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/blog%2Fdailyui%2Fday14_countdown_timer.png?alt=media&token=c29a0759-25ab-4222-9fba-3966274f3f2f",
+                thumbnail: "https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/blog%2Fdailyui%2Fday14_countdown_timer.png?alt=media&token=c29a0759-25ab-4222-9fba-3966274f3f2f",
                 thumbnailWidth: 648,
                 thumbnailHeight: 432
             }
@@ -76,7 +76,7 @@ export default class Day14 extends React.Component {
                                 <hr/>
                                 
                                 <div> 
-                                    <Gallery images={sms} enableImageSelection={false} backdropClosesModal={true}/>
+                                    <Gallery images={countdown} enableImageSelection={false} backdropClosesModal={true}/>
 
                                     <div style={{float: "left", marginTop: "2%"}}>
                                     </div>

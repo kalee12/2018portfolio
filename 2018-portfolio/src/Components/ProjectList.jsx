@@ -39,8 +39,9 @@ export default class ProjectList extends React.Component {
         let design = [];
         if (this.props.type === "current") {
             this.state.projSnapshot.forEach(project => {
+                if(!project.val().hide) {
                 projects.push(<Project projSnapshot={project} />)
-            });
+            }});
         } else {
             this.state.dev.forEach(project => {
                 dev.push(<Project projSnapshot={project} />)});
@@ -62,7 +63,7 @@ export default class ProjectList extends React.Component {
                     </div>
                 :
                     <div style={extend}>
-                        <h3 class="logo">development</h3>
+                        <h3>development</h3>
                         <div class="row">{dev}</div>
                         <h3>design</h3>
                         <div class="row">{design}</div>

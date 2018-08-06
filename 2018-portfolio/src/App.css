@@ -3,8 +3,20 @@
   width: 100%;
 }
 
+a svg:hover {
+  fill: #007FC0;
+}
+
 .card {
   margin-bottom: 20px; 
+}
+
+.color:hover {
+  color: #FFFFFF !important;
+}
+
+#dev:hover {
+  color: #007FC0;
 }
 
 /* .container:hover .image {
@@ -21,24 +33,34 @@ img {
 
 
 .logo {
-  /* animation: float 5s infinite; */
+  animation: float 5s infinite;
   width: 100%;
 }
 
-/* @keyframes float {
+@keyframes float {
 	0% {
-		margin-top: 0%;
-	}
+		transform: translatey(-10px);
+  }
+    
 	50% {
-    margin-top: .5%;
-	}
+    transform: translatey(0px);
+  }
+  
 	100% {
-    margin-top: 0%;
+		transform: translatey(-10px);
 	}
-} */
+}
 
 .padding {
   padding: 50px;  
+}
+
+#photographer:hover {
+  color: #33BEB7;
+}
+
+#student:hover {
+  color: #4b2e83;
 }
 
 .resume {
@@ -70,9 +92,5 @@ img {
 
   .fix2 {
     text-align: right;
-  }
-
-  .padding {
-    padding: 40px 400px 20px 350px;
   }
 }

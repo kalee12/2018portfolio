@@ -3,7 +3,7 @@ import Navigation from "../../Navigation";
 import {Link} from "react-router-dom";
 import Gallery from 'react-grid-gallery';
 
-export default class Day14 extends React.Component {
+export default class Day16 extends React.Component {
     render() {
         let style2 = {
             boxSizing: "border-box",
@@ -29,10 +29,10 @@ export default class Day14 extends React.Component {
             marginRight: "0"
         }
         
-        let countdown = [
+        let pop = [
             {
-                src: "https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/blog%2Fdailyui%2Fday13_direct_messaging.png?alt=media&token=bca1e056-2a71-43f9-81d6-bceae04cb307",
-                thumbnail: "https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/blog%2Fdailyui%2Fday13_direct_messaging.png?alt=media&token=bca1e056-2a71-43f9-81d6-bceae04cb307",
+                src: "https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/blog%2Fdailyui%2Fday16_pop_up_overlay.png?alt=media&token=59dbc00c-b992-4a0a-808a-a4a2d4d63ba0",
+                thumbnail: "https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/blog%2Fdailyui%2Fday16_pop_up_overlay.png?alt=media&token=59dbc00c-b992-4a0a-808a-a4a2d4d63ba0",
                 thumbnailWidth: 648,
                 thumbnailHeight: 432
             }
@@ -76,7 +76,7 @@ export default class Day14 extends React.Component {
                                 <hr/>
                                 
                                 <div> 
-                                    <Gallery images={sms} enableImageSelection={false} backdropClosesModal={true}/>
+                                    <Gallery images={pop} enableImageSelection={false} backdropClosesModal={true}/>
 
                                     <div style={{float: "left", marginTop: "2%"}}>
                                     </div>

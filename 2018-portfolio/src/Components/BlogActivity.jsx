@@ -59,16 +59,15 @@ export default class BlogActivity extends React.Component {
                             </div>
                             <div class="col-12 col-sm-9">
                                 <div>
-                                    <h2>Happenings</h2>
-                                    <div>｢ emotion ｣ is something I'm doing in my pasttime while mobile app ideas are pivoting. I'm using InDesign for song inspirations
-                                    and seeing where the creations take themselves.</div>
-                                    <div>｢ logo ｣ is using Illustrator to learn and practice creating vectors.</div>
-                                    <div>｢ daily ui ｣ - I'm taking on the 100 day challenge and using it as a starting points to develop concepts.</div>
+                                    <h2>Side Projects</h2>
+                                    <div>｢ emotion ｣ Using song inspiration to see creativity bloom</div>
+                                    <div>｢ logo ｣ Focus on the subtlety of brand identity</div>
+                                    <div>｢ daily ui ｣ Taking on the 100 day challenge</div>
                                 </div>
                                 <div>
-                                    <h4>Future Happenings</h4>
+                                    <h4>Prospectives</h4>
                                     <div>｢ os design ｣ Recreating what I had to do for INFO 365 - Mobile App Design by defining my own OS.</div>
-                                    <div>｢ geometric ｣ Making designs restricted by the number of sides or particular ratios.</div>
+                                    <div>｢ geometric ｣ Designs restricted by the number of sides or particular ratios.</div>
                                 </div>
                                 <hr/>
                                 <div>
@@ -174,7 +173,34 @@ export default class BlogActivity extends React.Component {
                                         : <div></div>}
                                     {this.state.selected == 2 ? 
                                         <div>
-                                                <div class="row">
+                                            <div class="row">
+                                                <div class="col-9 col-sm-4">                                    
+                                                    <div class="card" onClick={() => this.props.history.push("/day16")}>
+                                                        <img class="card-img-top" src="https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/blog%2Fdailyui%2Fday16_pop_up_overlay.png?alt=media&amp;token=59dbc00c-b992-4a0a-808a-a4a2d4d63ba0" alt="Card image cap"/>
+                                                        <div class="card-body">
+                                                            2018.07.30 ｣｢ day 16 - pop up / overlay
+                                                        </div>
+                                                    </div>         
+                                                </div>
+                                                <div class="col-9 col-sm-4">                                    
+                                                    <div class="card" onClick={() => this.props.history.push("/day15")}>
+                                                        <img class="card-img-top" src="https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/blog%2Fdailyui%2Fday15_on_off.png?alt=media&amp;token=9bee807b-ef91-4520-acdb-78e06d50f5a0" alt="Card image cap"/>
+                                                        <div class="card-body">
+                                                            2018.07.30 ｣｢ day 15 - on / off switch
+                                                        </div>
+                                                    </div>         
+                                                </div>
+                                                <div class="col-9 col-sm-4">                                    
+                                                    <div class="card" onClick={() => this.props.history.push("/day14")}>
+                                                        <img class="card-img-top" src="https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/blog%2Fdailyui%2Fday14_countdown_timer.png?alt=media&amp;  token=c29a0759-25ab-4222-9fba-3966274f3f2f" alt="Card image cap"/>
+                                                        <div class="card-body">
+                                                            2018.07.25 ｣｢ day 14 - countdown timer
+                                                        </div>
+                                                    </div>         
+                                                </div>
+                                            </div>
+
+                                            <div class="row">
                                                 <div class="col-9 col-sm-4">                                    
                                                     <div class="card" onClick={() => this.props.history.push("/day13")}>
                                                         <img class="card-img-top" src="https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/blog%2Fdailyui%2Fday13_direct_messaging.png?alt=media&amp;token=bca1e056-2a71-43f9-81d6-bceae04cb307" alt="Card image cap"/>

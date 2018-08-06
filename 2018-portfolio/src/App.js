@@ -33,6 +33,10 @@ import Day10 from "./Components/Blog/dailyui/day10";
 import Day11 from "./Components/Blog/dailyui/day11";
 import Day12 from "./Components/Blog/dailyui/day12";
 import Day13 from "./Components/Blog/dailyui/day13";
+import Day14 from "./Components/Blog/dailyui/day14";
+import Day15 from "./Components/Blog/dailyui/day15";
+import Day16 from "./Components/Blog/dailyui/day16";
+
 
 class App extends Component {
   render() {
@@ -69,6 +73,9 @@ class App extends Component {
             <Route path={constants.routes.day11} component={Day11}/>
             <Route path={constants.routes.day12} component={Day12}/>
             <Route path={constants.routes.day13} component={Day13}/>
+            <Route path={constants.routes.day14} component={Day14}/>
+            <Route path={constants.routes.day15} component={Day15}/>
+            <Route path={constants.routes.day16} component={Day16}/>
           </Switch>
         </Router>
       </div>
