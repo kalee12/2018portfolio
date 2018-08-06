@@ -1,9 +1,9 @@
 import React from "react";
-import Navigation from "../Navigation";
+import Navigation from "../../Navigation";
 import {Link} from "react-router-dom";
 import Gallery from 'react-grid-gallery';
 
-export default class Angelwithashotgun extends React.Component {
+export default class Dirtyneon extends React.Component {
     render() {
         let style2 = {
             boxSizing: "border-box",
@@ -29,12 +29,11 @@ export default class Angelwithashotgun extends React.Component {
             marginRight: "0",
             textAlign: "right"
         }
-
         
-        let angel = [
+        let dirtyneon = [
             {
-                src: "https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/blog%2F2018.06.01.awas%2Fangelwithashotgun.png?alt=media&token=3e472fc8-91fc-45d1-b346-9474652c71ac",
-                thumbnail: "https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/blog%2F2018.06.01.awas%2Fangelwithashotgun.png?alt=media&token=3e472fc8-91fc-45d1-b346-9474652c71ac",
+                src: "https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/blog%2F2018.05.31.dirtyneon%2Fdirtyneon.png?alt=media&token=1a234886-4092-4aed-8e31-a43b133a45bf",
+                thumbnail: "https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/blog%2F2018.05.31.dirtyneon%2Fdirtyneon.png?alt=media&token=1a234886-4092-4aed-8e31-a43b133a45bf",
                 thumbnailWidth: 648,
                 thumbnailHeight: 432
             }
@@ -55,28 +54,30 @@ export default class Angelwithashotgun extends React.Component {
                                     <div class="col-4">
                                         <Link style={style3} 
                                             to={{
-                                                pathname: "/iflid",
+                                                pathname: "/backbone",
                                                 }}>prev</Link>
                                     </div>
                                     <div class="col-4">
                                         <Link style={style3} 
                                             to={{
-                                                pathname: "/colorgreen",
+                                                pathname: "/iflid",
                                                 }}>next</Link>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-12 col-sm-9" style={{marginBottom: "40px"}}>
-                                <h2>2018.06.01</h2>
-                                <h2>｢ emotion ｣ THE CAB - ANGEL WITH A SHOTGUN</h2>
-                                <div>I would consider myself tone deaf, but I always want to sing this one aha.
+                                <h2>2018.05.31</h2>
+                                <h2>｢ emotion ｣ 3LAU - DIRTY NEON</h2>
+                                <div>I go through musical phases on rotation. EDM seems to be making a little comeback.
                                 </div>
                                 <hr/>
-                                <div>While making the pattern for the wings, I thought about making a subtle wing pattern that was a hybrid with a flower,
-                                    so now I have bit of an urge for flower designs. I also want to get better at utilizing white space.
+                                <div>I really like the process of geometric designs. As I'm playing with forms, sometimes I can just see where the design
+                                    is taking itself. Feel was a bit harder for me to go off of because with EDM or techno sounds, I don't seem to get a certain
+                                    pull as I do with other genres. I tried to focus on perspectives instead. The idea was using distance, creating a far kind of 
+                                    feel would give a dreamy type effect.
                                 </div>
                                 <br/>
-                                <Gallery images={angel} enableImageSelection={false} backdropClosesModal={true}/>
+                                <Gallery images={dirtyneon} enableImageSelection={false} backdropClosesModal={true}/>
                             </div>
                         </div>
                     </div>

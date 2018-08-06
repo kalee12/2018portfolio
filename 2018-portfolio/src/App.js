@@ -10,15 +10,15 @@ import Photography from "./Components/Photography";
 import About from "./Components/About";
 import Project from "./Components/ProjectActivity";
 import Blog from "./Components/BlogActivity";
-import Genesis from "./Components/Blog/Genesis";
-import Backbone from "./Components/Blog/Backbone";
-import Dirtyneon from "./Components/Blog/Dirtyneon";
-import Iflid from "./Components/Blog/Ifeellikeimdrowning";
-import Awas from "./Components/Blog/Angelwithashotgun";
-import Color from "./Components/Blog/Colorgreen";
-import Demons from "./Components/Blog/Demons";
+import Genesis from "./Components/Blog/emotion/Genesis";
+import Backbone from "./Components/Blog/emotion/Backbone";
+import Dirtyneon from "./Components/Blog/emotion/Dirtyneon";
+import Iflid from "./Components/Blog/emotion/Ifeellikeimdrowning";
+import Awas from "./Components/Blog/emotion/Angelwithashotgun";
+import Color from "./Components/Blog/emotion/Colorgreen";
+import Demons from "./Components/Blog/emotion/Demons";
 import Day1 from "./Components/Blog/dailyui/day1";
-import Tdgbreak from "./Components/Blog/Break";
+import Tdgbreak from "./Components/Blog/emotion/Break";
 import Day2 from "./Components/Blog/dailyui/day2";
 import Day3 from "./Components/Blog/dailyui/day3";
 import Day4 from "./Components/Blog/dailyui/day4";
@@ -28,7 +28,11 @@ import Day6 from "./Components/Blog/dailyui/day6";
 import Day7 from "./Components/Blog/dailyui/day7";
 import Day8 from "./Components/Blog/dailyui/day8";
 import Day9 from "./Components/Blog/dailyui/day9";
-import Clouds from "./Components/Blog/Clouds";
+import Clouds from "./Components/Blog/emotion/Clouds";
+import Day10 from "./Components/Blog/dailyui/day10";
+import Day11 from "./Components/Blog/dailyui/day11";
+import Day12 from "./Components/Blog/dailyui/day12";
+import Day13 from "./Components/Blog/dailyui/day13";
 
 class App extends Component {
   render() {
@@ -61,6 +65,10 @@ class App extends Component {
             <Route path={constants.routes.day8} component={Day8}/>
             <Route path={constants.routes.day9} component={Day9}/>
             <Route path={constants.routes.clouds} component={Clouds}/>
+            <Route path={constants.routes.day10} component={Day10}/>
+            <Route path={constants.routes.day11} component={Day11}/>
+            <Route path={constants.routes.day12} component={Day12}/>
+            <Route path={constants.routes.day13} component={Day13}/>
           </Switch>
         </Router>
       </div>

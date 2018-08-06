@@ -1,9 +1,9 @@
 import React from "react";
-import Navigation from "../Navigation";
+import Navigation from "../../Navigation";
 import {Link} from "react-router-dom";
 import Gallery from 'react-grid-gallery';
 
-export default class Break extends React.Component {
+export default class Ifeellikeimdrowning extends React.Component {
     render() {
         let style2 = {
             boxSizing: "border-box",
@@ -30,10 +30,10 @@ export default class Break extends React.Component {
             textAlign: "right"
         }
         
-        let tdgbreak = [
+        let iflid = [
             {
-                src: "https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/blog%2F2018.07.04.break%2Fbreak.png?alt=media&token=606ef938-a335-4533-bd1f-ef9202bf0de7",
-                thumbnail: "https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/blog%2F2018.07.04.break%2Fbreak.png?alt=media&token=606ef938-a335-4533-bd1f-ef9202bf0de7",
+                src: "https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/blog%2F2018.05.31.iflid%2Fifeellikeimdrowning.png?alt=media&token=6a1addf5-e1dd-4ae7-a1d7-98585fef28af",
+                thumbnail: "https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/blog%2F2018.05.31.iflid%2Fifeellikeimdrowning.png?alt=media&token=6a1addf5-e1dd-4ae7-a1d7-98585fef28af",
                 thumbnailWidth: 648,
                 thumbnailHeight: 432
             }
@@ -54,29 +54,30 @@ export default class Break extends React.Component {
                                     <div class="col-4">
                                         <Link style={style3} 
                                             to={{
-                                                pathname: "/demons",
+                                                pathname: "/dirtyneon",
                                                 }}>prev</Link>
                                     </div>
                                     <div class="col-4">
                                         <Link style={style3} 
                                             to={{
-                                                pathname: "/clouds",
+                                                pathname: "/awas",
                                                 }}>next</Link>
                                     </div>
-                                </div> 
+                                </div>
                             </div>
                             <div class="col-12 col-sm-9" style={{marginBottom: "40px"}}>
-                                <h2>2018.07.04</h2>
-                                <h2>｢ emotion ｣ THREE DAYS GRACE - BREAK</h2>
-                                <div>
+                                <h2>2018.05.31</h2>
+                                <h2>｢ emotion ｣ TWO FEET - I FEEL LIKE I'M DROWNING</h2>
+                                <div>The mood in this song is so distinct I really felt like I had to make something.
                                 </div>
                                 <hr/>
-                                <div>This is one of the cases where the creation just takes itself. I did take the album cover as inspiration for the colors,
-                                    and the natural theme of this song is a sense of breaking away. Everything else was the product of "yes, and..." I would create
-                                    the design towards a certain idea, but then while I was creating, the design would become something else, and I went along with it.
+                                <div>A song like this is very personal. It's about needing to cut off someone. I wanted the feeling of having such an open world,
+                                    but feeling trapped anyways. I also wanted to depict light at the bottom
+                                    because even if things are feeling so bad, it may be a blessing in disguise. Even if there is a sense of drowning,
+                                    sometimes you might need that pull down to bring you over the edge and take action. 
                                 </div>
                                 <br/>
-                                <Gallery images={tdgbreak} enableImageSelection={false} backdropClosesModal={true}/>
+                                <Gallery images={iflid} enableImageSelection={false} backdropClosesModal={true}/>
                             </div>
                         </div>
                     </div>

@@ -1,9 +1,9 @@
 import React from "react";
-import Navigation from "../Navigation";
+import Navigation from "../../Navigation";
 import {Link} from "react-router-dom";
 import Gallery from 'react-grid-gallery';
 
-export default class Clouds extends React.Component {
+export default class Day13 extends React.Component {
     render() {
         let style2 = {
             boxSizing: "border-box",
@@ -26,14 +26,13 @@ export default class Clouds extends React.Component {
             display: "block",
             fontSize: "1.5em",
             marginLeft: "0",
-            marginRight: "0",
-            textAlign: "right"
+            marginRight: "0"
         }
         
-        let clouds = [
+        let sms = [
             {
-                src: "https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/blog%2F2018.07.15%2Fclouds.png?alt=media&token=dfb47117-a8cc-49e5-8924-4dc5df48b74e",
-                thumbnail: "https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/blog%2F2018.07.15%2Fclouds.png?alt=media&token=dfb47117-a8cc-49e5-8924-4dc5df48b74e",
+                src: "https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/blog%2Fdailyui%2Fday13_direct_messaging.png?alt=media&token=bca1e056-2a71-43f9-81d6-bceae04cb307",
+                thumbnail: "https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/blog%2Fdailyui%2Fday13_direct_messaging.png?alt=media&token=bca1e056-2a71-43f9-81d6-bceae04cb307",
                 thumbnailWidth: 648,
                 thumbnailHeight: 432
             }
@@ -49,30 +48,40 @@ export default class Clouds extends React.Component {
                                 <h2 style={{marginBottom: "20px"}}>單純</h2>
                                 <h3>daan<sup>1</sup> seon<sup>4</sup></h3>
                                 <div>simply; purely; merely</div>
-                                <Link style={style2} to="/blog">back</Link>
+                                <Link style={style2} 
+                                    to={{
+                                        pathname: "/blog",
+                                        state: {selected: 2}
+                                        }}>back</Link>
                                 <div class="row justify-content-sm-end">
                                     <div class="col-4">
                                         <Link style={style3} 
                                             to={{
-                                                pathname: "/break",
-                                                }}>prev</Link>
+                                                pathname: "/day12",
+                                                }}>day 12</Link>
                                     </div>
                                     <div class="col-4">
-
+                                        {/* <Link style={style3} 
+                                            to={{
+                                                pathname: "/day13",
+                                                }}>day 13</Link> */}
                                     </div>
-                                </div> 
+                                </div>        
                             </div>
                             <div class="col-12 col-sm-9" style={{marginBottom: "40px"}}>
-                                <h2>2018.07.15</h2>
-                                <h2>｢ emotion ｣ NEW POLITICS - CLOUDS</h2>
+                                <h2>2018.07.24</h2>
+                                <h2>｢ daily ui ｣ DAY 13 - DIRECT MESSAGING</h2>
                                 <div>
                                 </div>
                                 <hr/>
-                                <div>There's a mixture of elements. I wanted to express how things may not look as they seem. A little bit of "silver lining,"
-                                    water reflections, galaxies, and lotus flowers disguised as a cloud.
+                                
+                                <div> 
+                                    <Gallery images={sms} enableImageSelection={false} backdropClosesModal={true}/>
+
+                                    <div style={{float: "left", marginTop: "2%"}}>
+                                    </div>
                                 </div>
                                 <br/>
-                                <Gallery images={clouds} enableImageSelection={false} backdropClosesModal={true}/>
                             </div>
                         </div>
                     </div>

@@ -3,7 +3,7 @@ import Navigation from "../../Navigation";
 import {Link} from "react-router-dom";
 import Gallery from 'react-grid-gallery';
 
-export default class Day9 extends React.Component {
+export default class Break extends React.Component {
     render() {
         let style2 = {
             boxSizing: "border-box",
@@ -26,13 +26,14 @@ export default class Day9 extends React.Component {
             display: "block",
             fontSize: "1.5em",
             marginLeft: "0",
-            marginRight: "0"
+            marginRight: "0",
+            textAlign: "right"
         }
         
-        let music = [
+        let tdgbreak = [
             {
-                src: "https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/blog%2Fdailyui%2Fday9_music_player.png?alt=media&token=6d0b4ebf-b089-4c0b-8d80-a3e53ffe4698",
-                thumbnail: "https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/blog%2Fdailyui%2Fday9_music_player.png?alt=media&token=6d0b4ebf-b089-4c0b-8d80-a3e53ffe4698",
+                src: "https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/blog%2F2018.07.04.break%2Fbreak.png?alt=media&token=606ef938-a335-4533-bd1f-ef9202bf0de7",
+                thumbnail: "https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/blog%2F2018.07.04.break%2Fbreak.png?alt=media&token=606ef938-a335-4533-bd1f-ef9202bf0de7",
                 thumbnailWidth: 648,
                 thumbnailHeight: 432
             }
@@ -48,40 +49,34 @@ export default class Day9 extends React.Component {
                                 <h2 style={{marginBottom: "20px"}}>單純</h2>
                                 <h3>daan<sup>1</sup> seon<sup>4</sup></h3>
                                 <div>simply; purely; merely</div>
-                                <Link style={style2} 
-                                    to={{
-                                        pathname: "/blog",
-                                        state: {selected: 2}
-                                        }}>back</Link>
+                                <Link style={style2} to="/blog">back</Link>
                                 <div class="row justify-content-sm-end">
                                     <div class="col-4">
                                         <Link style={style3} 
                                             to={{
-                                                pathname: "/day8",
-                                                }}>day 8</Link>
+                                                pathname: "/demons",
+                                                }}>prev</Link>
                                     </div>
                                     <div class="col-4">
                                         <Link style={style3} 
                                             to={{
-                                                pathname: "/day10",
-                                                }}>day 10</Link>
+                                                pathname: "/clouds",
+                                                }}>next</Link>
                                     </div>
-                                </div>        
+                                </div> 
                             </div>
                             <div class="col-12 col-sm-9" style={{marginBottom: "40px"}}>
-                                <h2>2018.07.16</h2>
-                                <h2>｢ daily ui ｣ DAY 9 - MUSIC PLAYER</h2>
+                                <h2>2018.07.04</h2>
+                                <h2>｢ emotion ｣ THREE DAYS GRACE - BREAK</h2>
                                 <div>
                                 </div>
                                 <hr/>
-                                
-                                <div> 
-                                    <Gallery images={music} enableImageSelection={false} backdropClosesModal={true}/>
-
-                                    <div style={{float: "left", marginTop: "2%"}}>
-                                    </div>
+                                <div>This is one of the cases where the creation just takes itself. I did take the album cover as inspiration for the colors,
+                                    and the natural theme of this song is a sense of breaking away. Everything else was the product of "yes, and..." I would create
+                                    the design towards a certain idea, but then while I was creating, the design would become something else, and I went along with it.
                                 </div>
                                 <br/>
+                                <Gallery images={tdgbreak} enableImageSelection={false} backdropClosesModal={true}/>
                             </div>
                         </div>
                     </div>

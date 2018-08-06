@@ -8,22 +8,30 @@ export default class Photography extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            selected: true
+            selected: 0
         }
     }
 
-    current() {
-        if (!this.state.selected) {
+    t5i() {
+        if (this.state.selected != 0) {
             this.setState({
-                selected: true
+                selected: 0
             });
         }
     }
 
-    past() {
-        if (this.state.selected) {
+    g12() {
+        if (this.state.selected != 1) {
             this.setState({
-                selected: false
+                selected: 1
+            });
+        }
+    }
+
+    muses() {
+        if (this.state.selected != 2) {
+            this.setState({
+                selected: 2
             });
         }
     }
@@ -203,8 +211,64 @@ export default class Photography extends React.Component {
                 thumbnailWidth: 324,
                 thumbnailHeight: 216
             },
-        ]
+        ];
         
+        let muses = [
+            {
+                src: "https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/muses%2F27972499767_95b60d1c79_o.jpg?alt=media&token=d75dc222-6eba-4559-adc0-9dc9ff9517fe",
+                thumbnail: "https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/muses%2F27972499767_95b60d1c79_o.jpg?alt=media&token=d75dc222-6eba-4559-adc0-9dc9ff9517fe",
+                thumbnailWidth: 324,
+                thumbnailHeight: 216
+            },
+            {
+                src: "https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/muses%2F27972492787_7c29dbe2dc_o.jpg?alt=media&token=a35dda97-e513-4330-8b33-4dff36dc7110",
+                thumbnail: "https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/muses%2F27972492787_7c29dbe2dc_o.jpg?alt=media&token=a35dda97-e513-4330-8b33-4dff36dc7110",
+                thumbnailWidth: 324,
+                thumbnailHeight: 216
+            },
+            {
+                src: "https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/muses%2FIMG_9878%20v3.jpg?alt=media&token=93942f77-d5f7-417a-a03c-d96c75d263d6",
+                thumbnail: "https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/muses%2FIMG_9878%20v3.jpg?alt=media&token=93942f77-d5f7-417a-a03c-d96c75d263d6",
+                thumbnailWidth: 324,
+                thumbnailHeight: 216
+            },
+            {
+                src: "https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/muses%2FIMG_9877%20v3.jpg?alt=media&token=320ed89c-545f-4b77-a542-847bc5c9f4e6",
+                thumbnail: "https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/muses%2FIMG_9877%20v3.jpg?alt=media&token=320ed89c-545f-4b77-a542-847bc5c9f4e6",
+                thumbnailWidth: 324,
+                thumbnailHeight: 216
+            },
+            {
+                src: "https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/muses%2FIMG_9872%20v3.jpg?alt=media&token=1f5186b0-c3a7-42fb-aeeb-44a77a598e68",
+                thumbnail: "https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/muses%2FIMG_9872%20v3.jpg?alt=media&token=1f5186b0-c3a7-42fb-aeeb-44a77a598e68",
+                thumbnailWidth: 324,
+                thumbnailHeight: 216
+            },
+            {
+                src: "https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/muses%2FIMG_9870%20v3.jpg?alt=media&token=ad5865bb-c619-4ba2-a677-8fabf68a5d57",
+                thumbnail: "https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/muses%2FIMG_9870%20v3.jpg?alt=media&token=ad5865bb-c619-4ba2-a677-8fabf68a5d57",
+                thumbnailWidth: 324,
+                thumbnailHeight: 216
+            },
+            {
+                src: "https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/muses%2FIMG_9763%20v3.jpg?alt=media&token=ddaa6dd5-d509-405f-a4c4-9c5660d02b9c",
+                thumbnail: "https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/muses%2FIMG_9763%20v3.jpg?alt=media&token=ddaa6dd5-d509-405f-a4c4-9c5660d02b9c",
+                thumbnailWidth: 324,
+                thumbnailHeight: 216
+            },
+            {
+                src: "https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/muses%2FIMG_7609%20v2.jpg?alt=media&token=f9a74af9-2979-47ca-b6fa-63fc246c902b",
+                thumbnail: "https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/muses%2FIMG_7609%20v2.jpg?alt=media&token=f9a74af9-2979-47ca-b6fa-63fc246c902b",
+                thumbnailWidth: 324,
+                thumbnailHeight: 216
+            },
+            {
+                src: "https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/muses%2FIMG_7536%20v2.jpg?alt=media&token=f85f6051-f97d-455d-b9d9-b08bb5f87e33",
+                thumbnail: "https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/muses%2FIMG_7536%20v2.jpg?alt=media&token=f85f6051-f97d-455d-b9d9-b08bb5f87e33",
+                thumbnailWidth: 324,
+                thumbnailHeight: 216
+            }
+        ]
 
         return(
             <div>
@@ -214,17 +278,30 @@ export default class Photography extends React.Component {
                         <div class="row">
                             <div class="col-12 col-md-2 fix2">
                                 <h2 style={{marginBottom: "50px"}}>photography</h2>
-                                <h2 style={{color: this.state.selected ? "black" : "gray"}} onClick={() => this.current()}>canon t5i</h2>
-                                <h2 style={{color: this.state.selected ? "gray" : "black"}} onClick={() => this.past()}>canon g12</h2>
+                                <h2 style={{color: this.state.selected == 0 ? "black" : "gray"}} onClick={() => this.t5i()}>canon t5i</h2>
+                                <h2 style={{color: this.state.selected == 1 ? "black" : "gray"}} onClick={() => this.g12()}>canon g12</h2>
+                                <br/>
+                                <h2 style={{color: this.state.selected == 2 ? "black" : "gray"}} onClick={() => this.muses()}>muses</h2>
                             </div>
                             <div class="col-12 col-md-8">
-                                {this.state.selected ? 
+                                {this.state.selected == 0? 
                                     <Gallery images={t5i} enableImageSelection={false} backdropClosesModal={true}
                                     showLightboxThumbnails={true}/>
                                     :
+                                        <div></div>
+                                }
+                                {this.state.selected == 1 ? 
                                     <Gallery images={g12} enableImageSelection={false} backdropClosesModal={true}
-                                    showLightboxThumbnails/>
-                                    }
+                                    showLightboxThumbnails={true}/>
+                                    :
+                                        <div></div>
+                                }
+                                {this.state.selected == 2 ? 
+                                    <Gallery images={muses} enableImageSelection={false} backdropClosesModal={true}
+                                    showLightboxThumbnails={true}/>
+                                    :
+                                        <div></div>
+                                }
                             </div>
                         </div>
                     </div>
