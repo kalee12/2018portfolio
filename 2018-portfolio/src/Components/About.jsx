@@ -9,8 +9,8 @@ export default class About extends React.Component {
         return(
             <div>
                 <Navigation/>
-                <div class="hello" style={{textAlign: "center", width: "60%", margin: "auto"}}>
-                    <img src="https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/about%2FIMG_0218.jpg?alt=media&amp;token=01af5231-97a3-4061-8b1a-bac03da7895d"
+                <div class="hello" style={{textAlign: "center", width: "45%", margin: "auto"}}>
+                    <img src="https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/about%2F2018.jpg?alt=media&amp;token=f02b27d5-791e-49e3-bb82-d11e519d82a5"
                         alt="Karen Lee" class="about"/>
                     <hr/>
                     <br/>
@@ -26,7 +26,7 @@ export default class About extends React.Component {
                             </div>
 
                             <div class="col" style={{textAlign: "left"}}>
-                                <b>I am many things but all together I strive to create and build solutions.</b>
+                                <b>I am many things, but all together I strive to create and build solutions.</b>
                                 <br/>
                                 An aspiring Android developer, nature photographer, and bird lover. I design and code. I try to use all
                                 my Adobe tools. Sometimes I do event photography, and sometimes I end up hand-drawing animations.
