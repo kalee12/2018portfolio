@@ -1,7 +1,7 @@
 import React from "react";
 import Navigation from "../../Navigation";
 import {Link} from "react-router-dom";
-import Gallery from 'react-grid-gallery';
+import Gallery from 'react-photo-gallery';
 
 export default class Dirtyneon extends React.Component {
     render() {
@@ -32,10 +32,9 @@ export default class Dirtyneon extends React.Component {
         
         let dirtyneon = [
             {
-                src: "https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/blog%2F2018.05.31.dirtyneon%2Fdirtyneon.png?alt=media&token=1a234886-4092-4aed-8e31-a43b133a45bf",
-                thumbnail: "https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/blog%2F2018.05.31.dirtyneon%2Fdirtyneon.png?alt=media&token=1a234886-4092-4aed-8e31-a43b133a45bf",
-                thumbnailWidth: 648,
-                thumbnailHeight: 432
+                src: "https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/blog%2Femotion%2F3lau%2Fdirtyneon.png?alt=media&token=35ff1570-dfea-4ffd-995f-4a0c2f7f8ebe",
+                width: 1,
+                height: 2
             }
         ];    
 
@@ -77,7 +76,7 @@ export default class Dirtyneon extends React.Component {
                                     feel would give a dreamy type effect.
                                 </div>
                                 <br/>
-                                <Gallery images={dirtyneon} enableImageSelection={false} backdropClosesModal={true}/>
+                                <Gallery photos={dirtyneon}/>
                             </div>
                         </div>
                     </div>

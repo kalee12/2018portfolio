@@ -1,7 +1,7 @@
 import React from "react";
 import Navigation from "../../Navigation";
 import {Link} from "react-router-dom";
-import Gallery from 'react-grid-gallery';
+import Gallery from 'react-photo-gallery';
 
 export default class BlogActivity extends React.Component {
     render() {
@@ -32,28 +32,25 @@ export default class BlogActivity extends React.Component {
 
         let tracklist = [
             {
-                src: "https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/blog%2F2018.05.22.genesis%2Fgenesis_00.png?alt=media&token=66b099d9-4f9e-48be-8bfd-93ec04f82993",
-                thumbnail: "https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/blog%2F2018.05.22.genesis%2Fgenesis_00.png?alt=media&token=66b099d9-4f9e-48be-8bfd-93ec04f82993",
-                thumbnailWidth: 648,
-                thumbnailHeight: 432
+                src: "https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/blog%2Femotion%2Fjjlin%2Fgenesis%2Fgenesis_00.png?alt=media&token=df33d71e-2b34-4f54-b6f6-c18919aa45af",
+                width: 1,
+                height: 2
             }
         ];
 
         let flashback = [
             {
-                src: "https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/blog%2F2018.05.22.genesis%2Fgenesis_01.png?alt=media&token=d60a885c-484b-4e43-bd5f-968f4a6a4809",
-                thumbnail: "https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/blog%2F2018.05.22.genesis%2Fgenesis_01.png?alt=media&token=d60a885c-484b-4e43-bd5f-968f4a6a4809",
-                thumbnailWidth: 648,
-                thumbnailHeight: 432
+                src: "https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/blog%2Femotion%2Fjjlin%2Fgenesis%2Fgenesis_01.png?alt=media&token=b75aba92-4912-4550-bdbf-83441c727309",
+                width: 1,
+                height: 2
             }
         ];
 
         let brave = [
             {
-                src: "https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/blog%2F2018.05.22.genesis%2Fgenesis_02.png?alt=media&token=9072f3d2-0057-4564-8f63-02c85d6ce87c",
-                thumbnail: "https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/blog%2F2018.05.22.genesis%2Fgenesis_02.png?alt=media&token=9072f3d2-0057-4564-8f63-02c85d6ce87c",
-                thumbnailWidth: 648,
-                thumbnailHeight: 432
+                src: "https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/blog%2Femotion%2Fjjlin%2Fgenesis%2Fgenesis_02.png?alt=media&token=fee3ba86-47ae-4b2c-aa56-dd21df2f4b1b",
+                width: 1,
+                height: 2
             }
         ];        
 
@@ -90,24 +87,24 @@ export default class BlogActivity extends React.Component {
                                     really enjoy. JJ is versatile and very skilled, from his vocals, melodies, lyrics, and him playing instruments. I've come to respect
                                     his drive in the way that he is experimental yet authentic most of all. It felt suiting to start this series with an album of his.</div>
                                 <br/>
-                                <div style={{marginTop: "20px", overflow: "auto"}}>
+                                <div style={{marginTop: "20px"}}>
                                     <div>Tracklist</div>
-                                    <Gallery images={tracklist} enableImageSelection={false} backdropClosesModal={true}/>
+                                    <Gallery photos={tracklist}/>
                                 </div>
                                 <div style={{marginTop: "20px"}}>I anticipate the tracklist design will change as I go through these tracks. I'm not yet satisfied with this one.</div>
                                 <hr/>
-                                <div style={{marginTop: "20px", overflow: "auto"}}>
+                                <div style={{marginTop: "20px"}}>
                                     <div>1. 迴 Flashback</div>
-                                    <Gallery images={flashback} enableImageSelection={false} backdropClosesModal={true}/>
+                                    <Gallery photos={flashback}/>
                                 </div>
                                 <div style={{marginTop: "20px"}}>This one was interesting because there are no lyrics.
                                     Listening to it, there are a lot of little things I wanted to draw as inspiration. Softness, a quiet sense of calm, hope,
                                     and a bit of sadness and darkness. I really like how this one turned out.
                                 </div>
                                 <hr/>
-                                <div style={{marginTop: "20px", overflow: "auto"}}>
+                                <div style={{marginTop: "20px"}}>
                                     <div>2. 新地球 Brave New World</div>
-                                    <Gallery images={brave} enableImageSelection={false} backdropClosesModal={true}/>
+                                    <Gallery photos={brave}/>
                                 </div>
                                 <div style={{marginTop: "20px"}}>There's something a bit painful about this song. It's not an outright kind of pain. It's dull and because it sits,
                                     it eats away at you, not letting you fully get it out. It feels like agony.                                    

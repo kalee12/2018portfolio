@@ -1,7 +1,7 @@
 import React from "react";
 import Navigation from "../../Navigation";
 import {Link} from "react-router-dom";
-import Gallery from 'react-grid-gallery';
+import Gallery from 'react-photo-gallery';
 
 export default class Day3 extends React.Component {
     render() {
@@ -33,9 +33,8 @@ export default class Day3 extends React.Component {
         let landing = [
             {
                 src: "https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/blog%2Fdailyui%2Fday3_landing_page.jpg?alt=media&token=47165e7a-0703-40ec-bd46-9c8fca225ce2",
-                thumbnail: "https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/blog%2Fdailyui%2Fday3_landing_page.jpg?alt=media&token=47165e7a-0703-40ec-bd46-9c8fca225ce2",
-                thumbnailWidth: 648,
-                thumbnailHeight: 432
+                width: 1,
+                height: 2
             }
         ];    
 
@@ -69,7 +68,7 @@ export default class Day3 extends React.Component {
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-12 col-sm-9" style={{marginBottom: "40px"}}>
+                            <div class="col-12 col-sm-8" style={{marginBottom: "40px"}}>
                                 <h2>2018.07.06</h2>
                                 <h2>｢ daily ui ｣ DAY 3 - LANDING PAGE</h2>
                                 <div>
@@ -77,7 +76,7 @@ export default class Day3 extends React.Component {
                                 <hr/>
                                 
                                 <div> 
-                                    <Gallery images={landing} enableImageSelection={false} backdropClosesModal={true}/>
+                                    <Gallery photos={landing}/>
                                     <div style={{float: "left", marginTop: "2%"}}>With the recent Strawberry Moon, I've been thinking about a site 
                                     all about night photography and upcoming major night events to get those nice shots.
                                     </div>

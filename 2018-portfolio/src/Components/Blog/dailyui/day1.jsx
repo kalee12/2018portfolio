@@ -1,7 +1,7 @@
 import React from "react";
 import Navigation from "../../Navigation";
 import {Link} from "react-router-dom";
-import Gallery from 'react-grid-gallery';
+import Gallery from 'react-photo-gallery';
 
 export default class Day1 extends React.Component {
     render() {
@@ -33,9 +33,8 @@ export default class Day1 extends React.Component {
         let signup = [
             {
                 src: "https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/blog%2Fdailyui%2Fday1_sign_up.jpg?alt=media&token=25be41e9-d963-4f52-848c-98d66c96b178",
-                thumbnail: "https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/blog%2Fdailyui%2Fday1_sign_up.jpg?alt=media&token=25be41e9-d963-4f52-848c-98d66c96b178",
-                thumbnailWidth: 648,
-                thumbnailHeight: 432
+                width: 1,
+                height: 2
             }
         ];    
 
@@ -67,7 +66,7 @@ export default class Day1 extends React.Component {
                                         </div>
                                 </div>       
                             </div>
-                            <div class="col-12 col-sm-9" style={{marginBottom: "40px"}}>
+                            <div class="col-12 col-sm-8" style={{marginBottom: "40px"}}>
                                 <h2>2018.07.03</h2>
                                 <h2>｢ daily ui ｣ DAY 1 - SIGN UP</h2>
                                 <div>"Luscinia" is the genus consisting of nightingales. 
@@ -82,7 +81,9 @@ export default class Day1 extends React.Component {
                                         <li>As a lost person, I want to see what others are up to.</li>
                                         <li>As a competitive person, I want to track my progress and achieve milestones.</li>
                                     </ul>
-                                    <Gallery images={signup} enableImageSelection={false} backdropClosesModal={true}/>
+                                    <div>
+                                        <Gallery photos={signup}/>
+                                    </div>
                                     <div style={{float: "left", marginTop: "2%"}}>This may be a daily tasks / goal tracker with a social component. I wouldn't require actual names
                                     because I want people to be open about their goals. Being able to write out a goal and
                                     possibly having other people see it creates the idea of accountability. The social aspects would

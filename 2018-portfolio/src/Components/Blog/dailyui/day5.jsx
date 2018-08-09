@@ -1,7 +1,7 @@
 import React from "react";
 import Navigation from "../../Navigation";
 import {Link} from "react-router-dom";
-import Gallery from 'react-grid-gallery';
+import Gallery from 'react-photo-gallery';
 
 export default class Day5 extends React.Component {
     render() {
@@ -32,9 +32,8 @@ export default class Day5 extends React.Component {
         let appicon = [
             {
                 src: "https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/blog%2Fdailyui%2Fday5_app_icon.png?alt=media&token=bbe75299-6539-4ecb-9331-e98dcb5b5d58",
-                thumbnail: "https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/blog%2Fdailyui%2Fday5_app_icon.png?alt=media&token=bbe75299-6539-4ecb-9331-e98dcb5b5d58",
-                thumbnailWidth: 648,
-                thumbnailHeight: 432
+                width: 1,
+                height: 2
             }
         ];    
 
@@ -68,7 +67,7 @@ export default class Day5 extends React.Component {
                                     </div>
                                 </div>        
                             </div>
-                            <div class="col-12 col-sm-9" style={{marginBottom: "40px"}}>
+                            <div class="col-12 col-sm-8" style={{marginBottom: "40px"}}>
                                 <h2>2018.07.09</h2>
                                 <h2>｢ daily ui ｣ DAY 5 - APP ICON</h2>
                                 <div><Link style={{}} 
@@ -79,7 +78,7 @@ export default class Day5 extends React.Component {
                                 <hr/>
                                 
                                 <div> 
-                                    <Gallery images={appicon} enableImageSelection={false} backdropClosesModal={true}/>
+                                    <Gallery photos={appicon}/>
 
                                     <div style={{float: "left", marginTop: "2%"}}>I thought this one would be harder for me because of needing to create a logo, but it was
                                     really fun to experiment with Illustrator. I even found out that you can drag Illustrator files directly into InDesign. Mind blown.

@@ -52,7 +52,7 @@ export default class MainActivity extends React.Component {
                 <div class="d-flex justify-content-center" style={fix}>
                     <div class="padding align-self-center">
                         <div class="logo">
-                            <h1 id="name" style={{fontSize: "60px", fontFamily: "rift"}}>
+                            <h1 id="name" style={{fontSize: "100px", fontFamily: "rift"}}>
                                 <span style={{color: this.state.color}} class="color">K</span>
                                 <span style={{color: this.state.color2}} class="color">a</span>
                                 <span style={{color: this.state.color}} class="color">r</span>

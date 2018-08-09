@@ -1,7 +1,7 @@
 import React from "react";
 import Navigation from "../../Navigation";
 import {Link} from "react-router-dom";
-import Gallery from 'react-grid-gallery';
+import Gallery from 'react-photo-gallery';
 
 export default class Day7 extends React.Component {
     render() {
@@ -32,9 +32,8 @@ export default class Day7 extends React.Component {
         let settings = [
             {
                 src: "https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/blog%2Fdailyui%2Fday7_settings.png?alt=media&token=c0f6c44c-40b5-4b4b-92be-0de5c796c39e",
-                thumbnail: "https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/blog%2Fdailyui%2Fday7_settings.png?alt=media&token=c0f6c44c-40b5-4b4b-92be-0de5c796c39e",
-                thumbnailWidth: 648,
-                thumbnailHeight: 432
+                width: 1,
+                height: 2
             }
         ];    
 
@@ -68,7 +67,7 @@ export default class Day7 extends React.Component {
                                     </div>
                                 </div>        
                             </div>
-                            <div class="col-12 col-sm-9" style={{marginBottom: "40px"}}>
+                            <div class="col-12 col-sm-8" style={{marginBottom: "40px"}}>
                                 <h2>2018.07.12</h2>
                                 <h2>｢ daily ui ｣ DAY 7 - SETTINGS</h2>
                                 <div>
@@ -76,7 +75,7 @@ export default class Day7 extends React.Component {
                                 <hr/>
                                 
                                 <div> 
-                                    <Gallery images={settings} enableImageSelection={false} backdropClosesModal={true}/>
+                                    <Gallery photos={settings}/>
 
                                     <div style={{float: "left", marginTop: "2%"}}>
                                     This would be an interface for a DSLR camera. I never really liked how cluttered their

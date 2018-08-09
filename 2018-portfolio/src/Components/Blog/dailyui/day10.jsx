@@ -1,7 +1,7 @@
 import React from "react";
 import Navigation from "../../Navigation";
 import {Link} from "react-router-dom";
-import Gallery from 'react-grid-gallery';
+import Gallery from 'react-photo-gallery';
 
 export default class Day10 extends React.Component {
     render() {
@@ -32,9 +32,8 @@ export default class Day10 extends React.Component {
         let share = [
             {
                 src: "https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/blog%2Fdailyui%2Fday10_social_share.png?alt=media&token=1f05d280-4725-438e-a957-cd9b86964e2c",
-                thumbnail: "https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/blog%2Fdailyui%2Fday10_social_share.png?alt=media&token=1f05d280-4725-438e-a957-cd9b86964e2c",
-                thumbnailWidth: 648,
-                thumbnailHeight: 432
+                width: 1,
+                height: 2
             }
         ];    
 
@@ -68,7 +67,7 @@ export default class Day10 extends React.Component {
                                     </div>
                                 </div>        
                             </div>
-                            <div class="col-12 col-sm-9" style={{marginBottom: "40px"}}>
+                            <div class="col-12 col-sm-8" style={{marginBottom: "40px"}}>
                                 <h2>2018.07.22</h2>
                                 <h2>｢ daily ui ｣ DAY 10 - SOCIAL SHARE</h2>
                                 <div>
@@ -76,7 +75,7 @@ export default class Day10 extends React.Component {
                                 <hr/>
                                 
                                 <div> 
-                                    <Gallery images={share} enableImageSelection={false} backdropClosesModal={true}/>
+                                    <Gallery photos={share}/>
 
                                     <div style={{float: "left", marginTop: "2%"}}>
                                     </div>

@@ -36,6 +36,7 @@ import Day13 from "./Components/Blog/dailyui/day13";
 import Day14 from "./Components/Blog/dailyui/day14";
 import Day15 from "./Components/Blog/dailyui/day15";
 import Day16 from "./Components/Blog/dailyui/day16";
+import Lotus from "./Components/Blog/logo/lotus";
 
 
 class App extends Component {
@@ -76,6 +77,7 @@ class App extends Component {
             <Route path={constants.routes.day14} component={Day14}/>
             <Route path={constants.routes.day15} component={Day15}/>
             <Route path={constants.routes.day16} component={Day16}/>
+            <Route path={constants.routes.lotus} component={Lotus}/>
           </Switch>
         </Router>
       </div>

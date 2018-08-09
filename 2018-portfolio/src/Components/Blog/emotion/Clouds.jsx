@@ -1,7 +1,7 @@
 import React from "react";
 import Navigation from "../../Navigation";
 import {Link} from "react-router-dom";
-import Gallery from 'react-grid-gallery';
+import Gallery from 'react-photo-gallery';
 
 export default class Clouds extends React.Component {
     render() {
@@ -32,10 +32,9 @@ export default class Clouds extends React.Component {
         
         let clouds = [
             {
-                src: "https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/blog%2F2018.07.15%2Fclouds.png?alt=media&token=dfb47117-a8cc-49e5-8924-4dc5df48b74e",
-                thumbnail: "https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/blog%2F2018.07.15%2Fclouds.png?alt=media&token=dfb47117-a8cc-49e5-8924-4dc5df48b74e",
-                thumbnailWidth: 648,
-                thumbnailHeight: 432
+                src: "https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/blog%2Femotion%2Fnewpolitics%2Fclouds.png?alt=media&token=a7072759-30e7-4bcb-89d0-b717c0283f53",
+                width: 1,
+                height: 2
             }
         ];    
 
@@ -72,7 +71,7 @@ export default class Clouds extends React.Component {
                                     water reflections, galaxies, and lotus flowers disguised as a cloud.
                                 </div>
                                 <br/>
-                                <Gallery images={clouds} enableImageSelection={false} backdropClosesModal={true}/>
+                                <Gallery photos={clouds}/>
                             </div>
                         </div>
                     </div>

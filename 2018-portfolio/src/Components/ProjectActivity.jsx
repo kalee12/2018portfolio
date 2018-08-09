@@ -10,7 +10,6 @@ export default class Projects extends React.Component {
     render() {
         let style = {
             height: "100%",
-            position: "absolute",
             margin: "auto",
             top: "0",
             right: "0",

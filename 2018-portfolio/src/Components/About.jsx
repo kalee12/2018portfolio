@@ -17,12 +17,12 @@ export default class About extends React.Component {
                     <div>
                         <div class="row">
                             <div class="col" style={{textAlign: "left"}}>
-                                <b>I love to seeing different perspectives come together.</b>
+                                <b>I love seeing different perspectives come together.</b>
                                 <br/>
-                                I am studying Philosophy and Informatics at the University of Washington.
-                                As technology is increasingly a dominant aspect in life, I find value
-                                in the humanities to better equip us with reasoning, guidance, and insight
-                                to create effective solutions that would last.
+                                I study Philosophy and Informatics at the University of Washington.
+                                As technology is becoming increasingly dominant in life, I find value
+                                in the humanities to better equip us with a foundation to understand people
+                                and create solutions that last.
                             </div>
 
                             <div class="col" style={{textAlign: "left"}}>

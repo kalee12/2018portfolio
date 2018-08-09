@@ -1,7 +1,7 @@
 import React from "react";
 import Navigation from "../../Navigation";
 import {Link} from "react-router-dom";
-import Gallery from 'react-grid-gallery';
+import Gallery from 'react-photo-gallery';
 
 export default class Colorgreen extends React.Component {
     render() {
@@ -32,10 +32,9 @@ export default class Colorgreen extends React.Component {
         
         let color = [
             {
-                src: "https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/blog%2F2018.06.02.colorgreen%2Fcolorgreen.png?alt=media&token=d284f4e2-149e-4b93-a9ff-3d5ed1c33d1d",
-                thumbnail: "https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/blog%2F2018.06.02.colorgreen%2Fcolorgreen.png?alt=media&token=d284f4e2-149e-4b93-a9ff-3d5ed1c33d1d",
-                thumbnailWidth: 648,
-                thumbnailHeight: 432
+                src: "https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/blog%2Femotion%2Fnewpolitics%2Fcolorgreen.png?alt=media&token=43164568-fd60-41e5-a4b6-13a035b12b6d",
+                width: 1,
+                height: 2
             }
         ];    
 
@@ -75,7 +74,7 @@ export default class Colorgreen extends React.Component {
                                     it's definitely harder than it looks.
                                 </div>
                                 <br/>
-                                <Gallery images={color} enableImageSelection={false} backdropClosesModal={true}/>
+                                <Gallery photos={color}/>
                             </div>
                         </div>
                     </div>

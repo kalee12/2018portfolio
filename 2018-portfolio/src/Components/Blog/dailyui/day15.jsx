@@ -1,7 +1,7 @@
 import React from "react";
 import Navigation from "../../Navigation";
 import {Link} from "react-router-dom";
-import Gallery from 'react-grid-gallery';
+import Gallery from 'react-photo-gallery';
 
 export default class Day15 extends React.Component {
     render() {
@@ -32,9 +32,8 @@ export default class Day15 extends React.Component {
         let onOff = [
             {
                 src: "https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/blog%2Fdailyui%2Fday15_on_off.png?alt=media&token=9bee807b-ef91-4520-acdb-78e06d50f5a0",
-                thumbnail: "https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/blog%2Fdailyui%2Fday15_on_off.png?alt=media&token=9bee807b-ef91-4520-acdb-78e06d50f5a0",
-                thumbnailWidth: 648,
-                thumbnailHeight: 432
+                width: 1,
+                height: 2
             }
         ];    
 
@@ -68,7 +67,7 @@ export default class Day15 extends React.Component {
                                     </div>
                                 </div>        
                             </div>
-                            <div class="col-12 col-sm-9" style={{marginBottom: "40px"}}>
+                            <div class="col-12 col-sm-8" style={{marginBottom: "40px"}}>
                                 <h2>2018.07.30</h2>
                                 <h2>｢ daily ui ｣ DAY 15 - ON / OFF SWITCH</h2>
                                 <div>
@@ -76,7 +75,7 @@ export default class Day15 extends React.Component {
                                 <hr/>
                                 
                                 <div> 
-                                    <Gallery images={onOff} enableImageSelection={false} backdropClosesModal={true}/>
+                                    <Gallery photos={onOff}/>
 
                                     <div style={{float: "left", marginTop: "2%"}}>
                                     </div>

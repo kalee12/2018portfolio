@@ -1,7 +1,7 @@
 import React from "react";
 import Navigation from "../../Navigation";
 import {Link} from "react-router-dom";
-import Gallery from 'react-grid-gallery';
+import Gallery from 'react-photo-gallery';
 
 export default class Angelwithashotgun extends React.Component {
     render() {
@@ -33,10 +33,9 @@ export default class Angelwithashotgun extends React.Component {
         
         let angel = [
             {
-                src: "https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/blog%2F2018.06.01.awas%2Fangelwithashotgun.png?alt=media&token=3e472fc8-91fc-45d1-b346-9474652c71ac",
-                thumbnail: "https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/blog%2F2018.06.01.awas%2Fangelwithashotgun.png?alt=media&token=3e472fc8-91fc-45d1-b346-9474652c71ac",
-                thumbnailWidth: 648,
-                thumbnailHeight: 432
+                src: "https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/blog%2Femotion%2Fthecab%2Fangelwithashotgun.png?alt=media&token=6fcb76c7-159b-4fb6-97b8-ca5874177763",
+                width: 1,
+                height: 2
             }
         ];    
 
@@ -76,7 +75,7 @@ export default class Angelwithashotgun extends React.Component {
                                     so now I have bit of an urge for flower designs. I also want to get better at utilizing white space.
                                 </div>
                                 <br/>
-                                <Gallery images={angel} enableImageSelection={false} backdropClosesModal={true}/>
+                                <Gallery photos={angel}/>
                             </div>
                         </div>
                     </div>

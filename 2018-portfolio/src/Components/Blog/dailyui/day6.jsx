@@ -1,7 +1,7 @@
 import React from "react";
 import Navigation from "../../Navigation";
 import {Link} from "react-router-dom";
-import Gallery from 'react-grid-gallery';
+import Gallery from 'react-photo-gallery';
 
 export default class Day6 extends React.Component {
     render() {
@@ -32,9 +32,8 @@ export default class Day6 extends React.Component {
         let user = [
             {
                 src: "https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/blog%2Fdailyui%2Fday6_user_profile.png?alt=media&token=91ae91df-ea78-4842-ada9-5fed6d59e349",
-                thumbnail: "https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/blog%2Fdailyui%2Fday6_user_profile.png?alt=media&token=91ae91df-ea78-4842-ada9-5fed6d59e349",
-                thumbnailWidth: 648,
-                thumbnailHeight: 432
+                width: 1,
+                height: 2
             }
         ];    
 
@@ -68,7 +67,7 @@ export default class Day6 extends React.Component {
                                     </div>
                                 </div>        
                             </div>
-                            <div class="col-12 col-sm-9" style={{marginBottom: "40px"}}>
+                            <div class="col-12 col-sm-8" style={{marginBottom: "40px"}}>
                                 <h2>2018.07.12</h2>
                                 <h2>｢ daily ui ｣ DAY 6 - USER PROFILE</h2>
                                 <div>
@@ -76,7 +75,7 @@ export default class Day6 extends React.Component {
                                 <hr/>
                                 
                                 <div> 
-                                    <Gallery images={user} enableImageSelection={false} backdropClosesModal={true}/>
+                                    <Gallery photos={user}/>
 
                                     <div style={{float: "left", marginTop: "2%"}}>The type of platform I was going for was a multi-media platform, such as Tumblr, 
                                     where you would have text posts, images, quotes, etc. That's why there is a lack of a grid view. It may be difficult

@@ -1,7 +1,7 @@
 import React from "react";
 import Navigation from "../../Navigation";
 import {Link} from "react-router-dom";
-import Gallery from 'react-grid-gallery';
+import Gallery from 'react-photo-gallery';
 
 export default class Day13 extends React.Component {
     render() {
@@ -32,9 +32,8 @@ export default class Day13 extends React.Component {
         let sms = [
             {
                 src: "https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/blog%2Fdailyui%2Fday13_direct_messaging.png?alt=media&token=bca1e056-2a71-43f9-81d6-bceae04cb307",
-                thumbnail: "https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/blog%2Fdailyui%2Fday13_direct_messaging.png?alt=media&token=bca1e056-2a71-43f9-81d6-bceae04cb307",
-                thumbnailWidth: 648,
-                thumbnailHeight: 432
+                width: 1,
+                height: 2
             }
         ];    
 
@@ -61,14 +60,14 @@ export default class Day13 extends React.Component {
                                                 }}>day 12</Link>
                                     </div>
                                     <div class="col-4">
-                                        {/* <Link style={style3} 
+                                        <Link style={style3} 
                                             to={{
-                                                pathname: "/day13",
-                                                }}>day 13</Link> */}
+                                                pathname: "/day14",
+                                                }}>day 14</Link>
                                     </div>
                                 </div>        
                             </div>
-                            <div class="col-12 col-sm-9" style={{marginBottom: "40px"}}>
+                            <div class="col-12 col-sm-8" style={{marginBottom: "40px"}}>
                                 <h2>2018.07.24</h2>
                                 <h2>｢ daily ui ｣ DAY 13 - DIRECT MESSAGING</h2>
                                 <div>
@@ -76,7 +75,7 @@ export default class Day13 extends React.Component {
                                 <hr/>
                                 
                                 <div> 
-                                    <Gallery images={sms} enableImageSelection={false} backdropClosesModal={true}/>
+                                    <Gallery photos={sms}/>
 
                                     <div style={{float: "left", marginTop: "2%"}}>
                                     </div>

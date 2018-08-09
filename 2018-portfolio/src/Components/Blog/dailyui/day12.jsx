@@ -1,7 +1,7 @@
 import React from "react";
 import Navigation from "../../Navigation";
 import {Link} from "react-router-dom";
-import Gallery from 'react-grid-gallery';
+import Gallery from 'react-photo-gallery';
 
 export default class Day12 extends React.Component {
     render() {
@@ -32,9 +32,8 @@ export default class Day12 extends React.Component {
         let item = [
             {
                 src: "https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/blog%2Fdailyui%2Fday12_e_commerce.png?alt=media&token=a360dbd4-b474-4a6d-b276-9239642f5c27",
-                thumbnail: "https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/blog%2Fdailyui%2Fday12_e_commerce.png?alt=media&token=a360dbd4-b474-4a6d-b276-9239642f5c27",
-                thumbnailWidth: 648,
-                thumbnailHeight: 432
+                width: 1,
+                height: 2
             }
         ];    
 
@@ -68,7 +67,7 @@ export default class Day12 extends React.Component {
                                     </div>
                                 </div>        
                             </div>
-                            <div class="col-12 col-sm-9" style={{marginBottom: "40px"}}>
+                            <div class="col-12 col-sm-8" style={{marginBottom: "40px"}}>
                                 <h2>2018.07.23</h2>
                                 <h2>｢ daily ui ｣ DAY 12 - E-COMMERCE</h2>
                                 <div>
@@ -76,7 +75,7 @@ export default class Day12 extends React.Component {
                                 <hr/>
                                 
                                 <div> 
-                                    <Gallery images={item} enableImageSelection={false} backdropClosesModal={true}/>
+                                    <Gallery photos={item}/>
 
                                     <div style={{float: "left", marginTop: "2%"}}>
                                     </div>

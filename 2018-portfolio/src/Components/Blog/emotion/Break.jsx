@@ -1,7 +1,7 @@
 import React from "react";
 import Navigation from "../../Navigation";
 import {Link} from "react-router-dom";
-import Gallery from 'react-grid-gallery';
+import Gallery from 'react-photo-gallery';
 
 export default class Break extends React.Component {
     render() {
@@ -32,10 +32,9 @@ export default class Break extends React.Component {
         
         let tdgbreak = [
             {
-                src: "https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/blog%2F2018.07.04.break%2Fbreak.png?alt=media&token=606ef938-a335-4533-bd1f-ef9202bf0de7",
-                thumbnail: "https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/blog%2F2018.07.04.break%2Fbreak.png?alt=media&token=606ef938-a335-4533-bd1f-ef9202bf0de7",
-                thumbnailWidth: 648,
-                thumbnailHeight: 432
+                src: "https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/blog%2Femotion%2Fthreedaysgrace%2Fbreak.png?alt=media&token=aea5c42e-8ec6-4d1b-a2d8-ea4d81876a41",
+                width: 1,
+                height: 2
             }
         ];    
 
@@ -76,7 +75,7 @@ export default class Break extends React.Component {
                                     the design towards a certain idea, but then while I was creating, the design would become something else, and I went along with it.
                                 </div>
                                 <br/>
-                                <Gallery images={tdgbreak} enableImageSelection={false} backdropClosesModal={true}/>
+                                <Gallery photos={tdgbreak}/>
                             </div>
                         </div>
                     </div>

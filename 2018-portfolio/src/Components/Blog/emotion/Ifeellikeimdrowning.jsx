@@ -1,7 +1,7 @@
 import React from "react";
 import Navigation from "../../Navigation";
 import {Link} from "react-router-dom";
-import Gallery from 'react-grid-gallery';
+import Gallery from 'react-photo-gallery';
 
 export default class Ifeellikeimdrowning extends React.Component {
     render() {
@@ -32,10 +32,9 @@ export default class Ifeellikeimdrowning extends React.Component {
         
         let iflid = [
             {
-                src: "https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/blog%2F2018.05.31.iflid%2Fifeellikeimdrowning.png?alt=media&token=6a1addf5-e1dd-4ae7-a1d7-98585fef28af",
-                thumbnail: "https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/blog%2F2018.05.31.iflid%2Fifeellikeimdrowning.png?alt=media&token=6a1addf5-e1dd-4ae7-a1d7-98585fef28af",
-                thumbnailWidth: 648,
-                thumbnailHeight: 432
+                src: "https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/blog%2Femotion%2Ftwofeet%2Fifeellikeimdrowning.png?alt=media&token=3f883c62-64c4-4cfc-8720-0142c21a5e06",
+                width: 1,
+                height: 2
             }
         ];    
 
@@ -77,7 +76,7 @@ export default class Ifeellikeimdrowning extends React.Component {
                                     sometimes you might need that pull down to bring you over the edge and take action. 
                                 </div>
                                 <br/>
-                                <Gallery images={iflid} enableImageSelection={false} backdropClosesModal={true}/>
+                                <Gallery photos={iflid}/>
                             </div>
                         </div>
                     </div>

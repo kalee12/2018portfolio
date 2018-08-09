@@ -1,7 +1,7 @@
 import React from "react";
 import Navigation from "../../Navigation";
 import {Link} from "react-router-dom";
-import Gallery from 'react-grid-gallery';
+import Gallery from 'react-photo-gallery';
 
 export default class Day8 extends React.Component {
     render() {
@@ -32,9 +32,8 @@ export default class Day8 extends React.Component {
         let error = [
             {
                 src: "https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/blog%2Fdailyui%2Fday8_404_page.png?alt=media&token=c8089794-b723-4ef0-bc27-877ea4be307c",
-                thumbnail: "https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/blog%2Fdailyui%2Fday8_404_page.png?alt=media&token=c8089794-b723-4ef0-bc27-877ea4be307c",
-                thumbnailWidth: 648,
-                thumbnailHeight: 432
+                width: 1,
+                height: 2
             }
         ];    
 
@@ -68,7 +67,7 @@ export default class Day8 extends React.Component {
                                     </div>
                                 </div>        
                             </div>
-                            <div class="col-12 col-sm-9" style={{marginBottom: "40px"}}>
+                            <div class="col-12 col-sm-8" style={{marginBottom: "40px"}}>
                                 <h2>2018.07.15</h2>
                                 <h2>｢ daily ui ｣ DAY 8 - 404 PAGE</h2>
                                 <div>
@@ -76,7 +75,7 @@ export default class Day8 extends React.Component {
                                 <hr/>
                                 
                                 <div> 
-                                    <Gallery images={error} enableImageSelection={false} backdropClosesModal={true}/>
+                                    <Gallery photos={error}/>
 
                                     <div style={{float: "left", marginTop: "2%"}}>
                                     </div>

@@ -1,7 +1,7 @@
 import React from "react";
 import Navigation from "../../Navigation";
 import {Link} from "react-router-dom";
-import Gallery from 'react-grid-gallery';
+import Gallery from 'react-photo-gallery';
 
 export default class Day14 extends React.Component {
     render() {
@@ -32,9 +32,8 @@ export default class Day14 extends React.Component {
         let countdown = [
             {
                 src: "https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/blog%2Fdailyui%2Fday14_countdown_timer.png?alt=media&token=c29a0759-25ab-4222-9fba-3966274f3f2f",
-                thumbnail: "https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/blog%2Fdailyui%2Fday14_countdown_timer.png?alt=media&token=c29a0759-25ab-4222-9fba-3966274f3f2f",
-                thumbnailWidth: 648,
-                thumbnailHeight: 432
+                width: 1,
+                height: 2
             }
         ];    
 
@@ -68,7 +67,7 @@ export default class Day14 extends React.Component {
                                     </div>
                                 </div>        
                             </div>
-                            <div class="col-12 col-sm-9" style={{marginBottom: "40px"}}>
+                            <div class="col-12 col-sm-8" style={{marginBottom: "40px"}}>
                                 <h2>2018.07.25</h2>
                                 <h2>｢ daily ui ｣ DAY 14 - COUNTDOWN TIMER</h2>
                                 <div>
@@ -76,7 +75,7 @@ export default class Day14 extends React.Component {
                                 <hr/>
                                 
                                 <div> 
-                                    <Gallery images={countdown} enableImageSelection={false} backdropClosesModal={true}/>
+                                    <Gallery photos={countdown}/>
 
                                     <div style={{float: "left", marginTop: "2%"}}>
                                     </div>

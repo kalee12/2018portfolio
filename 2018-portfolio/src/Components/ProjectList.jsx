@@ -56,7 +56,7 @@ export default class ProjectList extends React.Component {
         }
 
         return(
-            <div class="row" style={{paddingLeft: "50px", border: "1px solid rgba(0, 0, 0, .3)"}}>
+            <div class="row" style={{paddingLeft: "10px"}}>
                 {this.props.type === "current" ?
                     <div class="row">
                         {projects}
