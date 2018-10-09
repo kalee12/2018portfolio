@@ -34,7 +34,7 @@ export default class Backbone extends React.Component {
         let backbone = [
             {
                 src: "https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/blog%2Femotion%2Fdaughtry%2Fbackbone.png?alt=media&token=7df9a185-7347-49bd-9276-bab8603af7c5",
-                width: 1,
+                width: 3,
                 height: 2
             }
         ];    
@@ -77,7 +77,7 @@ export default class Backbone extends React.Component {
                                     creativity. There's a little magic in having the end product go nowhere towards the initial reaction I had to go with.
                                 </div>
                                 <br/>
-                                <Gallery photos={backbone}/>
+                                <Gallery photos={backbone} direction={"column"} columns={1}/>
                             </div>
                         </div>
                     </div>

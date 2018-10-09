@@ -33,7 +33,7 @@ export default class Demons extends React.Component {
         let demons = [
             {
                 src: "https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/blog%2Femotion%2Fjoji%2Fdemons.jpg?alt=media&token=d2d34ea2-4f6d-4d09-b76e-31b833ae8732",
-                width: 1,
+                width: 3,
                 height: 2
             }
         ];    
@@ -73,7 +73,7 @@ export default class Demons extends React.Component {
                                 <div>No particular image appeared in my head. Listening to how joji's voice would waver in and out, this song felt more text based.
                                 </div>
                                 <br/>
-                                <Gallery photos={demons}/>
+                                <Gallery photos={demons}  direction={"column"} columns={1}/>
                             </div>
                         </div>
                     </div>

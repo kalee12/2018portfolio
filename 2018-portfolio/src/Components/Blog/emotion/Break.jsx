@@ -33,7 +33,7 @@ export default class Break extends React.Component {
         let tdgbreak = [
             {
                 src: "https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/blog%2Femotion%2Fthreedaysgrace%2Fbreak.png?alt=media&token=aea5c42e-8ec6-4d1b-a2d8-ea4d81876a41",
-                width: 1,
+                width: 3,
                 height: 2
             }
         ];    
@@ -75,7 +75,7 @@ export default class Break extends React.Component {
                                     the design towards a certain idea, but then while I was creating, the design would become something else, and I went along with it.
                                 </div>
                                 <br/>
-                                <Gallery photos={tdgbreak}/>
+                                <Gallery photos={tdgbreak} direction={"column"} columns={1}/>
                             </div>
                         </div>
                     </div>

@@ -32,7 +32,7 @@ export default class Day16 extends React.Component {
         let pop = [
             {
                 src: "https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/blog%2Fdailyui%2Fday16_pop_up_overlay.png?alt=media&token=59dbc00c-b992-4a0a-808a-a4a2d4d63ba0",
-                width: 1,
+                width: 3,
                 height: 2
             }
         ];    
@@ -75,7 +75,7 @@ export default class Day16 extends React.Component {
                                 <hr/>
                                 
                                 <div> 
-                                    <Gallery photos={pop}/>
+                                    <Gallery photos={pop} direction={"column"} columns={1}/>
 
                                     <div style={{float: "left", marginTop: "2%"}}>
                                     </div>

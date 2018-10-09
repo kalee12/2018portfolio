@@ -32,7 +32,7 @@ export default class Day14 extends React.Component {
         let countdown = [
             {
                 src: "https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/blog%2Fdailyui%2Fday14_countdown_timer.png?alt=media&token=c29a0759-25ab-4222-9fba-3966274f3f2f",
-                width: 1,
+                width: 3,
                 height: 2
             }
         ];    
@@ -75,7 +75,7 @@ export default class Day14 extends React.Component {
                                 <hr/>
                                 
                                 <div> 
-                                    <Gallery photos={countdown}/>
+                                    <Gallery photos={countdown} direction={"column"} columns={1}/>
 
                                     <div style={{float: "left", marginTop: "2%"}}>
                                     </div>

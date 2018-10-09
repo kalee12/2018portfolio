@@ -4,7 +4,7 @@ import {Link} from "react-router-dom";
 import Gallery from 'react-photo-gallery';
 import Lightbox from 'react-images';
 
-export default class Lotus extends React.Component {
+export default class Sun extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
@@ -67,33 +67,48 @@ export default class Lotus extends React.Component {
         
         let images = [
             {
-                src: "https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/blog%2Flogo%2Flotus%2Flotus-01.png?alt=media&token=5c17938c-3eba-49c0-ad6c-767764fc2f45",
+                src: "https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/blog%2Flogo%2Fsun%2Faevus_loading-01.png?alt=media&token=38be260b-ef67-4848-802b-ae24f9c66616",
                 width: 3,
                 height: 1
             },
             {
-                src: "https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/blog%2Flogo%2Flotus%2Flotus_Artboard%202.png?alt=media&token=e243a913-4584-468f-a609-afeb05b91973",
+                src: "https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/blog%2Flogo%2Fsun%2Faevus_loading-02.png?alt=media&token=6cf8c295-2260-44c7-a6ca-89b71027702e",
                 width: 3,
                 height: 1
             },
             {
-                src: "https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/blog%2Flogo%2Flotus%2Flotus_Artboard%203.png?alt=media&token=6258ba85-cf87-46c5-9e18-095694052133",
+                src: "https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/blog%2Flogo%2Fsun%2Faevus_loading-03.png?alt=media&token=c6a90252-0718-4916-a2ee-858f64cf4e76",
                 width: 3,
                 height: 1
             },
             {
-                src: "https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/blog%2Flogo%2Flotus%2Flotus_Artboard%204.png?alt=media&token=14e3f7a4-8940-429a-9ebb-ddb31fc6c9b7",
+                src: "https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/blog%2Flogo%2Fsun%2Faevus_loading-04.png?alt=media&token=f1528bd6-36cb-4e6c-956c-a9208e525dae",
                 width: 3,
                 height: 1
             },
             {
-                src: "https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/blog%2Flogo%2Flotus%2Flotus_Artboard%205.png?alt=media&token=3b0da1c8-b399-41d2-8f8e-eefd93bef015",
+                src: "https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/blog%2Flogo%2Fsun%2Faevus_loading-05.png?alt=media&token=551ab849-507f-4748-9348-beba399ca5ba",
                 width: 3,
                 height: 1
             },
             {
-                src: "https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/blog%2Flogo%2Flotus%2Flotus_Artboard%206.png?alt=media&token=58db3b02-235d-41ed-be51-42b1b0e0bffd",
+                src: "https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/blog%2Flogo%2Fsun%2Faevus_loading-06.png?alt=media&token=b322d00b-24c8-4506-ae2f-ad7da711dde8",
                 width: 3,
+                height: 1
+            },
+            {
+                src: "https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/blog%2Flogo%2Fsun%2Faevus_loading-07.png?alt=media&token=a9462e90-cc89-41f5-bb52-734909312663",
+                width: 3,
+                height: 1
+            },
+            {
+                src: "https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/blog%2Flogo%2Fsun%2Faevus_loading-08.png?alt=media&token=bd53a926-2c9c-4fe4-91a0-66d74b9668df",
+                width: 3,
+                height: 1
+            },
+            {
+                src: "https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/blog%2Flogo%2Fsun%2Floading.gif?alt=media&token=4b4c1c08-69a4-4870-b6c1-220efd1fbdda",
+                width: 1,
                 height: 1
             }
         ];    
@@ -117,24 +132,21 @@ export default class Lotus extends React.Component {
                                     <div class="col-4">
                                         <Link style={style3} 
                                             to={{
-                                                pathname: "/sunmoon",
+                                                pathname: "/lotus",
                                                 }}>prev</Link>
                                     </div>
                                     <div class="col-4">
                                         <Link style={style3} 
                                             to={{
-                                                pathname: "/sun",
+                                                pathname: "/cloud",
                                                 }}>next</Link>
                                     </div>
                                 </div> 
                             </div>
                             <div class="col-12 col-sm-8" style={{marginBottom: "40px"}}>
-                                <h2>2018.08.05</h2>
-                                <h2>｢ logo ｣ LOTUS</h2>
-                                <div><Link style={{}} 
-                                            to={{
-                                                pathname: "/clouds",
-                                                }}>Based on the design I did for ｢ emotion ｣ new politics - clouds</Link>
+                                <h2>2018.08.14</h2>
+                                <h2>｢ logo ｣ SUN</h2>
+                                <div>Asset progress for my project - aevus.
                                 </div>
                                 <hr/>
                                 <div class="col-11"> 

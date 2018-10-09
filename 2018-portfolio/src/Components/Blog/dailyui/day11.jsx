@@ -32,7 +32,7 @@ export default class Day11 extends React.Component {
         let flash = [
             {
                 src: "https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/blog%2Fdailyui%2Fday11_flash_message.png?alt=media&token=93945f5f-0f51-47c1-ad65-f02fb8ffbaa9",
-                width: 1,
+                width: 3,
                 height: 2
             }
         ];    
@@ -75,7 +75,7 @@ export default class Day11 extends React.Component {
                                 <hr/>
                                 
                                 <div> 
-                                    <Gallery photos={flash}/>
+                                    <Gallery photos={flash} direction={"column"} columns={1}/>
 
                                     <div style={{float: "left", marginTop: "2%"}}>
                                     </div>

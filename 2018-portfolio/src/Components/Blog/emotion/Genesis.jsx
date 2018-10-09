@@ -33,7 +33,7 @@ export default class BlogActivity extends React.Component {
         let tracklist = [
             {
                 src: "https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/blog%2Femotion%2Fjjlin%2Fgenesis%2Fgenesis_00.png?alt=media&token=df33d71e-2b34-4f54-b6f6-c18919aa45af",
-                width: 1,
+                width: 3,
                 height: 2
             }
         ];
@@ -41,7 +41,7 @@ export default class BlogActivity extends React.Component {
         let flashback = [
             {
                 src: "https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/blog%2Femotion%2Fjjlin%2Fgenesis%2Fgenesis_01.png?alt=media&token=b75aba92-4912-4550-bdbf-83441c727309",
-                width: 1,
+                width: 3,
                 height: 2
             }
         ];
@@ -49,7 +49,7 @@ export default class BlogActivity extends React.Component {
         let brave = [
             {
                 src: "https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/blog%2Femotion%2Fjjlin%2Fgenesis%2Fgenesis_02.png?alt=media&token=fee3ba86-47ae-4b2c-aa56-dd21df2f4b1b",
-                width: 1,
+                width: 3,
                 height: 2
             }
         ];        
@@ -89,13 +89,13 @@ export default class BlogActivity extends React.Component {
                                 <br/>
                                 <div style={{marginTop: "20px"}}>
                                     <div>Tracklist</div>
-                                    <Gallery photos={tracklist}/>
+                                    <Gallery photos={tracklist} direction={"column"} columns={1}/>
                                 </div>
                                 <div style={{marginTop: "20px"}}>I anticipate the tracklist design will change as I go through these tracks. I'm not yet satisfied with this one.</div>
                                 <hr/>
                                 <div style={{marginTop: "20px"}}>
                                     <div>1. 迴 Flashback</div>
-                                    <Gallery photos={flashback}/>
+                                    <Gallery photos={flashback} direction={"column"} columns={1}/>
                                 </div>
                                 <div style={{marginTop: "20px"}}>This one was interesting because there are no lyrics.
                                     Listening to it, there are a lot of little things I wanted to draw as inspiration. Softness, a quiet sense of calm, hope,
@@ -104,7 +104,7 @@ export default class BlogActivity extends React.Component {
                                 <hr/>
                                 <div style={{marginTop: "20px"}}>
                                     <div>2. 新地球 Brave New World</div>
-                                    <Gallery photos={brave}/>
+                                    <Gallery photos={brave} direction={"column"} columns={1}/>
                                 </div>
                                 <div style={{marginTop: "20px"}}>There's something a bit painful about this song. It's not an outright kind of pain. It's dull and because it sits,
                                     it eats away at you, not letting you fully get it out. It feels like agony.                                    

@@ -32,7 +32,7 @@ export default class Day10 extends React.Component {
         let share = [
             {
                 src: "https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/blog%2Fdailyui%2Fday10_social_share.png?alt=media&token=1f05d280-4725-438e-a957-cd9b86964e2c",
-                width: 1,
+                width: 3,
                 height: 2
             }
         ];    
@@ -75,7 +75,7 @@ export default class Day10 extends React.Component {
                                 <hr/>
                                 
                                 <div> 
-                                    <Gallery photos={share}/>
+                                    <Gallery photos={share} direction={"column"} columns={1}/>
 
                                     <div style={{float: "left", marginTop: "2%"}}>
                                     </div>

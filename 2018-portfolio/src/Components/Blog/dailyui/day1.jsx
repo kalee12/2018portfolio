@@ -33,7 +33,7 @@ export default class Day1 extends React.Component {
         let signup = [
             {
                 src: "https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/blog%2Fdailyui%2Fday1_sign_up.jpg?alt=media&token=25be41e9-d963-4f52-848c-98d66c96b178",
-                width: 1,
+                width: 3,
                 height: 2
             }
         ];    
@@ -82,7 +82,7 @@ export default class Day1 extends React.Component {
                                         <li>As a competitive person, I want to track my progress and achieve milestones.</li>
                                     </ul>
                                     <div>
-                                        <Gallery photos={signup}/>
+                                        <Gallery photos={signup} direction={"column"} columns={1}/>
                                     </div>
                                     <div style={{float: "left", marginTop: "2%"}}>This may be a daily tasks / goal tracker with a social component. I wouldn't require actual names
                                     because I want people to be open about their goals. Being able to write out a goal and

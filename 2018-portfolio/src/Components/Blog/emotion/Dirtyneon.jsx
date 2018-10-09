@@ -33,7 +33,7 @@ export default class Dirtyneon extends React.Component {
         let dirtyneon = [
             {
                 src: "https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/blog%2Femotion%2F3lau%2Fdirtyneon.png?alt=media&token=35ff1570-dfea-4ffd-995f-4a0c2f7f8ebe",
-                width: 1,
+                width: 3,
                 height: 2
             }
         ];    
@@ -76,7 +76,7 @@ export default class Dirtyneon extends React.Component {
                                     feel would give a dreamy type effect.
                                 </div>
                                 <br/>
-                                <Gallery photos={dirtyneon}/>
+                                <Gallery photos={dirtyneon}  direction={"column"} columns={1}/>
                             </div>
                         </div>
                     </div>

@@ -32,7 +32,7 @@ export default class Day5 extends React.Component {
         let appicon = [
             {
                 src: "https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/blog%2Fdailyui%2Fday5_app_icon.png?alt=media&token=bbe75299-6539-4ecb-9331-e98dcb5b5d58",
-                width: 1,
+                width: 3,
                 height: 2
             }
         ];    
@@ -78,7 +78,7 @@ export default class Day5 extends React.Component {
                                 <hr/>
                                 
                                 <div> 
-                                    <Gallery photos={appicon}/>
+                                    <Gallery photos={appicon} direction={"column"} columns={1}/>
 
                                     <div style={{float: "left", marginTop: "2%"}}>I thought this one would be harder for me because of needing to create a logo, but it was
                                     really fun to experiment with Illustrator. I even found out that you can drag Illustrator files directly into InDesign. Mind blown.

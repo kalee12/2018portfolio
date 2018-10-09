@@ -32,7 +32,7 @@ export default class Day12 extends React.Component {
         let item = [
             {
                 src: "https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/blog%2Fdailyui%2Fday12_e_commerce.png?alt=media&token=a360dbd4-b474-4a6d-b276-9239642f5c27",
-                width: 1,
+                width: 3,
                 height: 2
             }
         ];    
@@ -75,7 +75,7 @@ export default class Day12 extends React.Component {
                                 <hr/>
                                 
                                 <div> 
-                                    <Gallery photos={item}/>
+                                    <Gallery photos={item} direction={"column"} columns={1}/>
 
                                     <div style={{float: "left", marginTop: "2%"}}>
                                     </div>

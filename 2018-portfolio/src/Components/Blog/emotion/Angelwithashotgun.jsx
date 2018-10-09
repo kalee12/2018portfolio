@@ -34,7 +34,7 @@ export default class Angelwithashotgun extends React.Component {
         let angel = [
             {
                 src: "https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/blog%2Femotion%2Fthecab%2Fangelwithashotgun.png?alt=media&token=6fcb76c7-159b-4fb6-97b8-ca5874177763",
-                width: 1,
+                width: 3,
                 height: 2
             }
         ];    
@@ -75,7 +75,7 @@ export default class Angelwithashotgun extends React.Component {
                                     so now I have bit of an urge for flower designs. I also want to get better at utilizing white space.
                                 </div>
                                 <br/>
-                                <Gallery photos={angel}/>
+                                <Gallery photos={angel} direction={"column"} columns={1}/>
                             </div>
                         </div>
                     </div>

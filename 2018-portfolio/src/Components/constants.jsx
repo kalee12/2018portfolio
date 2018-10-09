@@ -32,6 +32,8 @@ export default {
         day14: "/day14",
         day15: "/day15",
         day16: "/day16",
-        lotus: "/lotus"
+        lotus: "/lotus",
+        sun: "/sun",
+        cloud: "/cloud"
     }
 }

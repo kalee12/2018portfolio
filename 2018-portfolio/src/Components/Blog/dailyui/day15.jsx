@@ -32,7 +32,7 @@ export default class Day15 extends React.Component {
         let onOff = [
             {
                 src: "https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/blog%2Fdailyui%2Fday15_on_off.png?alt=media&token=9bee807b-ef91-4520-acdb-78e06d50f5a0",
-                width: 1,
+                width: 3,
                 height: 2
             }
         ];    
@@ -75,7 +75,7 @@ export default class Day15 extends React.Component {
                                 <hr/>
                                 
                                 <div> 
-                                    <Gallery photos={onOff}/>
+                                    <Gallery photos={onOff} direction={"column"} columns={1}/>
 
                                     <div style={{float: "left", marginTop: "2%"}}>
                                     </div>

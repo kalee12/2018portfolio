@@ -32,7 +32,7 @@ export default class Day13 extends React.Component {
         let sms = [
             {
                 src: "https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/blog%2Fdailyui%2Fday13_direct_messaging.png?alt=media&token=bca1e056-2a71-43f9-81d6-bceae04cb307",
-                width: 1,
+                width: 3,
                 height: 2
             }
         ];    
@@ -75,7 +75,7 @@ export default class Day13 extends React.Component {
                                 <hr/>
                                 
                                 <div> 
-                                    <Gallery photos={sms}/>
+                                    <Gallery photos={sms} direction={"column"} columns={1}/>
 
                                     <div style={{float: "left", marginTop: "2%"}}>
                                     </div>

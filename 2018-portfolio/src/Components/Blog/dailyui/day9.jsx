@@ -32,7 +32,7 @@ export default class Day9 extends React.Component {
         let music = [
             {
                 src: "https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/blog%2Fdailyui%2Fday9_music_player.png?alt=media&token=6d0b4ebf-b089-4c0b-8d80-a3e53ffe4698",
-                width: 1,
+                width: 3,
                 height: 2
             }
         ];    
@@ -75,7 +75,7 @@ export default class Day9 extends React.Component {
                                 <hr/>
                                 
                                 <div> 
-                                    <Gallery photos={music}/>
+                                    <Gallery photos={music} direction={"column"} columns={1}/>
 
                                     <div style={{float: "left", marginTop: "2%"}}>
                                     </div>

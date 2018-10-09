@@ -33,7 +33,7 @@ export default class Colorgreen extends React.Component {
         let color = [
             {
                 src: "https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/blog%2Femotion%2Fnewpolitics%2Fcolorgreen.png?alt=media&token=43164568-fd60-41e5-a4b6-13a035b12b6d",
-                width: 1,
+                width: 3,
                 height: 2
             }
         ];    
@@ -74,7 +74,7 @@ export default class Colorgreen extends React.Component {
                                     it's definitely harder than it looks.
                                 </div>
                                 <br/>
-                                <Gallery photos={color}/>
+                                <Gallery photos={color}  direction={"column"} columns={1}/>
                             </div>
                         </div>
                     </div>

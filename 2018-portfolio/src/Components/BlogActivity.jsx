@@ -161,6 +161,22 @@ export default class BlogActivity extends React.Component {
                                         <div> 
                                             <div class="row">
                                                 <div class="col-9 col-sm-4">                                    
+                                                    <div class="entry" onClick={() => this.props.history.push("/cloud")}>
+                                                        <img class="card-img-top" src="https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/blog%2Flogo%2Fcloud%2Flogo_cloud.png?alt=media&amp;token=c02f82a8-e915-4555-900c-9e83edc02f17" alt="Card image cap"/>
+                                                        <div class="card-body">
+                                                            2018.07.14 ｣｢ cloud
+                                                        </div>
+                                                    </div>         
+                                                </div>
+                                                <div class="col-9 col-sm-4">                                    
+                                                    <div class="entry" onClick={() => this.props.history.push("/sun")}>
+                                                        <img class="card-img-top" src="https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/blog%2Flogo%2Fsun%2Flogo_sun.png?alt=media&amp;token=0e3117aa-65e6-443d-8bd6-7220ed15925e" alt="Card image cap"/>
+                                                        <div class="card-body">
+                                                            2018.08.14 ｣｢ sun
+                                                        </div>
+                                                    </div>         
+                                                </div>
+                                                <div class="col-9 col-sm-4">                                    
                                                     <div class="entry" onClick={() => this.props.history.push("/lotus")}>
                                                         <img class="card-img-top" src="https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/blog%2Flogo%2Flotus%2Flogo_lotus.png?alt=media&amp;token=e6c9a883-4fa3-4aba-b169-4aea8e2e9207" alt="Card image cap"/>
                                                         <div class="card-body">
@@ -168,6 +184,8 @@ export default class BlogActivity extends React.Component {
                                                         </div>
                                                     </div>         
                                                 </div>
+                                            </div>
+                                            <div class="row">
                                                 <div class="col-9 col-sm-4">                                    
                                                     <div class="entry" onClick={() => this.props.history.push("/sunmoon")}>
                                                         <img class="card-img-top" src="https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/blog%2Flogo%2Fsunmoon%2Flogo_sun_moon.png?alt=media&amp;token=8fcc2b4a-5291-43ff-8bb7-45bfa78fe9dc" alt="Card image cap"/>

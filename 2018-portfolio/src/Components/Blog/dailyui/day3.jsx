@@ -33,7 +33,7 @@ export default class Day3 extends React.Component {
         let landing = [
             {
                 src: "https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/blog%2Fdailyui%2Fday3_landing_page.jpg?alt=media&token=47165e7a-0703-40ec-bd46-9c8fca225ce2",
-                width: 1,
+                width: 3,
                 height: 2
             }
         ];    
@@ -76,7 +76,7 @@ export default class Day3 extends React.Component {
                                 <hr/>
                                 
                                 <div> 
-                                    <Gallery photos={landing}/>
+                                    <Gallery photos={landing} direction={"column"} columns={1}/>
                                     <div style={{float: "left", marginTop: "2%"}}>With the recent Strawberry Moon, I've been thinking about a site 
                                     all about night photography and upcoming major night events to get those nice shots.
                                     </div>

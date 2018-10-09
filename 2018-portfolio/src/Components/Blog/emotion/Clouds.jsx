@@ -33,7 +33,7 @@ export default class Clouds extends React.Component {
         let clouds = [
             {
                 src: "https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/blog%2Femotion%2Fnewpolitics%2Fclouds.png?alt=media&token=a7072759-30e7-4bcb-89d0-b717c0283f53",
-                width: 1,
+                width: 3,
                 height: 2
             }
         ];    
@@ -71,7 +71,7 @@ export default class Clouds extends React.Component {
                                     water reflections, galaxies, and lotus flowers disguised as a cloud.
                                 </div>
                                 <br/>
-                                <Gallery photos={clouds}/>
+                                <Gallery photos={clouds} direction={"column"} columns={1}/>
                             </div>
                         </div>
                     </div>

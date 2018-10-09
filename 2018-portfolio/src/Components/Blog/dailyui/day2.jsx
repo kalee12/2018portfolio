@@ -33,7 +33,7 @@ export default class Day2 extends React.Component {
         let checkout = [
             {
                 src: "https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/blog%2Fdailyui%2Fday2_credit_checkout.jpg?alt=media&token=b0d8264d-778d-4a58-9a51-3ffba912ca21",
-                width: 1,
+                width: 3,
                 height: 2
             }
         ];    
@@ -76,7 +76,7 @@ export default class Day2 extends React.Component {
                                 <hr/>
                                 
                                 <div> 
-                                    <Gallery photos={checkout}/>
+                                    <Gallery photos={checkout} direction={"column"} columns={1}/>
                                     <div style={{float: "left", marginTop: "2%"}}>I realize this is a very generic design, but I also don't see a particular
                                     need for the checkout process to have anything more for transparency.
                                     </div>

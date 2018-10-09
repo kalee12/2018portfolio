@@ -37,7 +37,8 @@ import Day14 from "./Components/Blog/dailyui/day14";
 import Day15 from "./Components/Blog/dailyui/day15";
 import Day16 from "./Components/Blog/dailyui/day16";
 import Lotus from "./Components/Blog/logo/lotus";
-
+import Sun from "./Components/Blog/logo/sun";
+import Cloud from "./Components/Blog/logo/cloud";
 
 class App extends Component {
   render() {
@@ -78,6 +79,8 @@ class App extends Component {
             <Route path={constants.routes.day15} component={Day15}/>
             <Route path={constants.routes.day16} component={Day16}/>
             <Route path={constants.routes.lotus} component={Lotus}/>
+            <Route path={constants.routes.sun} component={Sun}/>
+            <Route path={constants.routes.cloud} component={Cloud}/>
           </Switch>
         </Router>
       </div>

@@ -4,7 +4,7 @@ import {Link} from "react-router-dom";
 import Gallery from 'react-photo-gallery';
 import Lightbox from 'react-images';
 
-export default class Lotus extends React.Component {
+export default class Cloud extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
@@ -67,32 +67,32 @@ export default class Lotus extends React.Component {
         
         let images = [
             {
-                src: "https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/blog%2Flogo%2Flotus%2Flotus-01.png?alt=media&token=5c17938c-3eba-49c0-ad6c-767764fc2f45",
+                src: "https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/blog%2Flogo%2Fcloud%2Faevus_cloud-01.png?alt=media&token=2cabe2b7-5ca7-4c16-9a1b-8346b786e205",
                 width: 3,
                 height: 1
             },
             {
-                src: "https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/blog%2Flogo%2Flotus%2Flotus_Artboard%202.png?alt=media&token=e243a913-4584-468f-a609-afeb05b91973",
+                src: "https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/blog%2Flogo%2Fcloud%2Faevus_cloud-02.png?alt=media&token=57281f9e-991f-493a-b535-f4694064ea81",
                 width: 3,
                 height: 1
             },
             {
-                src: "https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/blog%2Flogo%2Flotus%2Flotus_Artboard%203.png?alt=media&token=6258ba85-cf87-46c5-9e18-095694052133",
+                src: "https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/blog%2Flogo%2Fcloud%2Faevus_cloud-03.png?alt=media&token=0527cebe-98ed-4a8f-bfd0-6b3d900e7994",
                 width: 3,
                 height: 1
             },
             {
-                src: "https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/blog%2Flogo%2Flotus%2Flotus_Artboard%204.png?alt=media&token=14e3f7a4-8940-429a-9ebb-ddb31fc6c9b7",
+                src: "https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/blog%2Flogo%2Fcloud%2Faevus_cloud-04.png?alt=media&token=3c855ddd-1aca-4690-aa30-a746f633e7dc",
                 width: 3,
                 height: 1
             },
             {
-                src: "https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/blog%2Flogo%2Flotus%2Flotus_Artboard%205.png?alt=media&token=3b0da1c8-b399-41d2-8f8e-eefd93bef015",
+                src: "https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/blog%2Flogo%2Fcloud%2Faevus_cloud-05.png?alt=media&token=a2187078-ae6b-42ec-963c-7fb47fdac38f",
                 width: 3,
                 height: 1
             },
             {
-                src: "https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/blog%2Flogo%2Flotus%2Flotus_Artboard%206.png?alt=media&token=58db3b02-235d-41ed-be51-42b1b0e0bffd",
+                src: "https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/blog%2Flogo%2Fcloud%2Faevus_cloud-06.png?alt=media&token=7b8c3bec-55d3-4bfc-b3c9-a045644e2b79",
                 width: 3,
                 height: 1
             }
@@ -117,24 +117,21 @@ export default class Lotus extends React.Component {
                                     <div class="col-4">
                                         <Link style={style3} 
                                             to={{
-                                                pathname: "/sunmoon",
+                                                pathname: "/sun",
                                                 }}>prev</Link>
                                     </div>
                                     <div class="col-4">
-                                        <Link style={style3} 
+                                        {/* <Link style={style3} 
                                             to={{
-                                                pathname: "/sun",
-                                                }}>next</Link>
+                                                pathname: "/lotus",
+                                                }}>next</Link> */}
                                     </div>
                                 </div> 
                             </div>
                             <div class="col-12 col-sm-8" style={{marginBottom: "40px"}}>
-                                <h2>2018.08.05</h2>
-                                <h2>｢ logo ｣ LOTUS</h2>
-                                <div><Link style={{}} 
-                                            to={{
-                                                pathname: "/clouds",
-                                                }}>Based on the design I did for ｢ emotion ｣ new politics - clouds</Link>
+                                <h2>2018.08.14</h2>
+                                <h2>｢ logo ｣ CLOUD</h2>
+                                <div>Asset progress for my project - aevus.
                                 </div>
                                 <hr/>
                                 <div class="col-11"> 

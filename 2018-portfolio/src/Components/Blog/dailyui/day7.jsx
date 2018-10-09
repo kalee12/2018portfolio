@@ -32,7 +32,7 @@ export default class Day7 extends React.Component {
         let settings = [
             {
                 src: "https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/blog%2Fdailyui%2Fday7_settings.png?alt=media&token=c0f6c44c-40b5-4b4b-92be-0de5c796c39e",
-                width: 1,
+                width: 3,
                 height: 2
             }
         ];    
@@ -75,7 +75,7 @@ export default class Day7 extends React.Component {
                                 <hr/>
                                 
                                 <div> 
-                                    <Gallery photos={settings}/>
+                                    <Gallery photos={settings} direction={"column"} columns={1}/>
 
                                     <div style={{float: "left", marginTop: "2%"}}>
                                     This would be an interface for a DSLR camera. I never really liked how cluttered their

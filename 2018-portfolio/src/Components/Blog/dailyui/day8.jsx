@@ -32,7 +32,7 @@ export default class Day8 extends React.Component {
         let error = [
             {
                 src: "https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/blog%2Fdailyui%2Fday8_404_page.png?alt=media&token=c8089794-b723-4ef0-bc27-877ea4be307c",
-                width: 1,
+                width: 3,
                 height: 2
             }
         ];    
@@ -75,7 +75,7 @@ export default class Day8 extends React.Component {
                                 <hr/>
                                 
                                 <div> 
-                                    <Gallery photos={error}/>
+                                    <Gallery photos={error} direction={"column"} columns={1}/>
 
                                     <div style={{float: "left", marginTop: "2%"}}>
                                     </div>

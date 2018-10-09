@@ -32,7 +32,7 @@ export default class Day6 extends React.Component {
         let user = [
             {
                 src: "https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/blog%2Fdailyui%2Fday6_user_profile.png?alt=media&token=91ae91df-ea78-4842-ada9-5fed6d59e349",
-                width: 1,
+                width: 3,
                 height: 2
             }
         ];    
@@ -75,7 +75,7 @@ export default class Day6 extends React.Component {
                                 <hr/>
                                 
                                 <div> 
-                                    <Gallery photos={user}/>
+                                    <Gallery photos={user} direction={"column"} columns={1}/>
 
                                     <div style={{float: "left", marginTop: "2%"}}>The type of platform I was going for was a multi-media platform, such as Tumblr, 
                                     where you would have text posts, images, quotes, etc. That's why there is a lack of a grid view. It may be difficult

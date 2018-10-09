@@ -33,7 +33,7 @@ export default class Ifeellikeimdrowning extends React.Component {
         let iflid = [
             {
                 src: "https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/blog%2Femotion%2Ftwofeet%2Fifeellikeimdrowning.png?alt=media&token=3f883c62-64c4-4cfc-8720-0142c21a5e06",
-                width: 1,
+                width: 3,
                 height: 2
             }
         ];    
@@ -76,7 +76,7 @@ export default class Ifeellikeimdrowning extends React.Component {
                                     sometimes you might need that pull down to bring you over the edge and take action. 
                                 </div>
                                 <br/>
-                                <Gallery photos={iflid}/>
+                                <Gallery photos={iflid}  direction={"column"} columns={1}/>
                             </div>
                         </div>
                     </div>
