@@ -34,6 +34,8 @@ export default {
         day16: "/day16",
         lotus: "/lotus",
         sun: "/sun",
-        cloud: "/cloud"
+        cloud: "/cloud",
+
+        aevus: "/aevus"
     }
 }

@@ -16,7 +16,7 @@ a svg:hover {
 }
 
 #dev:hover {
-  color: #007FC0;
+  color: #007FC0 !important;
 }
 
 /* .container:hover .image {
@@ -35,13 +35,16 @@ a svg:hover {
   margin-bottom: 20px;
 }
 
+.iam {
+  /* border: 5px solid red; */
+}
+
 .image {
   width: 100%;
 }
 
 .logo {
   animation: float 5s infinite;
-  width: 100%;
 }
 
 @keyframes float {
@@ -58,20 +61,33 @@ a svg:hover {
 	}
 }
 
+.outer {
+  padding: 5px;
+  border: 1px solid rgba(0, 0, 0, .3); 
+  margin-bottom: 10px;
+  background-color: rgb(250, 250, 250);
+}
+
+.inner {
+  padding: 10px; 
+  height: fit-content; 
+  border: 1px solid rgba(0, 0, 0, .1);
+  background-color: rgb(255, 255, 255);
+}
+
 .padding {
   padding: 50px;  
 }
 
 #photographer:hover {
-  color: #33BEB7;
+  color: #33BEB7 !important;
 }
 
-#student:hover {
-  color: #4b2e83;
+.projectTitle, .projectSpec {
+  text-align: center
 }
 
 .resume {
-  margin-top: 10px;
   width: 40px;
 }
 
@@ -97,7 +113,7 @@ a svg:hover {
     width: 60%;
   }
 
-  .fix2 {
+  .fix2, .iam {
     text-align: right;
   }
 }

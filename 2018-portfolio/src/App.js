@@ -40,6 +40,8 @@ import Lotus from "./Components/Blog/logo/lotus";
 import Sun from "./Components/Blog/logo/sun";
 import Cloud from "./Components/Blog/logo/cloud";
 
+import Aevus from "./Components/Projects/Aevus";
+
 class App extends Component {
   render() {
     return (
@@ -81,6 +83,8 @@ class App extends Component {
             <Route path={constants.routes.lotus} component={Lotus}/>
             <Route path={constants.routes.sun} component={Sun}/>
             <Route path={constants.routes.cloud} component={Cloud}/>
+
+            <Route path={constants.routes.aevus} component={Aevus}/>
           </Switch>
         </Router>
       </div>

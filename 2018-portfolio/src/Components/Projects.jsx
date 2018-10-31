@@ -1,6 +1,7 @@
 import React from "react";
 import Navigation from "./Navigation";
 import ProjectList from "./ProjectList";
+import {Link} from "react-router-dom";
 
 import firebase from 'firebase/app';
 import 'firebase/database';
@@ -21,7 +22,18 @@ export default class Projects extends React.Component {
                             </div>
                             <div class="col-12 col-sm-9">
                                 <h2>current</h2>
-                                <ProjectList projRef={curr} type={"current"}/>
+                                <div class="row">
+                                    <div class="col-4 outer">
+                                        <div class="col container inner">
+                                            <img alt="hello" />
+                                            <div class="text">
+                                                <Link to={{
+                                                    pathname: "aevus"
+                                                }}>[Aevus]</Link>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                                 <h2>past</h2>
                                 <ProjectList projRef={past} type={"past"}/>
                             </div>
