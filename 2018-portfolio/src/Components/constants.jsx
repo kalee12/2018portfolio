@@ -5,6 +5,7 @@ export default {
         photography: "/photography",
         about: "/about",
         project: "/p:project",
+
         blog: "/blog",
         genesis: "/genesis",
         backbone: "/backbone",
@@ -13,18 +14,23 @@ export default {
         awas: "/awas",
         colorgreen: "/colorgreen",
         demons: "/demons",
-        day1: "/day1",
         tdgbreak: "/break",
+        clouds: "/clouds",
+        
+        sunmoon: "/sunmoon",
+        lotus: "/lotus",
+        sun: "/sun",
+        cloud: "/cloud",
+
+        day1: "/day1",
         day2: "/day2",
         day3: "/day3",
         day4: "/day4",
-        sunmoon: "/sunmoon",
         day5: "/day5",
         day6: "/day6",
         day7: "/day7",
         day8: "/day8",
         day9: "/day9",
-        clouds: "/clouds",
         day10: "/day10",
         day11: "/day11",
         day12: "/day12",
@@ -32,10 +38,13 @@ export default {
         day14: "/day14",
         day15: "/day15",
         day16: "/day16",
-        lotus: "/lotus",
-        sun: "/sun",
-        cloud: "/cloud",
+        
+        aevus: "/aevus",
+        chromatic: "/chromatic",
+        ambulo: "/ambulo",
+        secondhome: "/secondhome",
 
-        aevus: "/aevus"
+        huskyhotspots: "/huskyhotspots",
+        shift: "/shift"
     }
 }

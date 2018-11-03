@@ -35,6 +35,10 @@ a svg:hover {
   margin-bottom: 20px;
 }
 
+h5 {
+  font-style: italic;
+}
+
 .iam {
   /* border: 5px solid red; */
 }

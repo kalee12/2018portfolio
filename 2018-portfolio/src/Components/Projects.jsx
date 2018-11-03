@@ -29,13 +29,68 @@ export default class Projects extends React.Component {
                                             <div class="text">
                                                 <Link to={{
                                                     pathname: "aevus"
-                                                }}>[Aevus]</Link>
+                                                }}>Aevus</Link>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                                 <h2>past</h2>
-                                <ProjectList projRef={past} type={"past"}/>
+                                <h3>development</h3>
+                                <div class="row">
+                                    <div class="col-4 outer">
+                                        <div class="col container inner">
+                                            <img alt="hello" />
+                                            <div class="text">
+                                                <Link to={{
+                                                    pathname: "chromatic"
+                                                }}>Chromatic</Link>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-4 outer">
+                                        <div class="col container inner">
+                                            <img alt="hello" />
+                                            <div class="text">
+                                                <Link to={{
+                                                    pathname: "ambulo"
+                                                }}>Ambulo</Link>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-4 outer">
+                                        <div class="col container inner">
+                                            <img alt="hello" />
+                                            <div class="text">
+                                                <Link to={{
+                                                    pathname: "secondhome"
+                                                }}>Second Home</Link>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <h3>design</h3>
+                                <div class="row">
+                                    <div class="col-4 outer">
+                                        <div class="col container inner">
+                                            <img alt="hello" />
+                                            <div class="text">
+                                                <Link to={{
+                                                    pathname: "huskyhotspots"
+                                                }}>Husky Hotspots</Link>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-4 outer">
+                                        <div class="col container inner">
+                                            <img alt="hello" />
+                                            <div class="text">
+                                                <Link to={{
+                                                    pathname: "Shift"
+                                                }}>Shift</Link>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>

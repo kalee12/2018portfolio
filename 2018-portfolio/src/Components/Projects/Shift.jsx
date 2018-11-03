@@ -3,7 +3,7 @@ import Navigation from "../Navigation";
 
 import {Link} from "react-router-dom";
 
-export default class Aevus extends React.Component {
+export default class Shift extends React.Component {
     render() {
         let style = {
             height: "100%",
@@ -38,7 +38,7 @@ export default class Aevus extends React.Component {
                             <Link to='/projects' style={style2}>back</Link>
                             </div>
                         <div class="col-12 col-sm-7" style={{marginBottom: "100px"}}>
-                            <h1 class="projectTitle">Aevus</h1>
+                            <h1 class="projectTitle">Shift</h1>
                             <div class="projectSpec">type: Android Application | technologies: Java, Adobe Creative Cloud </div>
                             <div class="projectSpec">status: Current - Developing Screens / Learning Kotlin</div>
                             
