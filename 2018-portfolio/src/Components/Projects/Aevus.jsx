@@ -132,7 +132,7 @@ export default class Aevus extends React.Component {
 
                             <h3>Design</h3>
                             <h4>Inspirations</h4>
-                            <h5><a href="habitica.com">Habitica</a></h5>
+                            <h5><a href="www.habitica.com">Habitica</a></h5>
                             <h4>Style</h4>
                             <h2>Current Progress</h2>
                             <h3>Development</h3>
