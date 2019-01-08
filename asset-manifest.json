@@ -1,9 +1,21 @@
 {
-  "main.css": "static/css/main.4fb6c2ad.css",
-  "main.css.map": "static/css/main.4fb6c2ad.css.map",
-  "main.js": "static/js/main.36264acd.js",
-  "main.js.map": "static/js/main.36264acd.js.map",
+  "main.css": "static/css/main.ef69c1ff.css",
+  "main.css.map": "static/css/main.ef69c1ff.css.map",
+  "main.js": "static/js/main.2b2e69d6.js",
+  "main.js.map": "static/js/main.2b2e69d6.js.map",
+  "static\\media\\HH_icon_color.svg": "static/media/HH_icon_color.355823b4.svg",
+  "static\\media\\HH_icon_w.svg": "static/media/HH_icon_w.5f12e099.svg",
+  "static\\media\\SH_icon_color.svg": "static/media/SH_icon_color.3e81bda0.svg",
+  "static\\media\\SH_icon_w.svg": "static/media/SH_icon_w.23268204.svg",
+  "static\\media\\aevus_icon_color.svg": "static/media/aevus_icon_color.6e02048b.svg",
+  "static\\media\\aevus_icon_w.svg": "static/media/aevus_icon_w.e8dfc542.svg",
+  "static\\media\\ambulo_icon_color.svg": "static/media/ambulo_icon_color.6127cb15.svg",
+  "static\\media\\ambulo_icon_w.svg": "static/media/ambulo_icon_w.ce670962.svg",
+  "static\\media\\chromatic_icon_color.svg": "static/media/chromatic_icon_color.d6e2f5f9.svg",
+  "static\\media\\chromatic_icon_w.svg": "static/media/chromatic_icon_w.8eec895b.svg",
+  "static\\media\\default_icon_b.svg": "static/media/default_icon_b.df8b5a93.svg",
   "static\\media\\github.svg": "static/media/github.ea8bb7f4.svg",
-  "static\\media\\react.svg": "static/media/react.b5120013.svg",
-  "static\\media\\resume.svg": "static/media/resume.4eb8893b.svg"
+  "static\\media\\resume.svg": "static/media/resume.aad591e1.svg",
+  "static\\media\\shift_icon_color.svg": "static/media/shift_icon_color.dd6b862d.svg",
+  "static\\media\\shift_icon_w.svg": "static/media/shift_icon_w.3d1a01bd.svg"
 }
