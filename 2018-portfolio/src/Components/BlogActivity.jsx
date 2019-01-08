@@ -46,33 +46,36 @@ export default class BlogActivity extends React.Component {
             <div>
                 <Navigation/>
                 <div>
-                    <div style={{marginTop: "100px"}}>
+                    <div style={{marginTop: "50px"}}>
                         <div class="row">
                             <div class="col-12 col-sm-2 fix" style={{marginBottom: "20px"}}>
                                 <h2 style={{marginBottom: "20px"}}>單純</h2>
                                 <h3>daan<sup>1</sup> seon<sup>4</sup></h3>
                                 <div>simply; purely; merely</div>
-
+                                
+                                
                                 <h3 style={{color: this.state.selected == 0 ? "black" : "gray"}} onClick={() => this.emotion()}>｢ emotion ｣</h3>
                                 <h3 style={{color: this.state.selected == 1 ? "black" : "gray"}} onClick={() => this.logo()}>｢ logo ｣</h3>
                                 <h3 style={{color: this.state.selected == 2 ? "black" : "gray"}} onClick={() => this.dailyui()}>｢ daily ui ｣</h3>
                             </div>
                             <div class="col-12 col-sm-9">
-                                <div>
-                                    <h2>Side Projects</h2>
-                                    <div>｢ emotion ｣ Using song inspiration to see creativity bloom</div>
-                                    <div>｢ logo ｣ Focus on the subtlety of brand identity</div>
-                                    <div>｢ daily ui ｣ Taking on the 100 day challenge</div>
-                                </div>
-                                <div>
+                                
+                                {/* <div>
+                                    
+                                    <div>｢ emotion ｣ Taking inspiration from songs</div>
+                                    <div>｢ logo ｣ Focusing on the subtle brand identity</div>
+                                    <div>｢ daily ui ｣ The 100 day challenge</div>
+                                </div> */}
+                                {/* <div>
                                     <h4>Prospectives</h4>
                                     <div>｢ os design ｣ Recreating what I had to do for INFO 365 - Mobile App Design by defining my own OS.</div>
                                     <div>｢ geometric ｣ Designs restricted by the number of sides or particular ratios.</div>
-                                </div>
-                                <hr/>
+                                </div> */}
                                 <div>
                                     {this.state.selected == 0 ? 
                                         <div>
+                                            <h3>｢ emotion ｣ Song Inspirations</h3>
+                                            <br/>
                                             <div class="row">
                                                 <div class="col-9 col-sm-4">                       
                                                     <div class="entry" onClick={() => this.props.history.push("/clouds")}>
@@ -118,25 +121,6 @@ export default class BlogActivity extends React.Component {
                                                     </div>         
                                                 </div>
                                                 <div class="col-9 col-sm-4">                                    
-                                                        <div class="entry" onClick={() => this.props.history.push("/iflid")}>
-                                                        <img class="card-img-top" src="https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/blog%2Femotion%2Ftwofeet%2Fifeellikeimdrowning.png?alt=media&amp;token=3f883c62-64c4-4cfc-8720-0142c21a5e06" alt="Card image cap"/>
-                                                        <div class="card-body">
-                                                            2018.05.31 ｣｢ two feet - i feel like i'm drowning
-                                                        </div>
-                                                    </div>         
-                                                </div>
-
-                                            </div>
-                                            <div class="row">
-                                                <div class="col-9 col-sm-4">                                    
-                                                    <div class="entry" onClick={() => this.props.history.push("/dirtyneon")}>
-                                                        <img class="card-img-top" src="https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/blog%2Femotion%2F3lau%2Fdirtyneon.png?alt=media&amp;token=35ff1570-dfea-4ffd-995f-4a0c2f7f8ebe" alt="Card image cap"/>
-                                                        <div class="card-body">
-                                                            2018.05.31 ｣｢ 3lau - dirty neon
-                                                        </div>
-                                                    </div>         
-                                                </div>
-                                                <div class="col-9 col-sm-4">                                    
                                                     <div class="entry" onClick={() => this.props.history.push("/backbone")}>
                                                         <img class="card-img-top" src="https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/blog%2Femotion%2Fdaughtry%2Fbackbone.png?alt=media&amp;token=7df9a185-7347-49bd-9276-bab8603af7c5" alt="Card image cap"/>
                                                         <div class="card-body">
@@ -144,6 +128,10 @@ export default class BlogActivity extends React.Component {
                                                         </div>
                                                     </div>         
                                                 </div>
+
+                                            </div>
+                                            <div class="row">
+
                                                 <div class="col-9 col-sm-4">                                    
                                                     <div class="entry" onClick={() => this.props.history.push("/genesis")}>
                                                         <img class="card-img-top" src="https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/blog%2Femotion%2Fjjlin%2Fgenesis%2Fgenesis_01.png?alt=media&amp;token=b75aba92-4912-4550-bdbf-83441c727309" alt="Card image cap"/>
@@ -158,24 +146,9 @@ export default class BlogActivity extends React.Component {
                                         <div></div>
                                     }
                                     {this.state.selected == 1 ? 
-                                        <div> 
+                                        <div>
+                                            <h3>｢ logo ｣ Working on Subtleties</h3> 
                                             <div class="row">
-                                                <div class="col-9 col-sm-4">                                    
-                                                    <div class="entry" onClick={() => this.props.history.push("/cloud")}>
-                                                        <img class="card-img-top" src="https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/blog%2Flogo%2Fcloud%2Flogo_cloud.png?alt=media&amp;token=c02f82a8-e915-4555-900c-9e83edc02f17" alt="Card image cap"/>
-                                                        <div class="card-body">
-                                                            2018.07.14 ｣｢ cloud
-                                                        </div>
-                                                    </div>         
-                                                </div>
-                                                <div class="col-9 col-sm-4">                                    
-                                                    <div class="entry" onClick={() => this.props.history.push("/sun")}>
-                                                        <img class="card-img-top" src="https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/blog%2Flogo%2Fsun%2Flogo_sun.png?alt=media&amp;token=0e3117aa-65e6-443d-8bd6-7220ed15925e" alt="Card image cap"/>
-                                                        <div class="card-body">
-                                                            2018.08.14 ｣｢ sun
-                                                        </div>
-                                                    </div>         
-                                                </div>
                                                 <div class="col-9 col-sm-4">                                    
                                                     <div class="entry" onClick={() => this.props.history.push("/lotus")}>
                                                         <img class="card-img-top" src="https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/blog%2Flogo%2Flotus%2Flogo_lotus.png?alt=media&amp;token=e6c9a883-4fa3-4aba-b169-4aea8e2e9207" alt="Card image cap"/>
@@ -184,8 +157,6 @@ export default class BlogActivity extends React.Component {
                                                         </div>
                                                     </div>         
                                                 </div>
-                                            </div>
-                                            <div class="row">
                                                 <div class="col-9 col-sm-4">                                    
                                                     <div class="entry" onClick={() => this.props.history.push("/sunmoon")}>
                                                         <img class="card-img-top" src="https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/blog%2Flogo%2Fsunmoon%2Flogo_sun_moon.png?alt=media&amp;token=8fcc2b4a-5291-43ff-8bb7-45bfa78fe9dc" alt="Card image cap"/>
@@ -195,10 +166,14 @@ export default class BlogActivity extends React.Component {
                                                     </div>         
                                                 </div>
                                             </div>
+                                            <div class="row">
+      
+                                            </div>
                                         </div>
                                         : <div></div>}
                                     {this.state.selected == 2 ? 
                                         <div>
+                                            <h3>｢ daily ui ｣ The 100 day challenge</h3> 
                                             <div class="row">
                                                 <div class="col-9 col-sm-4">                                    
                                                     <div class="entry" onClick={() => this.props.history.push("/day16")}>

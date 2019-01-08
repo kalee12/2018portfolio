@@ -54,7 +54,7 @@ export default class Angelwithashotgun extends React.Component {
                                     <div class="col-4">
                                         <Link style={style3} 
                                             to={{
-                                                pathname: "/iflid",
+                                                pathname: "/backbone",
                                                 }}>prev</Link>
                                     </div>
                                     <div class="col-4">

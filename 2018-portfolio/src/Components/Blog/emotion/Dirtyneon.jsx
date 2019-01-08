@@ -67,14 +67,7 @@ export default class Dirtyneon extends React.Component {
                             <div class="col-12 col-sm-9" style={{marginBottom: "40px"}}>
                                 <h2>2018.05.31</h2>
                                 <h2>｢ emotion ｣ 3LAU - DIRTY NEON</h2>
-                                <div>I go through musical phases on rotation. EDM seems to be making a little comeback.
-                                </div>
                                 <hr/>
-                                <div>I really like the process of geometric designs. As I'm playing with forms, sometimes I can just see where the design
-                                    is taking itself. Feel was a bit harder for me to go off of because with EDM or techno sounds, I don't seem to get a certain
-                                    pull as I do with other genres. I tried to focus on perspectives instead. The idea was using distance, creating a far kind of 
-                                    feel would give a dreamy type effect.
-                                </div>
                                 <br/>
                                 <Gallery photos={dirtyneon}  direction={"column"} columns={1}/>
                             </div>

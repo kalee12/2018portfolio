@@ -1,9 +1,6 @@
 import React from "react";
 import Navigation from "./Navigation"
 
-import reactLogo from "../react.svg"
-
-
 export default class About extends React.Component {
     render() {
         return(
@@ -43,7 +40,6 @@ export default class About extends React.Component {
                         </div>
                         <hr />
                         <div style={{textAlign: "center", marginBottom: "20px"}}>
-                        <img class="resume" src={reactLogo}/>
                         <div>contact: leekaren888@gmail.com</div>
                         </div>
                     </div>

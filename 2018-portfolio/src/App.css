@@ -3,12 +3,12 @@
   width: 100%;
 }
 
-a svg:hover {
-  fill: #007FC0;
-}
-
 .card {
   margin-bottom: 20px; 
+}
+
+.chromaticPreview div img {
+  width: 100%;
 }
 
 .color:hover {
@@ -35,16 +35,40 @@ a svg:hover {
   margin-bottom: 20px;
 }
 
+#favicon {
+  width: 40px;
+}
+
 h5 {
   font-style: italic;
 }
 
-.iam {
-  /* border: 5px solid red; */
+.icon {
+  width: 40px;
+}
+
+.iconDev:hover {
+  fill: #007FC0;
+}
+
+.iconPhoto:hover {
+  fill: #33BEB7;
 }
 
 .image {
   width: 100%;
+}
+
+.inner {
+  padding: 10px; 
+  height: fit-content; 
+  border: 1px solid rgba(0, 0, 0, .1);
+  border-radius: 20px;
+  background-color: rgb(255, 255, 255);
+}
+
+.innerText, .outer {
+  margin-right: 5%; 
 }
 
 .logo {
@@ -67,16 +91,7 @@ h5 {
 
 .outer {
   padding: 5px;
-  border: 1px solid rgba(0, 0, 0, .3); 
   margin-bottom: 10px;
-  background-color: rgb(250, 250, 250);
-}
-
-.inner {
-  padding: 10px; 
-  height: fit-content; 
-  border: 1px solid rgba(0, 0, 0, .1);
-  background-color: rgb(255, 255, 255);
 }
 
 .padding {
@@ -87,12 +102,15 @@ h5 {
   color: #33BEB7 !important;
 }
 
-.projectTitle, .projectSpec {
-  text-align: center
+.projectBanner {
+  border: 1px solid gray;
+  border-radius: 20px;
+  padding: 10px;
 }
 
-.resume {
-  width: 40px;
+.projectBanner img {
+  display: inline-block;
+  width: 15%;
 }
 
 .row {
@@ -102,7 +120,7 @@ h5 {
 
 .text {
   font-size: 16px;
-  padding: 16px 32px;
+  text-align: center;
   overflow: hidden;
 }
 

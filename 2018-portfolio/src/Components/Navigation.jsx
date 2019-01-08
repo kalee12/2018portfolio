@@ -5,11 +5,11 @@ import NavButton from "./NavButton";
 export default class Navigation extends React.Component{
     render() {
         let style = {
-            textAlign: "right"
+            marginTop: "10px"
         };
 
         return(
-            <div class="fixed-top navbar d-flex justify-content-end" style={style}>
+            <div class="fixed-top navbar" style={style}>
                 <NavButton value="home" push={constants.routes.main}/>
                 <NavButton value="projects" push={constants.routes.projects}/>
                 <NavButton value="photography" push={constants.routes.photography}/>
