@@ -67,12 +67,8 @@ export default class Colorgreen extends React.Component {
                             <div class="col-12 col-sm-9" style={{marginBottom: "40px"}}>
                                 <h2>2018.06.02</h2>
                                 <h2>｢ emotion ｣ NEW POLITICS - COLOR GREEN</h2>
-                                <div>The chorus is pretty fun - it makes me think of fields and life blooming.
-                                </div>
+                                
                                 <hr/>
-                                <div>I think my style has always been about simplicity and minimalism. It feels peaceful yet full of impact. Flower arrangement though,
-                                    it's definitely harder than it looks.
-                                </div>
                                 <br/>
                                 <Gallery photos={color}  direction={"column"} columns={1}/>
                             </div>

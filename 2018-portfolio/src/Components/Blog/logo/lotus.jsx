@@ -121,10 +121,10 @@ export default class Lotus extends React.Component {
                                                 }}>prev</Link>
                                     </div>
                                     <div class="col-4">
-                                        <Link style={style3} 
+                                        {/* <Link style={style3} 
                                             to={{
                                                 pathname: "/sun",
-                                                }}>next</Link>
+                                                }}>next</Link> */}
                                     </div>
                                 </div> 
                             </div>

@@ -70,8 +70,6 @@ export default class Demons extends React.Component {
                                 <div>
                                 </div>
                                 <hr/>
-                                <div>No particular image appeared in my head. Listening to how joji's voice would waver in and out, this song felt more text based.
-                                </div>
                                 <br/>
                                 <Gallery photos={demons}  direction={"column"} columns={1}/>
                             </div>

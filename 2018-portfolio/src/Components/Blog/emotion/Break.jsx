@@ -70,10 +70,6 @@ export default class Break extends React.Component {
                                 <div>
                                 </div>
                                 <hr/>
-                                <div>This is one of the cases where the creation just takes itself. I did take the album cover as inspiration for the colors,
-                                    and the natural theme of this song is a sense of breaking away. Everything else was the product of "yes, and..." I would create
-                                    the design towards a certain idea, but then while I was creating, the design would become something else, and I went along with it.
-                                </div>
                                 <br/>
                                 <Gallery photos={tdgbreak} direction={"column"} columns={1}/>
                             </div>

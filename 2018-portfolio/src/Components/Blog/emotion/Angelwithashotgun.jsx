@@ -68,12 +68,8 @@ export default class Angelwithashotgun extends React.Component {
                             <div class="col-12 col-sm-9" style={{marginBottom: "40px"}}>
                                 <h2>2018.06.01</h2>
                                 <h2>｢ emotion ｣ THE CAB - ANGEL WITH A SHOTGUN</h2>
-                                <div>I would consider myself tone deaf, but I always want to sing this one aha.
-                                </div>
+                                
                                 <hr/>
-                                <div>While making the pattern for the wings, I thought about making a subtle wing pattern that was a hybrid with a flower,
-                                    so now I have bit of an urge for flower designs. I also want to get better at utilizing white space.
-                                </div>
                                 <br/>
                                 <Gallery photos={angel} direction={"column"} columns={1}/>
                             </div>

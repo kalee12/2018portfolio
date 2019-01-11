@@ -67,9 +67,6 @@ export default class Clouds extends React.Component {
                                 <div>
                                 </div>
                                 <hr/>
-                                <div>There's a mixture of elements. I wanted to express how things may not look as they seem. A little bit of "silver lining,"
-                                    water reflections, galaxies, and lotus flowers disguised as a cloud.
-                                </div>
                                 <br/>
                                 <Gallery photos={clouds} direction={"column"} columns={1}/>
                             </div>
