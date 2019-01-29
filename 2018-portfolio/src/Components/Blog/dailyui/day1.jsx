@@ -69,28 +69,15 @@ export default class Day1 extends React.Component {
                             <div class="col-12 col-sm-8" style={{marginBottom: "40px"}}>
                                 <h2>2018.07.03</h2>
                                 <h2>｢ daily ui ｣ DAY 1 - SIGN UP</h2>
-                                <div>"Luscinia" is the genus consisting of nightingales. 
-                                </div>
+                                
                                 <hr/>
                                 
                                 <div> 
-                                    <h3>User Needs</h3>
-                                    <ul>
-                                        <li>As a disorganized person, I want a fun way to track my days.</li>
-                                        <li>As an unmotivated person, I want to find long term things to do.</li>
-                                        <li>As a lost person, I want to see what others are up to.</li>
-                                        <li>As a competitive person, I want to track my progress and achieve milestones.</li>
-                                    </ul>
+                                    
                                     <div>
                                         <Gallery photos={signup} direction={"column"} columns={1}/>
                                     </div>
-                                    <div style={{float: "left", marginTop: "2%"}}>This may be a daily tasks / goal tracker with a social component. I wouldn't require actual names
-                                    because I want people to be open about their goals. Being able to write out a goal and
-                                    possibly having other people see it creates the idea of accountability. The social aspects would
-                                    be a tagboard where there would be categories of tasks / goals people want to do, and people could
-                                    give support through a liking system or somehow indicate "I'm going to do that with you!" The app would
-                                    also give small, daily challenges to get the user started. 
-                                    </div>
+                                    
                                 </div>
                                 <br/>
                             </div>

@@ -76,11 +76,6 @@ export default class Day4 extends React.Component {
                                 
                                 <div> 
                                     <Gallery photos={calculator} direction={"column"} columns={1}/>
-                                    <div style={{float: "left", marginTop: "2%"}}>I based this design off of my Sony Xperia X Compact but tweaked the UI
-                                    so that it has the top row. On Sony's UI, they had no button to make a number negative. 
-                                    They force people to use their parentheses, but I guess if you are doing calculations that require negatives, using parentheses wouldn't 
-                                    be outside of one's knowledge.
-                                    </div>
                                 </div>
                                 <br/>
                             </div>

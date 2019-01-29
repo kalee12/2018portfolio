@@ -71,15 +71,12 @@ export default class Day2 extends React.Component {
                             <div class="col-12 col-sm-8" style={{marginBottom: "40px"}}>
                                 <h2>2018.07.03</h2>
                                 <h2>｢ daily ui ｣ DAY 2 - CREDIT CARD CHECKOUT</h2>
-                                <div>Just a simple, straightforward design for this one. 
-                                </div>
+                                
                                 <hr/>
                                 
                                 <div> 
                                     <Gallery photos={checkout} direction={"column"} columns={1}/>
-                                    <div style={{float: "left", marginTop: "2%"}}>I realize this is a very generic design, but I also don't see a particular
-                                    need for the checkout process to have anything more for transparency.
-                                    </div>
+                                    
                                 </div>
                                 <br/>
                             </div>

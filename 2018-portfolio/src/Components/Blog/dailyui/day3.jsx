@@ -77,9 +77,7 @@ export default class Day3 extends React.Component {
                                 
                                 <div> 
                                     <Gallery photos={landing} direction={"column"} columns={1}/>
-                                    <div style={{float: "left", marginTop: "2%"}}>With the recent Strawberry Moon, I've been thinking about a site 
-                                    all about night photography and upcoming major night events to get those nice shots.
-                                    </div>
+                                    
                                 </div>
                                 <br/>
                             </div>

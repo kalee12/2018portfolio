@@ -76,13 +76,6 @@ export default class Day7 extends React.Component {
                                 
                                 <div> 
                                     <Gallery photos={settings} direction={"column"} columns={1}/>
-
-                                    <div style={{float: "left", marginTop: "2%"}}>
-                                    This would be an interface for a DSLR camera. I never really liked how cluttered their
-                                    settings felt. Although I would understand how it's normally done because you would want to look at all your settings at once. Even
-                                    if you wouldn't touch them that much, you would want them to be there so you have the chance to notice a setting is abnormal. With this one 
-                                    though, this UI may be more suited with touch capabilities because it's not showing a lot of the information you'd normally get.
-                                    </div>
                                 </div>
                                 <br/>
                             </div>

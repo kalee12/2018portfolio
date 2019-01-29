@@ -38,8 +38,8 @@ export default class Aevus extends React.Component {
                         <div class="col-12 col-sm-2 fix"  style={{marginTop: "100px"}}>
                             <h2 style={{marginBottom: "20px"}}>projects</h2>
                             <Link to='/projects' style={style2}>back</Link>
-                            </div>
-                        <div class="col-12 col-sm-7" style={{marginBottom: "100px"}}>
+                        </div>
+                        <div class="col-12 col-sm-9" style={{marginBottom: "100px"}}>
                             <div class="col-4 outer" style={{margin: "auto"}}>
                                 <div class="col inner" style={{width: "100%", paddingTop: "100%"}}>
                                     <div style={{position:"absolute", top:"30%", left:"20%", bottom:"0", right: "0"}}>
@@ -52,38 +52,32 @@ export default class Aevus extends React.Component {
                                 <div class="projectSpec">type: Android Application | technologies: Java, Adobe Creative Cloud </div>
                                 <div class="projectSpec">status: Current</div>
                             </div>
-                            <hr/>
-                                <h1>Current Progress</h1>
-                                <div>January 2019 - Taking a step back into UX design. As my own personal dealings with eczema
-                                    changes, I want to incoporate such insights into the experience.
+                            <h2>Current Status</h2>
+                            <div style={{padding: "2%", border: "5px solid #90DAB9", borderRadius: "5px"}}>
+                                
+                                <div>January 2019 - Taking a step back into UX. I didn't like the direction I
+                                    was heading and decided it's never too late to pivot. Currently reconfiguring the project
+                                    to gamify the experience in dealing with eczema. 
                                 </div>
-                            <hr/>
-                            
-                            <h2>Impact Of Eczema</h2>
-                            <div>Eczema is an umbrella term for dermatitis (skin immflamation). 31.6 million Americans are
-                                estimated to suffer symptoms anywhere on the body from a combination of
-                                    <ul>
-                                        <li>itching</li>
-                                        <li>redness</li>
-                                        <li>blisters</li>
-                                        <li>scaling</li>
-                                        <li>flaking</li>
-                                        <li>cracking</li>
-                                    </ul>
-                                    Impact to mental and physical states extends to constant pain,
+                            </div>                            
+                            <h2>What Is Eczema?</h2>
+                            <div>Eczema is an umbrella term for a group of skin conditions (dermatitis) 31.6 million Americans are
+                                estimated to be affected. Symptoms are a combination of itching, redness, 
+                                blister, scaling, flaking, and cracking. Impact to mental and physical states extends to constant pain,
                                 extreme stress, lack of sleep, low self-esteem, social isolation, anxiety, depression, and suicidal thoughts.   
                             </div>                 
-                            <h2>Motivations</h2>
-                            <h4>Personal Experience</h4>
-                            <div>For 12 years, my sense of normal used to be a constant burn, aching pain, and instense itchiness. Early 
+                            <h2>Personal Motivations</h2>
+                            <div>For at least 12 years, my normal state used to be a constant burning, aching pain, and instense itchiness. Early 
                                 2018, I was at my worst. For two months straight, my face and arms continuously flared to the point I was feverish. 
-                                I couldn't seek medical help at the time, and my solution to overdose on antihistamines.   
+                                I couldn't seek medical help at the time, and my solution was to overdose on antihistamines.   
                             </div>
                             <h4>Issues With Seeking Medical Help</h4>
                             <div>
-                                My eczema is related to dairy. Once I aimed to remove lactose from my diet, I never flared up again, and my
-                                skin eventually returned to normal. I went to a dermatologist, and based on my allergy test, it was
-                                actually determined I wasn't allergic to milk.                                
+                                Doctors unfamiliar with eczema tend to not have a consensus that would be helpful to most carriers.
+                                My eczema is related to dairy. Once I removed as much lactose as I could from my diet, I never flared up again, 
+                                and my skin eventually returned to normal. I went to a dermatologist, and results said I wasn't allergic to milk.
+                                Intolerance and allergies are separate things, but eczema is a sign of a faulty immune system, so it may be 
+                                an intolerance but acts as debilitating as an allergy.
                             </div>
                             <div style={{marginTop: "10px"}}>
                                 The issue was that eczema acts like an allergy because the immune system is overreacting but not really.

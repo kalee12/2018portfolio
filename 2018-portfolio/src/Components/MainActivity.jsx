@@ -58,7 +58,7 @@ export default class MainActivity extends React.Component {
             content = <div class="col" style={contentStyle}>I'm currently striving to create an Android application to fight eczema.</div>
             spacing = <div style={{visibility: "hidden"}}>spacing</div>
         } else {
-            content = <div class="col" style={contentStyle}>I love taking landscapes and occasionaly do events.</div>
+            content = <div class="col" style={contentStyle}>I love taking landscapes and events.</div>
             spacing = <div></div>
         }
         

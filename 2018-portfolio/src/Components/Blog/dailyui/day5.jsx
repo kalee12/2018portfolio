@@ -79,10 +79,6 @@ export default class Day5 extends React.Component {
                                 
                                 <div> 
                                     <Gallery photos={appicon} direction={"column"} columns={1}/>
-
-                                    <div style={{float: "left", marginTop: "2%"}}>I thought this one would be harder for me because of needing to create a logo, but it was
-                                    really fun to experiment with Illustrator. I even found out that you can drag Illustrator files directly into InDesign. Mind blown.
-                                    </div>
                                 </div>
                                 <br/>
                             </div>

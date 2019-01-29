@@ -26,19 +26,19 @@ export default class Projects extends React.Component {
                                 <h2>current</h2>
                                 <div class="row">
                                     <div class="col-3 outer">
+                                        <Link to={{pathname: "aevus"}}>
                                         <div class="col container inner" style={{width: "100%", paddingTop: "100%", backgroundColor: "#90DAB9"}}>
                                             <div style={{position:"absolute", top:"30%", left:"20%", bottom:"0", right: "0"}}>
                                                 <img style={{width:"80%"}} src={aevus}/>
                                             </div>
                                         </div>
+                                        </Link>
                                     </div>
                                 </div>
                                 <div class="row">
                                     <div class="col-3">
                                         <div class="text cl-effect-1">
-                                            <Link to={{
-                                                pathname: "aevus"  
-                                            }}
+                                            <Link to={{pathname: "aevus"}}
                                             style={{textDecoration: 'none' }}>Aevus</Link>
                                         </div>
                                     </div>
@@ -47,80 +47,85 @@ export default class Projects extends React.Component {
                                 <h3>development</h3>
                                 <div class="row">
                                     <div class="col-3 outer">
-                                        <div class="col container inner" style={{width: "100%", paddingTop: "100%", backgroundColor: "#668FBF"}}>
-                                            <div style={{position:"absolute", top:"40%", left:"20%", bottom:"0", right: "0"}}>
-                                                <img style={{width:"80%"}} src={chromatic}/>
+                                        <Link to={{pathname: "chromatic"}}>
+                                            <div class="col container inner" style={{width: "100%", paddingTop: "100%", backgroundColor: "#668FBF"}}>
+                                                <div style={{position:"absolute", top:"40%", left:"20%", bottom:"0", right: "0"}}>
+                                                    <img style={{width:"80%"}} src={chromatic}/>
+                                                </div>
                                             </div>
-                                        </div>
+                                        </Link>
                                     </div>
                                     <div class="col-3 outer">
-                                        <div class="col container inner" style={{width: "100%", paddingTop: "100%", backgroundColor: "#90DAB9"}}>
-                                            <div style={{position:"absolute", top:"25%", left:"25%", bottom:"0", right: "0"}}>
-                                                <img style={{width:"70%"}} src={ambulo}/>
+                                        <Link to={{pathname: "ambulo"}}>
+                                            <div class="col container inner" style={{width: "100%", paddingTop: "100%", backgroundColor: "#90DAB9"}}>
+                                                <div style={{position:"absolute", top:"25%", left:"25%", bottom:"0", right: "0"}}>
+                                                    <img style={{width:"70%"}} src={ambulo}/>
+                                                </div>
                                             </div>
-                                        </div>
+                                        </Link>
                                     </div>
                                     <div class="col-3 outer">
-                                        <div class="col container inner" style={{width: "100%", paddingTop: "100%", backgroundColor: "#43B5E6"}}>
-                                            <div style={{position:"absolute", top:"30%", left:"20%", bottom:"0", right: "0"}}>
-                                                <img style={{width:"75%"}} src={sh}/>
+                                        <Link to={{pathname: "secondhome"}}>
+                                            <div class="col container inner" style={{width: "100%", paddingTop: "100%", backgroundColor: "#43B5E6"}}>
+                                                <div style={{position:"absolute", top:"30%", left:"20%", bottom:"0", right: "0"}}>
+                                                    <img style={{width:"75%"}} src={sh}/>
+                                                </div>
                                             </div>
-                                        </div>
+                                        </Link>
                                     </div>
                                 </div>
                                 <div class="row">
                                     <div class="col-3 innerText">
                                         <div class="text cl-effect-1">
-                                            <Link to={{
-                                                pathname: "chromatic"
-                                            }}>Chromatic</Link>
+                                            <Link to={{pathname: "chromatic"}}
+                                            style={{textDecoration: 'none' }}>Chromatic</Link>
                                         </div>
                                     </div>
                                     <div class="col-3 innerText">
                                         <div class="text cl-effect-1">
-                                            <Link to={{
-                                                pathname: "ambulo"
-                                            }}>Ambulo</Link>
+                                            <Link to={{pathname: "ambulo"}}
+                                            style={{textDecoration: 'none' }}>Ambulo</Link>
                                         </div>
                                     </div>
                                     <div class="col-3 innerText">
                                         <div class="text cl-effect-1">
-                                            <Link to={{
-                                                pathname: "secondhome"
-                                            }}>Second Home</Link>
+                                            <Link to={{pathname: "secondhome"}}
+                                            style={{textDecoration: 'none' }}>Second Home</Link>
                                         </div>
                                     </div>
                                 </div>
                                 <h3>design</h3>
                                 <div class="row">
                                     <div class="col-3 outer">
-                                        <div class="col container inner" style={{width: "100%", paddingTop: "100%", backgroundColor: "#1FB3A9"}}>
-                                            <div style={{position:"absolute", top:"15%", left:"15%", bottom:"0", right: "0"}}>
-                                                <img style={{width:"85%"}} src={hh}/>
+                                        <Link to={{pathname: "huskyhotspots"}}>
+                                            <div class="col container inner" style={{width: "100%", paddingTop: "100%", backgroundColor: "#1FB3A9"}}>
+                                                <div style={{position:"absolute", top:"15%", left:"15%", bottom:"0", right: "0"}}>
+                                                    <img style={{width:"85%"}} src={hh}/>
+                                                </div>
                                             </div>
-                                        </div>
+                                        </Link>
                                     </div>
                                     <div class="col-3 outer">
-                                        <div class="col container inner" style={{width: "100%", paddingTop: "100%", backgroundColor: "#8D89B1"}}>
-                                            <div style={{position:"absolute", top:"27%", left:"10%", bottom:"0", right: "0"}}>
-                                                <img style={{width:"90%"}} src={shift}/>
+                                        <Link to={{pathname: "shift"}}>
+                                            <div class="col container inner" style={{width: "100%", paddingTop: "100%", backgroundColor: "#8D89B1"}}>
+                                                <div style={{position:"absolute", top:"27%", left:"10%", bottom:"0", right: "0"}}>
+                                                    <img style={{width:"90%"}} src={shift}/>
+                                                </div>
                                             </div>
-                                        </div>
+                                        </Link>
                                     </div>
                                 </div>
                                 <div class="row">
                                     <div class="col-3 innerText">
                                         <div class="text cl-effect-1">
-                                            <Link to={{
-                                                pathname: "huskyhotspots"
-                                            }}>Husky Hotspots</Link>
+                                            <Link to={{pathname: "huskyhotspots"}}
+                                            style={{textDecoration: 'none' }}>Husky Hotspots</Link>
                                         </div>
                                     </div>
                                     <div class="col-3 innerText">
                                         <div class="text cl-effect-1">
-                                            <Link to={{
-                                                pathname: "shift"
-                                            }}>Shift</Link>
+                                            <Link to={{pathname: "shift"}}
+                                            style={{textDecoration: 'none' }}>Shift</Link>
                                         </div>
                                     </div>
                                 </div>

@@ -57,7 +57,7 @@ export default class Photography extends React.Component {
                                     <div> 
                                         <Carousel
                                             interval={null}
-                                            indicators={false}>
+                                            >
                                             <Carousel.Item>
                                                 <img width={"100%"} height={600} alt="900x500" src="https://firebasestorage.googleapis.com/v0/b/portfolio-11385.appspot.com/o/photography%2Ft5i%2FIMG_0528%20v3.jpg?alt=media&amp;token=6665d240-207d-4fdc-835c-83ae96000f59" />
                                                 <Carousel.Caption>

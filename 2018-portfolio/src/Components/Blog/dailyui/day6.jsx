@@ -77,11 +77,6 @@ export default class Day6 extends React.Component {
                                 <div> 
                                     <Gallery photos={user} direction={"column"} columns={1}/>
 
-                                    <div style={{float: "left", marginTop: "2%"}}>The type of platform I was going for was a multi-media platform, such as Tumblr, 
-                                    where you would have text posts, images, quotes, etc. That's why there is a lack of a grid view. It may be difficult
-                                    to find a pleasing way to display text posts next to image posts. Especially in a way the user would find aesthetically pleasing
-                                    if they're the type to really control their content feed.
-                                    </div>
                                 </div>
                                 <br/>
                             </div>

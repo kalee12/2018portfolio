@@ -41,7 +41,7 @@ export default class Chromatic extends React.Component {
                             <h2 style={{marginBottom: "20px"}}>projects</h2>
                             <Link to='/projects' style={style2}>back</Link>
                             </div>
-                        <div class="col-12 col-sm-7" style={{marginBottom: "100px"}}>
+                        <div class="col-12 col-sm-9" style={{marginBottom: "100px"}}>
                             <div class="col-4 outer" style={{margin: "auto"}}>
                                 <div class="col inner" style={{width: "100%", paddingTop: "100%"}}>
                                     <div style={{position:"absolute", top:"40%", left:"20%", bottom:"0", right: "0"}}>
