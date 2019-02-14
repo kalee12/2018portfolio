@@ -35,11 +35,7 @@ export default class SecondHome extends React.Component {
                 <Navigation/>
                 <div style={style}>
                     <div class="row">
-                        <div class="col-12 col-sm-2 fix"  style={{marginTop: "50px"}}>
-                            <h2 style={{marginBottom: "20px"}}>projects</h2>
-                            <Link to='/projects' style={style2}>back</Link>
-                            </div>
-                        <div class="col-12 col-sm-9" style={{marginBottom: "100px"}}>
+                        <div style={{marginBottom: "100px", padding: "2% 5% 0 5%"}}>
                             <div class="col-4 outer" style={{margin: "auto"}}>
                                 <div class="col inner" style={{width: "100%", paddingTop: "100%"}}>
                                     <div style={{position:"absolute", top:"30%", left:"20%", bottom:"0", right: "0"}}>
@@ -56,7 +52,7 @@ export default class SecondHome extends React.Component {
                                 <div><a href="https://liorlevy.shinyapps.io/info201-final-project-AB4/" target="_blank">application </a>
                             <a href="https://github.com/kalee12/info201-final-project-AB4" target="_blank">github</a></div>
                             </div>
-                            <h2>(INFO 201) Technical Foundations</h2>
+                            <h3>(INFO 201) Technical Foundations</h3>
                             <div>I was tasked in a group of four to do the following</div>
                             <ul>
                                     <li>center on a data set of sufficient complexity to explore</li>
@@ -65,7 +61,7 @@ export default class SecondHome extends React.Component {
                                     <li>include visual representation(s) of your data</li>
                                     <li>effectively targeted and tailored to a specific audience</li>
                             </ul>
-                            <h2>Concept</h2>
+                            <h3>Concept</h3>
                             <div>We decided to use Medicare's January 2017 dataset on the ratings of nursing homes. We were thinking
                                 about people who are looking for quality homes for their parents and what that would mean. With ratings,
                                 many things could come into play that do not actually indicate an objective rating of an establishment,

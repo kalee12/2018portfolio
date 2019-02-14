@@ -34,34 +34,34 @@ export default class Ambulo extends React.Component {
                 <Navigation/>
                 <div style={style}>
                     <div class="row">
-                        <div class="col-12 col-sm-2 fix"  style={{marginTop: "50px"}}>
+                        {/* <div class="col-12 col-sm-2 fix"  style={{marginTop: "50px"}}>
                             <h2 style={{marginBottom: "20px"}}>projects</h2>
                             <Link to='/projects' style={style2}>back</Link>
-                            </div>
-                        <div class="col-12 col-sm-9" style={{marginBottom: "100px"}}>
-                        <div class="col-4 outer" style={{margin: "auto"}}>
+                        </div> */}
+                        <div style={{marginBottom: "100px", padding: "2% 5% 0 5%"}}>
+                            <div class="col-4 outer" style={{margin: "auto"}}>
                                 <div class="col inner" style={{width: "100%", paddingTop: "100%"}}>
                                     <div style={{position:"absolute", top:"25%", left:"25%", bottom:"0", right: "0"}}>
                                         <img style={{width:"70%"}} src={ambulo_c}/>
                                     </div>
                                 </div>
                             </div>
-                        <div style={{textAlign: "center"}}>
-                            <h1 class="projectTitle">Ambulo</h1>
-                            <div class="projectSpec">type: React Application | technologies: React.js, Adobe XD</div>
-                            <div class="projectSpec">time: 2 weeks (Nov 2017 - Dec 2017)</div>
-                            <div class="projectSpec"><i>(INFO 343 | Client-side Development)</i></div>
-                            <div class="projectSpec"><i>Dev Lead - Backend Focused</i></div>
-                            
-                            <div><a href="https://info343-aut17.github.io/Ambulo/#/" target="_blank">application </a>
-                            <a href="https://github.com/INFO343-aut17/Ambulo" target="_blank">github</a></div>
-                        </div>
+                            <div style={{textAlign: "center"}}>
+                                <h1 class="projectTitle">Ambulo</h1>
+                                <div class="projectSpec">type: React Application | technologies: React.js, Adobe XD</div>
+                                <div class="projectSpec">time: 2 weeks (Nov 2017 - Dec 2017)</div>
+                                <div class="projectSpec"><i>(INFO 343 | Client-side Development)</i></div>
+                                <div class="projectSpec"><i>Dev Lead - Backend Focused</i></div>
+                                
+                                <div><a href="https://info343-aut17.github.io/Ambulo/#/" target="_blank">application </a>
+                                <a href="https://github.com/INFO343-aut17/Ambulo" target="_blank">github</a></div>
+                            </div>
                             <h1>Discover trails and capture natural scenery</h1>
                             <div>Ambulo is a hiking web-based application that uses Trail API for locations and Flickr API for images of trails. 
                                 Users will be able to search by city and view local trails. When a user clicks on a trail name, 
                                 they can get instant information such as location and information about activities provided by the 
                                 Trail API. The flickr images will help hikers decide which trails they might want to checkout in the future.</div>
-                            <h2>(INFO 343) Client-side Development</h2>
+                            <h3>(INFO 343) Client-side Development</h3>
                             <div>I worked on a team of four, and we were allowed to create anything as long as it was feasible
                                 within the 2 weeks.
                             </div>

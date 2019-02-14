@@ -12,11 +12,11 @@
 }
 
 .color:hover {
-  color: #FFFFFF !important;
+  color: #101922 !important;
 }
 
 #dev:hover {
-  color: #007FC0 !important;
+  color: #00F2FF !important;
 }
 
 /* .container:hover .image {
@@ -44,15 +44,20 @@ h5 {
 }
 
 .icon {
+  margin: 15pt 0 0 15pt;
   width: 40px;
 }
 
 .iconDev:hover {
-  fill: #007FC0;
+  fill: #FFDC00;
+}
+
+.iconLinked:hover {
+  fill: #00F2FF;
 }
 
 .iconPhoto:hover {
-  fill: #33BEB7;
+  fill: #FF00FF;
 }
 
 .image {
@@ -64,10 +69,6 @@ h5 {
   height: fit-content; 
   border: 1px solid rgba(0, 0, 0, .1);
   /* border-radius: 20px; */
-}
-
-.innerText, .outer {
-  margin-right: 5%; 
 }
 
 .logo {
@@ -88,6 +89,16 @@ h5 {
 	}
 }
 
+.name {
+  color: black;
+  font-size: 65pt;
+}
+
+.name:hover {
+  color: black;
+  text-decoration: none;
+}
+
 .outer {
   padding: 5px;
   margin-bottom: 10px;
@@ -98,7 +109,7 @@ h5 {
 }
 
 #photographer:hover {
-  color: #33BEB7 !important;
+  color: #FFDC00 !important;
 }
 
 .projectBanner {
@@ -127,14 +138,49 @@ h5 {
   .fix {
     text-align: right;
   }
+
+  .name {
+    font-size: 75pt;
+    text-decoration: none;
+  }
 }
 
 @media (min-width: 768px) {
-  .about {
-    width: 60%;
-  }
-
   .fix2, .iam {
     text-align: right;
   }
+}
+
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: rgba(0, 55, 255, .7);
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
 }

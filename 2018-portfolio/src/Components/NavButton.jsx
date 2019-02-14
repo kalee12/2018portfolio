@@ -1,19 +1,35 @@
 import React from "react";
 import {Link} from "react-router-dom";
 
-import icon from "../Icons/default_icon_b.svg";
-
 export default class NavButton extends React.Component{
     render() {
-        let style = {
-            boxSizing: "border-box",
-            color: "black",
-            padding: "10px",
-            textDecoration: "none"
+        let style;
+        let logo;
+        if (this.props.value == 'Karen Lee') {
+            style = {
+                color: "black",
+                textDecoration: "none"
+            }
+        } else {
+            style = {
+                color: "black",
+                textDecoration: "none"
+            }
         }
 
         return(
-            <div class="cl-effect-1"><Link to={this.props.push} style={style}>{this.props.value == "home" ? <img id="favicon" src={icon}/> : this.props.value}</Link></div>
+            <div class={this.props.value == "Karen Lee" ? "col-4" : "cl-effect-1 col-12 col-md-2"}>
+                <Link to={this.props.push} style={this.props.value == "Karen Lee" ? 
+                    {
+                        color: "black",
+                        fontSize: "20pt",
+                        textDecoration: "none"
+                    } : 
+                    {
+                        color: "black",
+                        textDecoration: "none"
+                    }}>{this.props.value}</Link>
+            </div>
         );
     }
 }

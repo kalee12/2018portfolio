@@ -35,11 +35,7 @@ export default class HuskyHotspots extends React.Component {
                 <Navigation/>
                 <div style={style}>
                     <div class="row">
-                        <div class="col-12 col-sm-2 fix"  style={{marginTop: "50px"}}>
-                            <h2 style={{marginBottom: "20px"}}>projects</h2>
-                            <Link to='/projects' style={style2}>back</Link>
-                            </div>
-                        <div class="col-12 col-sm-9" style={{marginBottom: "100px"}}>
+                        <div style={{marginBottom: "100px", padding: "2% 5% 0 5%"}}>
                             <div class="col-4 outer" style={{margin: "auto"}}>
                                 <div class="col inner" style={{width: "100%", paddingTop: "100%"}}>
                                     <div style={{position:"absolute", top:"15%", left:"15%", bottom:"0", right: "0"}}>
@@ -71,8 +67,8 @@ export default class HuskyHotspots extends React.Component {
                             <h2>(INFO 360) Design Thinking</h2>
                             <div>Our theme for the class was transportation. "How do we create designs that alleviate transportation problems and congestion in Seattle?"
                             </div>                 
-                            <h2>Research</h2>
-                            <div>My partner and I conducted interviews and based on the fact that majority of them were commuters,
+                            <h3>Research</h3>
+                            <div>My partner and I conducted interviews and based on the fact that the majority were commuters,
                                 we decided our scope would be the UW campus. One of the problems facing UW students 
                                 is not knowing which lesser known bus routes will take them to the same destination. 
                                 Based on our research, UW students typically take the bus for only a few stops within 
@@ -80,9 +76,9 @@ export default class HuskyHotspots extends React.Component {
                                 and are the most familiar with. This results in only a few routes that are in the 
                                 highest demand in the UW area. 
                             </div>
-                            <h2>Concept</h2>
+                            <h3>Concept</h3>
                             <div>To solve this issue, we propose Husky Hotspots, a series of interactive bus stops at highly trafficked 
-                            areas within the U District. These will be a series of touch-screen displays that shows a map of these 
+                            areas within the U District. These are a series of touch-screen displays that shows a map of these 
                             “hotspots” throughout U-District where any UPASS holder can get a list of routes to other hotspots.
                             </div>
                             <div>

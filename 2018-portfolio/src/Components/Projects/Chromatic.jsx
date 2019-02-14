@@ -37,11 +37,7 @@ export default class Chromatic extends React.Component {
                 <Navigation/>
                 <div style={style}>
                     <div class="row">
-                        <div class="col-12 col-sm-2 fix"  style={{marginTop: "50px"}}>
-                            <h2 style={{marginBottom: "20px"}}>projects</h2>
-                            <Link to='/projects' style={style2}>back</Link>
-                            </div>
-                        <div class="col-12 col-sm-9" style={{marginBottom: "100px"}}>
+                        <div style={{marginBottom: "100px", padding: "2% 5% 0 5%"}}>
                             <div class="col-4 outer" style={{margin: "auto"}}>
                                 <div class="col inner" style={{width: "100%", paddingTop: "100%"}}>
                                     <div style={{position:"absolute", top:"40%", left:"20%", bottom:"0", right: "0"}}>
@@ -79,7 +75,7 @@ export default class Chromatic extends React.Component {
                             </div>
 
 
-                            <h2>(INFO 448) Android Development</h2>
+                            <h3>(INFO 448) Android Development</h3>
                             <div>I was part of a 4-person team for about four weeks. We were tasked with the following
                                 <ul>
                                     <li>primarily using the Android SDK</li>
@@ -91,13 +87,13 @@ export default class Chromatic extends React.Component {
                             The main thing was that we were supposed to explore components not yet taught in class.   
 
                             </div>                 
-                            <h2>Inspiration</h2>
+                            <h3>Inspiration</h3>
                             <div>At the time I was also working on a project for (INFO 365) Mobile App Design where my team designed an operating system
                                 focusing on color and another for (INFO 343) Client-side Development focusing on photography. I pitched the idea of building
                                 a tool that would allow users to draw color inspiration from real world occurrences, particular those found in nature. We decided
                                 to focus on camera capabilities.
                             </div>
-                            <h2>Development</h2>
+                            <h3>Development</h3>
                             <div>I was tasked with interactions with photos and palette creation. I made it so that in choosing colors, a user can drag
                                 their finger around along the photos, and values would update accordingly so screen and photo sizes wouldn't
                                 become a major hinderance.
